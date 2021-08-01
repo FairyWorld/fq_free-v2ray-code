@@ -7,7 +7,6 @@
 https://t.me/joinchat/ZmwEPXKwy2I2M2Vl
 
 [v2ray订阅链接]
-https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3QvcyFBdUxWNkpUNHVUOEtnVXBfZ2RPWGJqUEw4UUlKP2U9azJEa0dZ
-
+https://sourl.cn/8TiS5p
 [我的邮箱]
 chen1263754478@gmail.com
