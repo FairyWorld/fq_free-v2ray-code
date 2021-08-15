@@ -1,7 +1,7 @@
 所有节点均来自互联网 不保证安全性和可用性
 
 点击加入Q群
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=XXCMvdv1HKBGkOniY77Oyun_BCCohYzO&jump_from=webapi"><中转群></a>
+<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=XXCMvdv1HKBGkOniY77Oyun_BCCohYzO&jump_from=webapi">中转群</a>
 
 ♥Enjoy These♥
 
