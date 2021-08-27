@@ -6,15 +6,16 @@
 ♥Enjoy It♥ 
 
 
-📞[TG电报群]https://bit.ly/3AhEyMm
+📞[TG电报群]https://bit.ly/3AhEyMm 
 
-🔗[v2ray订阅链接]https://bit.ly/3treM890
+🔗[v2ray订阅链接]https://bit.ly/3treM890 
 
-📄[GitHub打包下载]https://bit.ly/2WV05vX
+📄[GitHub打包下载]https://bit.ly/2WV05vX 
 
 📧[我的邮箱]chen1263754478@gmail.com 
 
 📢高速VPN推荐📢 
+
 
 🏁快连VPN永远能连上的VPN,公司背景运营稳定不跑路,智能AI连接只需三秒,科学上网沒有任何限制,全球服務器部署穩定快捷 
 
@@ -26,17 +27,18 @@
 
 📢机场推荐📢 
 
+
 ✈[牛牛很牛]https://bit.ly/37OqmOF 
 
-🌑{老牌机场稳定运营1200+天} 
+🌑{老牌机场稳定运营1200+天}
 
 📢发薪日企鹅群📢 
 
-📡群1:536446773 
 
-📡群2:496018321
+📡唯一Q群:832409186
 
 📢捐赠地址📢 
+
 
 💰[爱发电]https://bit.ly/2VM8ZeY 
 
