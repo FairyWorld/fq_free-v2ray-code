@@ -3,42 +3,43 @@
 点击加入Q群
 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=XXCMvdv1HKBGkOniY77Oyun_BCCohYzO&jump_from=webapi">中转群</a>
 
+
 ♥Enjoy It♥ 
 
+🏠[群官网]https://payday2.cf
 
-📞[TG电报群]https://bit.ly/3AhEyMm 
+☁[群网盘]https://pan.payday2.cf
 
-🔗[v2ray订阅链接]https://bit.ly/3treM890 
+📞[TG电报群]https://bit.ly/3laQmdJ
+
+🔗[临时节点订阅]https://bit.ly/3DKqfml
+
+🔗[v2ray订阅] https://bit.ly/greenfishyyds
 
 📄[GitHub打包下载]https://bit.ly/2WV05vX 
 
-📧[我的邮箱]chen1263754478@gmail.com 
 
-📢高速VPN推荐📢 
+📢精选VPN推荐📢 
 
+🎱[快连官网]https://bit.ly/2VStsik 
 
-🏁快连VPN永远能连上的VPN,公司背景运营稳定不跑路,智能AI连接只需三秒,科学上网沒有任何限制,全球服務器部署穩定快捷 
+🎎[邀请码]102307531(免费试用3天)
 
-🌑{输入我的邀请码可获得额外3天体验时间,每天仅需0.8元} 
+🎱[蒜苗官网]https://bit.ly/3kbpauO
 
-🎎[邀请码]：102307531 
+🎎[邀请码]NDg0NA(30 天VIP时长)
 
-🎱[快连VPN官网]https://bit.ly/2VStsik 
 
 📢机场推荐📢 
 
-
 ✈[牛牛很牛]https://bit.ly/37OqmOF 
 
-🌑{老牌机场稳定运营1200+天}
+✈[大机场]https://bit.ly/3jtbUSR
 
-📢发薪日企鹅群📢 
+✈[魔戒机场]https://bit.ly/3kH7nvy
 
-
-📡唯一Q群:832409186
 
 📢捐赠地址📢 
-
 
 💰[爱发电]https://bit.ly/2VM8ZeY 
 
