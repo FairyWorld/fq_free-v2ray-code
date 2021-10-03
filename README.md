@@ -69,5 +69,6 @@
 
 -------------------------------------------------------------------
 📢友情推荐📢 
-(https://www.ghxi.com/wp-content/uploads/2019/12/2020logo.png)](https://ghxi.com)
+
+[![Deploy](https://www.ghxi.com/wp-content/uploads/2019/12/2020logo.png)](https://ghxi.com)
 
