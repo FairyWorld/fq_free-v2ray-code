@@ -70,5 +70,5 @@
 -------------------------------------------------------------------
 📢友情推荐📢 
 
-[果核剥壳](https://www.ghxi.com/wp-content/uploads/2019/12/2020logo.png)](https://ghxi.com)
+[[果核剥壳](https://www.ghxi.com/wp-content/uploads/2019/12/2020logo.png)](https://ghxi.com)
 
