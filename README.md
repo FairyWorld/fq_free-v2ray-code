@@ -67,3 +67,4 @@
 📢友情推荐📢 
 
 <a target="_blank" href="https://ghxi.com" rel="noopener">果核剥壳</a>
+<a target="_blank" href="https://www.52bd.net/" rel="noopener">吾爱摆渡</a>
