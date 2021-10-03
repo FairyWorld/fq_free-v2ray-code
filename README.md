@@ -4,6 +4,9 @@
 所有节点均来自互联网 不保证安全性和可用性
 
 -------------------------------------------------------------------
+
+<iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>
+-------------------------------------------------------------------
 📢推荐信息📢
 
 📞[TG电报群]https://bit.ly/3laQmdJ
