@@ -9,7 +9,7 @@
 
 🔗[v2ray订阅:海外]`https://bit.ly/GFSubscription`
 
-🔗[v2ray订阅:国内]`https://bit.ly/GFSubscriptionCN`
+🔗[v2ray订阅:国内]`https://bit.ly/GFSubscriptionCHN`
 
 ## 📢科学上网客户端📢 
 
