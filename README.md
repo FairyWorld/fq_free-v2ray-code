@@ -31,7 +31,7 @@
 * [Qv2ray] `https://github.com/Qv2ray/Qv2ray/releases`
 
 
-### iOS  `非国区`
+### iOS
 
 * [Shadowrocket] `https://apps.apple.com/us/app/shadowrocket/id932747118`
 
