@@ -31,7 +31,7 @@
 * [Qv2ray] `https://github.com/Qv2ray/Qv2ray`
 
 
-### iOS`非国区`
+### iOS  `非国区`
 
 * [Shadowrocket] `https://apps.apple.com/us/app/shadowrocket/id932747118`
 
@@ -83,7 +83,7 @@
 
 ## 📢友情推荐📢 
 
-[![Deploy](https://www.ghxi.com/wp-content/uploads/2019/12/2020logo.png)](https://ghxi.com)
-[![Deploy](https://www.52bd.net/static/goblog_ping/img/logo.png)](https://www.52bd.net)
-[![Deploy](https://cdn.jsdelivr.net/gh/UallenQbit/Static/Kinh-Logo.png)](https://kinh.cc/)
+[![ghxi](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/ghboke-logo.png)](https://ghxi.com)
+[![52bd](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/52bd-logo.png)](https://www.52bd.net)
+[![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/kinh-Logo.png)](https://kinh.cc/)
 
