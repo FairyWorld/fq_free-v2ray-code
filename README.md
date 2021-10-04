@@ -35,7 +35,7 @@ MacOS
 [Qv2ray]https://github.com/Qv2ray/Qv2ray
 
 
-iOS'非国区'
+iOS`非国区`
 
 [Shadowrocket]https://apps.apple.com/us/app/shadowrocket/id932747118
 
