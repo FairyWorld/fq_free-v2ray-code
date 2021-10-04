@@ -28,7 +28,7 @@
 
 ### MacOS
 
-* [Qv2ray] `https://github.com/Qv2ray/Qv2ray`
+* [Qv2ray] `https://github.com/Qv2ray/Qv2ray/releases`
 
 
 ### iOS  `非国区`
