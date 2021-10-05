@@ -14,7 +14,7 @@
 
 ## 📢Telegram语言包📢
 
-| 语言 |作者 | URL |
+| 语言| 作者| URL|
 | 简中 |@congcong | https://t.me/setlanguage/zhcncc |
 | 繁中 |Unknown | https://t.me/setlanguage/zh-hant-beta |
 
