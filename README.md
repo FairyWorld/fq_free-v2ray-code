@@ -18,7 +18,6 @@
 | 简中 |@congcong | https://t.me/setlanguage/zhcncc |
 | 繁中 |Unknown | https://t.me/setlanguage/zh-hant-beta |
 
-
 ## 📢科学上网客户端📢 
 
 ### Windows:
