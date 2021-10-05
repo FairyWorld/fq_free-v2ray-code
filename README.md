@@ -11,6 +11,14 @@
 
 🔗[v2ray订阅:国内]`https://bit.ly/GFSubscriptionCHN`
 
+
+## 📢Telegram语言包📢
+
+|语言|作者|URL|
+|简中|@congcong|https://t.me/setlanguage/zhcncc|
+|繁中|Unknown|https://t.me/setlanguage/zh-hant-beta|
+
+
 ## 📢科学上网客户端📢 
 
 ### Windows:
