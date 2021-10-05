@@ -19,6 +19,8 @@
 
 * [Clash For Windows] `https://github.com/WhoJave/clash/releases`
 
+* [WinXray]https://github.com/TheMRLL/WinXray/releases
+
 
 ### Android:
 
@@ -26,9 +28,14 @@
 
 * [Clash For Android] `https://github.com/Kr328/ClashForAndroid/releases`
 
+* [AnXray]https://github.com/XTLS/AnXray/releases
+
+
 ### MacOS
 
 * [Qv2ray] `https://github.com/Qv2ray/Qv2ray/releases`
+
+* [ClashX]https://github.com/yichengchen/clashX/releases
 
 
 ### iOS
@@ -36,6 +43,7 @@
 * [Shadowrocket] `https://apps.apple.com/us/app/shadowrocket/id932747118`
 
 * [Quantumult X] `https://apps.apple.com/us/app/quantumult-x/id1443988620`
+
 
 ## 📢精选VPN推荐📢 
 
