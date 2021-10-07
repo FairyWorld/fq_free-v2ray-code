@@ -56,11 +56,17 @@
 
 ## 📢精选VPN推荐📢 
 
-🔒[快连官网] `https://bit.ly/2VStsik `
+🔒[快连LetsVPN] `https://bit.ly/2VStsik `
 >🧑‍🤝‍🧑[邀请码]`102307531`(额外3天体验时间)
+>>🚀稳定运行已经超1500天！
 
-🔒[蒜苗官网] `https://bit.ly/3kbpauO`
+🔒[蒜苗suanmiao] `https://bit.ly/3kbpauO`
 >🧑‍🤝‍🧑[邀请码]`NDg0NA`(额外7天使用时间)
+>>🚀没有速度限制，没有流量限制
+
+🔒[GLaDOS] `https://bit.ly/3uQwX6f`
+>🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(额外3天使用时间)
+>>🚀每月免费10GB流量
 
 ## 📢免费VPN📢 
 
