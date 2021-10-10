@@ -26,7 +26,7 @@
 
 * [V2rayN] `https://github.com/2dust/v2rayN/releases`
 
-* [Clash For Windows] `https://github.com/WhoJave/clash/releases`
+* [Clash For Windows] `https://github.com/Dreamacro/clash/releases`
 
 * [WinXray] `https://github.com/TheMRLL/WinXray/releases`
 
