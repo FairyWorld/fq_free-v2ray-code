@@ -3,9 +3,9 @@
 
 ## 📢推荐信息📢
 
-📞[TG电报群]`https://bit.ly/3laQmdJ`
+📞[TG电报群]`https://t.me/payday4478`
 
-🐧[QQ企鹅群]`https://bit.ly/3iredp5`
+🐧[QQ企鹅群]`[Click To Join Chat](https://qm.qq.com/cgi-bin/qm/qr?k=63hCEHA01apzFwXfn1uNbNGhGWMdewi5&jump_from=webapi&qr=1)`
 
 🔗[v2ray订阅:海外]`https://bit.ly/GFSubscription`
 
@@ -56,36 +56,36 @@
 
 ## 📢精选VPN推荐📢 
 
-🔒[快连LetsVPN] `https://bit.ly/2VStsik `
+🔒[快连LetsVPN] `https://letsvpn.world`
 >🧑‍🤝‍🧑[邀请码]`102307531`(额外3天体验时间)
 >>🚀稳定运行已经超1500天！
 
-🔒[蒜苗suanmiao] `https://bit.ly/3kbpauO`
+🔒[蒜苗suanmiao] `https://suanmiao.app`
 >🧑‍🤝‍🧑[邀请码]`NDg0NA`(额外7天使用时间)
 >>🚀没有速度限制，没有流量限制
 
-🔒[GLaDOS] `https://bit.ly/3uQwX6f`
+🔒[GLaDOS] `https://github.com/glados-network/GLaDOS`
 >🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(额外3天使用时间)
 >>🚀每月免费10GB流量
 
 ## 📢免费VPN📢 
 
 ⭐永久免费,连接速度快,稳定
->🔒[老王VPN] `https://bit.ly/3B6X0bw`
+>🔒[老王VPN] `https://apkpure.com/cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.sticktoit/download`
 
 ⭐免费,较多地区节点，高速
->🔒[起飞VPN] `https://bit.ly/3D8DsUU`
+>🔒[起飞VPN] `https://apkpure.com/cn/gofly-vpn-free-vpn-shadowsocks-v2ray-trojan-vmess/com.ambrose.overwall/download`
 
 ## 📢机场推荐📢 
 
 ⭐低价大流量Azure/AGA稳定直连
->✈[大机场Big Airport] `https://bit.ly/3jtbUSR`
+>✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
 
 ⭐流量计费，10元100G不限时不限速
->✈[魔戒机场] `https://bit.ly/3kH7nvy`
+>✈[魔戒机场] `https://mojie.me/#/register?code=di3Er1Fm`
 
 ⭐适合新手或大流量用户
->✈[比特云Bitcloud] `https://bit.ly/3uDyYTc`
+>✈[比特云Bitcloud] `https://bityun.org/#/register?code=s1BrCGF5`
 
 ## 📢游戏加速器📢 
 
