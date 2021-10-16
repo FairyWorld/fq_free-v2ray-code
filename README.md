@@ -3,13 +3,13 @@
 
 ## 📢推荐信息📢
 
-📞[TG电报群]`https://t.me/payday4478`
+📞[TG电报群] https://t.me/payday4478
 
-🐧[QQ企鹅群]` [Click To Join Chat](https://qm.qq.com/cgi-bin/qm/qr?k=63hCEHA01apzFwXfn1uNbNGhGWMdewi5&jump_from=webapi&qr=1) `
+🐧[QQ企鹅群] [Click To Join Chat](https://qm.qq.com/cgi-bin/qm/qr?k=63hCEHA01apzFwXfn1uNbNGhGWMdewi5&jump_from=webapi&qr=1 "悬停显示") 
 
-🔗[v2ray订阅:海外]`https://bit.ly/GFSubscription`
+🔗[v2ray订阅:海外] https://bit.ly/GFSubscription 
 
-🔗[v2ray订阅:国内]`https://bit.ly/GFSubscriptionCHN`
+🔗[v2ray订阅:国内] https://bit.ly/GFSubscriptionCHN
 
 
 ## 📢Telegram语言包📢
