@@ -16,8 +16,8 @@
 
 | 语言| 作者| URL|
 | :--- | :--- | :--- |
-| 简中 |@congcong | https://t.me/setlanguage/zhcncc |
-| 繁中 |Unknown | https://t.me/setlanguage/zh-hant-beta |
+| 简中 |@congcong | t.me/setlanguage/zhcncc |
+| 繁中 |Unknown | t.me/setlanguage/zh-hant-beta |
 
 
 ## 📢科学上网客户端📢 
@@ -35,9 +35,9 @@
 
 | 名称| 类型| 内核| URL|
 | :--- | :--- | :--- | :--- |
-| v2rayNG | v2ray | v2fly & x-ray | https://github.com/2dust/v2rayNG/releases |
-| AnXray | v2ray | x-ray | https://github.com/XTLS/AnXray/releases |
-| Clash for android | clash | clash-core | https://github.com/Kr328/ClashForAndroid/releases |
+| v2rayNG | v2ray | v2fly & x-ray | [2dust/v2rayNG/releases](https://github.com/2dust/v2rayNG/releases) |
+| AnXray | v2ray | x-ray | [XTLS/AnXray/releases](https://github.com/XTLS/AnXray/releases) |
+| Clash for android | clash | clash-core | [Kr328/ClashForAndroid/releases](https://github.com/Kr328/ClashForAndroid/releases) |
 
 
 ### MacOS
