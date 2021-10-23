@@ -25,7 +25,7 @@
 ### Windows:
 
 | 名称| 类型| 内核| URL|
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | v2rayN | v2ray | v2fly & x-ray | https://github.com/2dust/v2rayN/releases |
 | WinXray | v2ray | x-ray | [https://github.com/TheMRLL/WinXray/releases](https://github.com/TheMRLL/WinXray/releases) |
 | Netch | v2ray | x-ray | https://github.com/netchx/netch/releases |
@@ -34,7 +34,7 @@
 ### Android:
 
 | 名称| 类型| 内核| URL|
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | v2rayNG | v2ray | v2fly & x-ray | https://github.com/2dust/v2rayNG/releases |
 | AnXray | v2ray | x-ray | https://github.com/XTLS/AnXray/releases |
 | Clash for android | clash | clash-core | https://github.com/Kr328/ClashForAndroid/releases |
