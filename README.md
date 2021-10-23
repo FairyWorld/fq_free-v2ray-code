@@ -24,20 +24,20 @@
 
 ### Windows:
 
-* [V2rayN] `https://github.com/2dust/v2rayN/releases`
-
-* [Clash For Windows] `https://github.com/Fndroid/clash_for_windows_pkg/releases`
-
-* [WinXray] `https://github.com/TheMRLL/WinXray/releases`
-
+| 名称| 类型| 内核| URL|
+| :--- | :--- | :--- | :--- | :--- |
+| v2rayN | v2ray | v2fly & x-ray | https://github.com/2dust/v2rayN/releases |
+| WinXray | v2ray | x-ray | [https://github.com/TheMRLL/WinXray/releases](https://github.com/TheMRLL/WinXray/releases) |
+| Netch | v2ray | x-ray | https://github.com/netchx/netch/releases |
+| Clash.net | clash | clash-core | https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases |
 
 ### Android:
 
-* [v2rayNG] `https://github.com/2dust/v2rayNG/releases`
-
-* [Clash For Android] `https://github.com/Kr328/ClashForAndroid/releases`
-
-* [AnXray] `https://github.com/XTLS/AnXray/releases`
+| 名称| 类型| 内核| URL|
+| :--- | :--- | :--- | :--- | :--- |
+| v2rayNG | v2ray | v2fly & x-ray | https://github.com/2dust/v2rayNG/releases |
+| AnXray | v2ray | x-ray | https://github.com/XTLS/AnXray/releases |
+| Clash for android | clash | clash-core | https://github.com/Kr328/ClashForAndroid/releases |
 
 
 ### MacOS
