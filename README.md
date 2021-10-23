@@ -7,10 +7,9 @@
 
 🐧[QQ企鹅群] https://bit.ly/3iredp5
 
-🔗[v2ray订阅:海外] https://bit.ly/GFSubscription 
+🔗[订阅链接] https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Subscription/GreenFishYYDS
 
-🔗[v2ray订阅:国内] https://bit.ly/GFSubscriptionCHN
-
+🧰[免费美区Apple账号] https://free.shadowrocket.online
 
 ## 📢Telegram语言包📢
 
