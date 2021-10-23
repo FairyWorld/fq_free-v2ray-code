@@ -16,8 +16,8 @@
 
 | 语言| 作者| URL|
 | :--- | :--- | :--- |
-| 简中 |@congcong | t.me/setlanguage/zhcncc |
-| 繁中 |Unknown | t.me/setlanguage/zh-hant-beta |
+| 简中 |@congcong | [setlanguage/zhcncc](https://t.me/setlanguage/zhcncc) |
+| 繁中 |Unknown | [setlanguage/zh-hant-beta](https://t.me/setlanguage/zh-hant-beta) |
 
 
 ## 📢科学上网客户端📢 
@@ -30,6 +30,8 @@
 | WinXray | v2ray | x-ray | [TheMRLL/WinXray/releases](https://github.com/TheMRLL/WinXray/releases) |
 | Netch | v2ray | x-ray | [netchx/netch/releases](https://github.com/netchx/netch/releases) |
 | Clash.net | clash | clash-core | [ClashDotNetFramework/ClashDotNetFramework/releases](https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases) |
+| Clash for windows | clash | clash-core | [Fndroid/clash_for_windows_pkg/releases](https://github.com/Fndroid/clash_for_windows_pkg/releases) |
+
 
 ### Android:
 
@@ -40,18 +42,27 @@
 | Clash for android | clash | clash-core | [Kr328/ClashForAndroid/releases](https://github.com/Kr328/ClashForAndroid/releases) |
 
 
+###Linux
+| 名称| 类型| 内核| URL|
+| :--- | :--- | :--- | :--- |
+| v2rayA | v2ray | v2fly | [v2rayA/v2rayA/releases](https://github.com/v2rayA/v2rayA/releases) |
+
+
 ### MacOS
 
-* [Qv2ray] `https://github.com/Qv2ray/Qv2ray/releases`
-
-* [ClashX] `https://github.com/yichengchen/clashX/releases`
+| 名称| 类型| 内核| URL|
+| :--- | :--- | :--- | :--- |
+| ClashX | clash | clash-core | [yichengchen/clashX/releases](https://github.com/yichengchen/clashX/releases) |
+| v2rayU | v2ray | x-ray | [yanue/V2rayU/releases](https://github.com/yanue/V2rayU/releases) |
+| Qv2ray | v2ray | v2ray | [Qv2ray/Qv2ray/releases](https://github.com/Qv2ray/Qv2ray/releases) |
 
 
 ### iOS
 
-* [Shadowrocket] `https://apps.apple.com/us/app/shadowrocket/id932747118`
-
-* [Quantumult X] `https://apps.apple.com/us/app/quantumult-x/id1443988620`
+| 名称| 类型| 内核| URL|
+| :--- | :--- | :--- | :--- |
+| Shadowrocket | vpn | v2ray | [app/id932747118](https://apps.apple.com/us/app/id932747118) |
+| Quantumult X | vpn | v2ray | [app/id1443988620](https://apps.apple.com/us/app/id1443988620) |
 
 
 ## 📢精选VPN推荐📢 
