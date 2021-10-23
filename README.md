@@ -26,10 +26,10 @@
 
 | 名称| 类型| 内核| URL|
 | :--- | :--- | :--- | :--- |
-| v2rayN | v2ray | v2fly & x-ray | https://github.com/2dust/v2rayN/releases |
-| WinXray | v2ray | x-ray | [https://github.com/TheMRLL/WinXray/releases](https://github.com/TheMRLL/WinXray/releases) |
-| Netch | v2ray | x-ray | https://github.com/netchx/netch/releases |
-| Clash.net | clash | clash-core | https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases |
+| v2rayN | v2ray | v2fly & x-ray | [2dust/v2rayN/releases](https://github.com/2dust/v2rayN/releases) |
+| WinXray | v2ray | x-ray | [TheMRLL/WinXray/releases](https://github.com/TheMRLL/WinXray/releases) |
+| Netch | v2ray | x-ray | [netchx/netch/releases](https://github.com/netchx/netch/releases) |
+| Clash.net | clash | clash-core | [ClashDotNetFramework/ClashDotNetFramework/releases](https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases) |
 
 ### Android:
 
