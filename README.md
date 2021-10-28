@@ -1,1 +1,1 @@
-# 10/3/2021 因技术原因,即日起将停止对官网的维护,所有资源将在Github上更新
+[![shhxzyjzg](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/shhxzyjzg.jpg)]
