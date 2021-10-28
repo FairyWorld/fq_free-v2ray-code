@@ -114,4 +114,4 @@
 [![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/kinh-Logo.png)](https://kinh.cc/)
 
 
-[![shhxzyjzg](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/shhxzyjzg.png)]
+[![shhxzyjzg](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/shhxzyjzg.jpg)]
