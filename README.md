@@ -114,4 +114,6 @@
 [![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/kinh-Logo.png)](https://kinh.cc/)
 
 
+#                                                     文明上网 遵守法律法规
+
 [![shhxzyjzg](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/shhxzyjzg.jpg)]
