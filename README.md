@@ -3,9 +3,9 @@
 
 ## 📢推荐信息📢
 
-📞[TG电报群] `https://bit.ly/3AhEyMm`
+📞[TG电报群] `https://t.me/payday4478`
 
-🐧[QQ企鹅群] `https://bit.ly/3iredp5`
+🐧[QQ企鹅群] `https://qq.payday2.workers.dev`
 
 ♾️[机场测速] `http://speedtest.payday2.cf`
 
