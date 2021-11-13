@@ -74,10 +74,6 @@
 >🧑‍🤝‍🧑[邀请码]`NDg0NA`(额外7天使用时间)
 >>🚀没有速度限制，没有流量限制
 
-🔒[GLaDOS] `https://github.com/glados-network/GLaDOS`
->🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(额外3天使用时间)
->>🚀每月免费10GB流量
-
 ## 📢免费VPN📢 
 
 ⭐永久免费,连接速度快,稳定
