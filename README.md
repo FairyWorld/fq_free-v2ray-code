@@ -74,42 +74,39 @@
 
 ## 📢精选VPN推荐📢 
 
-🔒[快连LetsVPN] `https://letsvpn.world`
+🔒[快连LetsVPN] https://letsvpn.world
 >🧑‍🤝‍🧑[邀请码]`102307531`(额外3天体验时间)
 >>🚀稳定运行已经超1500天！
 
-🔒[蒜苗suanmiao] `https://suanmiao.app`
+🔒[蒜苗suanmiao] https://suanmiao.app
 >🧑‍🤝‍🧑[邀请码]`NDg0NA`(额外7天使用时间)
 >>🚀没有速度限制，没有流量限制
 
 ## 📢免费VPN📢 
 
 ⭐永久免费,连接速度快,稳定
->🔒[老王VPN] `https://apkpure.com/cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.sticktoit/download`
+>🔒[老王VPN] https://apkpure.com/cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.sticktoit/download
 
 ⭐免费,较多地区节点，高速
->🔒[起飞VPN] `https://apkpure.com/cn/gofly-vpn-free-vpn-shadowsocks-v2ray-trojan-vmess/com.ambrose.overwall/download`
+>🔒[起飞VPN] https://apkpure.com/cn/gofly-vpn-free-vpn-shadowsocks-v2ray-trojan-vmess/com.ambrose.overwall/download
 
 ## 📢机场推荐📢 
 
 ⭐低价大流量Azure/AGA稳定直连
->✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
-
-⭐流量计费，10元100G不限时不限速
->✈[魔戒机场] `https://mojie.me/#/register?code=di3Er1Fm`
+>✈[大机场Big Airport] https://xn--mesr8b36x.com/#/register?code=mlnSFnXP
 
 ⭐适合新手或大流量用户
->✈[比特云Bitcloud] `https://bityun.org/#/register?code=s1BrCGF5`
+>✈[比特云Bitcloud] https://bityun.org/#/register?code=s1BrCGF5
 
 ## 📢游戏加速器📢 
 
-⭕[蓝泡]`https://www.lpjsq.cn`
+⭕[蓝泡] https://www.lpjsq.cn
 
 ## 📢捐赠地址📢 
 
-⚡[爱发电] `https://afdian.net/@thekingmengxian`
+⚡[爱发电] https://afdian.net/@thekingmengxian
 
-💳[Paypal] `https://www.paypal.com/paypalme/thekingmengxian`
+💳[Paypal] https://www.paypal.com/paypalme/thekingmengxian
 
 ## 📢友情推荐📢 
 
