@@ -7,7 +7,9 @@
 
 🐧[QQ企鹅群] https://bit.ly/3iredp5
 
-🔗[订阅链接] https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Subscription/GreenFishYYDS
+🔗[订阅链接] 
+>https://yyds.payday2.workers.dev
+>>https://stream.payday2.workers.dev
 
 🧰[免费美区Apple账号] https://free.shadowrocket.online
 
