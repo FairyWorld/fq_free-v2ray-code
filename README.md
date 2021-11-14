@@ -1,6 +1,8 @@
 # 每周五至周日更新节点 * 若节点无法使用请使用
+
 # 🤜[Stream](https://stream.payday2.workers.dev)🤛 右键复制链接地址
 
+##喜欢本项目 请点击star⭐[![GitHub Star](https://img.shields.io/github/stars/XIU2/CloudflareSpeedTest.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/XIU2/CloudflareSpeedTest/)
 
 ## 📢推荐信息📢
 
