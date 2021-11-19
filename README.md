@@ -21,6 +21,8 @@
 
 `https://yyds.payday2.workers.dev`
 
+`https://temp.payday2.workers.dev`
+
 
 ## 📢Telegram语言包📢
 
