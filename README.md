@@ -10,7 +10,7 @@
 
 🐧[QQ企鹅群] `https://qq.payday2.workers.dev`
 
-♾️[机场测速] `http://speedtest.payday2.cf`
+♾️[机场测速] `http://speedtest.payday2.eu.org`
 
 🧰[免费美区Apple账号] `https://free.shadowrocket.online`
 
