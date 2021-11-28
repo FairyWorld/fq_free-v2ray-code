@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
   - {name: 🇭🇰 香港丨专线丨NTT丨SSR, server: 6dc.jijifun.com, port: 20001, type: ssr, cipher: chacha20-ietf, password: !<str> 114514, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 3b6387c1f5.microsoft.com}
   - {name: 🇭🇰 香港丨专线丨NTT丨1x, server: 6dc.jijifun.com, port: 30002, type: vmess, uuid: A5137297-630B-DF09-DF66-E5C0E3F5F5AD, alterId: 0, cipher: auto, tls: false}
@@ -15,11 +15,11 @@ proxies:
   - {name: 🇰🇷 韩国3-Netflix解锁, server: kr3.futi.online, port: 2053, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
   - {name: 🇰🇷 韩国1-中转(Lv1限时体验), server: zz1.futi.online, port: 11005, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: krz1.futi.online}}
   - {name: 🇰🇷 韩国1-Netflix解锁, server: kr1.futi.online, port: 2063, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr1.futi.online}}
-  - {name: 🇺🇲 美国丨专线丨Linode丨SSR, server: 6dc.jijifun.com, port: 20005, type: ssr, cipher: chacha20-ietf, password: !<str> 114514, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 3b6387c1f5.microsoft.com}
-  - {name: 🇺🇲 美国丨专线丨Linode丨1x, server: 6dc.jijifun.com, port: 30005, type: vmess, uuid: A5137297-630B-DF09-DF66-E5C0E3F5F5AD, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国3, server: us3.futi.online, port: 443, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3.futi.online}}
-  - {name: 🇺🇲 美国2-中转(Lv1限时体验), server: zz1.futi.online, port: 11002, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usz2.futi.online}}
-  - {name: 🇺🇲 美国2, server: us2.futi.online, port: 443, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
+  - {name: 🇺🇸 美国丨专线丨Linode丨SSR, server: 6dc.jijifun.com, port: 20005, type: ssr, cipher: chacha20-ietf, password: !<str> 114514, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 3b6387c1f5.microsoft.com}
+  - {name: 🇺🇸 美国丨专线丨Linode丨1x, server: 6dc.jijifun.com, port: 30005, type: vmess, uuid: A5137297-630B-DF09-DF66-E5C0E3F5F5AD, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国3, server: us3.futi.online, port: 443, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3.futi.online}}
+  - {name: 🇺🇸 美国2-中转(Lv1限时体验), server: zz1.futi.online, port: 11002, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usz2.futi.online}}
+  - {name: 🇺🇸 美国2, server: us2.futi.online, port: 443, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
   - {name: 🇯🇵 日本丨专线丨NTT丨SSR, server: 6dc.jijifun.com, port: 20006, type: ssr, cipher: chacha20-ietf, password: !<str> 114514, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 3b6387c1f5.microsoft.com}
   - {name: 🇯🇵 日本丨专线丨NTT丨1x, server: 6dc.jijifun.com, port: 30007, type: vmess, uuid: A5137297-630B-DF09-DF66-E5C0E3F5F5AD, alterId: 0, cipher: auto, tls: false}
   - {name: 🇯🇵 日本1-中转(Lv1限时体验), server: zz1.futi.online, port: 11009, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jpz1.futi.online}}
@@ -31,6 +31,36 @@ proxies:
   - {name: 🇨🇳 台湾丨专线丨HINET丨SSR, server: 6dc.jijifun.com, port: 20007, type: ssr, cipher: chacha20-ietf, password: !<str> 114514, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 3b6387c1f5.microsoft.com}
   - {name: 🇨🇳 台湾丨专线丨Hinet丨1x, server: 6dc.jijifun.com, port: 30004, type: vmess, uuid: A5137297-630B-DF09-DF66-E5C0E3F5F5AD, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 俄罗斯1, server: ruc1.futi.online, port: 8443, type: vmess, uuid: e2f1468f-c77e-4e99-9cb2-351d7106f146, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru1.futi.online}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 80端口 - 1, server: 003.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 003.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 443端口 - 2, server: 004.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 004.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 4, server: 034.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 034.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 3, server: 033.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 033.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 2, server: 024.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 024.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇯🇵 【直连】TYO/东京 - 1, server: 023.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 80端口 - 2, server: 010.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 010.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 80端口 - 1, server: 009.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 009.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 4, server: 040.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 040.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 3, server: 039.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 039.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 2, server: 030.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}
+  - {name: 【直连】SJC/圣荷西 - 1, server: 029.NA.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 80端口 - 1, server: 005.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 005.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 443端口 - 2, server: 006.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 006.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 4, server: 036.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 036.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 3, server: 035.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 035.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 2, server: 026.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 026.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 【直连】SIN/狮城 - 1, server: 025.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 80端口 - 1, server: 007.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 007.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 443端口 - 2, server: 008.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 008.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 4, server: 038.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 038.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 3, server: 037.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 037.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 2, server: 028.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 028.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 1, server: 027.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 027.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 80端口 - 1, server: 001.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 001.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 443端口 - 2, server: 002.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 002.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 4, server: 032.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 032.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 3, server: 031.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 031.AP.POP.BIGAIRPORT.NET}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 2, server: 022.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 【直连】HKG/香港 - 1, server: 021.AP.POP.BIGAIRPORT.NET, port: 12356, type: vmess, uuid: 4ef4d4c5-a95d-4392-bb28-954fbb43e65e, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,11 +77,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -63,6 +93,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,11 +139,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -95,6 +155,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -111,11 +201,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -127,6 +217,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -142,11 +262,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -158,6 +278,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -173,11 +323,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -189,6 +339,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -204,11 +384,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -220,6 +400,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -236,11 +446,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -252,6 +462,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,11 +524,11 @@ proxy-groups:
       - 🇰🇷 韩国3-Netflix解锁
       - 🇰🇷 韩国1-中转(Lv1限时体验)
       - 🇰🇷 韩国1-Netflix解锁
-      - 🇺🇲 美国丨专线丨Linode丨SSR
-      - 🇺🇲 美国丨专线丨Linode丨1x
-      - 🇺🇲 美国3
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2
+      - 🇺🇸 美国丨专线丨Linode丨SSR
+      - 🇺🇸 美国丨专线丨Linode丨1x
+      - 🇺🇸 美国3
+      - 🇺🇸 美国2-中转(Lv1限时体验)
+      - 🇺🇸 美国2
       - 🇯🇵 日本丨专线丨NTT丨SSR
       - 🇯🇵 日本丨专线丨NTT丨1x
       - 🇯🇵 日本1-中转(Lv1限时体验)
@@ -300,6 +540,36 @@ proxy-groups:
       - 🇨🇳 台湾丨专线丨HINET丨SSR
       - 🇨🇳 台湾丨专线丨Hinet丨1x
       - 🇷🇺 俄罗斯1
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
+      - 🇯🇵 【直连】TYO/东京 - 4
+      - 🇯🇵 【直连】TYO/东京 - 3
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇯🇵 【直连】TYO/东京 - 1
+      - 【直连】SJC/圣荷西 - 80端口 - 2
+      - 【直连】SJC/圣荷西 - 80端口 - 1
+      - 【直连】SJC/圣荷西 - 4
+      - 【直连】SJC/圣荷西 - 3
+      - 【直连】SJC/圣荷西 - 2
+      - 【直连】SJC/圣荷西 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 80端口 - 1
+      - 🇸🇬 【直连】SIN/狮城 - 443端口 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 4
+      - 🇸🇬 【直连】SIN/狮城 - 3
+      - 🇸🇬 【直连】SIN/狮城 - 2
+      - 🇸🇬 【直连】SIN/狮城 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 443端口 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 4
+      - 🇰🇷 【直连】ICN/首尔 - 3
+      - 🇰🇷 【直连】ICN/首尔 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇭🇰 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 【直连】HKG/香港 - 443端口 - 2
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2481,9 +2751,6 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
- - PROCESS-NAME,com.google.android.apps.youtube.music,🌍 国外媒体
- - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🌍 国外媒体
- - PROCESS-NAME,com.vanced.android.apps.youtube.music,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2496,6 +2763,8 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
+ - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
