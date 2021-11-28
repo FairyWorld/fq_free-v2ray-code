@@ -10,7 +10,7 @@
 
 📞[TG电报群] `https://t.me/payday4478`
 
-🐧[QQ企鹅群] `https://bit.ly/3iredp5`
+📞[TG电报频道] `https://t.me/payday501`
 
 ♾️[机场测速] `http://speedtest.payday2.eu.org`
 
