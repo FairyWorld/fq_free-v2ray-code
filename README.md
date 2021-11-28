@@ -14,7 +14,7 @@
 
 🧰[免费美区Apple账号] `https://free.shadowrocket.online`
 
-📛免责声明[点击查看](https://github.com/ThekingMX1998/free-v2ray-code/blob/none/README.md)
+📛声明[点击查看](https://github.com/ThekingMX1998/free-v2ray-code/blob/none/README.md)
 
 
 ## 📢订阅链接📢
