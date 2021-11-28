@@ -17,11 +17,11 @@
 
 ## 📢订阅链接📢
 
-`https://stream.中转.tk`
+`https://stream.payday2.workers.dev`
 
-`https://yyds.中转.tk`
+`https://yyds.payday2.workers.dev`
 
-`https://temp.中转.tk`
+`https://temp.payday2.workers.dev`
 
 
 ## 📢Telegram语言包📢
