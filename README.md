@@ -8,7 +8,7 @@
 
 📞[TG电报群] `https://t.me/payday4478`
 
-🐧[QQ企鹅群] `https://qq.payday2.workers.dev`
+🐧[QQ企鹅群] `https://bit.ly/3iredp5`
 
 ♾️[机场测速] `http://speedtest.payday2.eu.org`
 
@@ -17,11 +17,11 @@
 
 ## 📢订阅链接📢
 
-`https://stream.payday2.workers.dev`
+`https://stream.中转.tk`
 
-`https://yyds.payday2.workers.dev`
+`https://yyds.中转.tk`
 
-`https://temp.payday2.workers.dev`
+`https://temp.中转.tk`
 
 
 ## 📢Telegram语言包📢
