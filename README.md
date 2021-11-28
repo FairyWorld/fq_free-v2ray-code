@@ -93,11 +93,14 @@
 
 ## 📢免费VPN📢 
 
+⭐不限设备、不限速、顶级服务器集群、多种线路接入！
+>🔒[小牛VPN] `https://www.aoxvpn.com`
+
 ⭐永久免费,连接速度快,稳定
->🔒[老王VPN] `https://apkpure.com/cn/wang-vpn-%E2%9D%A4%EF%B8%8F-free-fast-stable-best-vpn-just-try-it/com.sticktoit/download`
+>🔒[老王VPN] `http://laowang.info`
 
 ⭐免费,较多地区节点，高速
->🔒[起飞VPN] `https://apkpure.com/cn/gofly-vpn-free-vpn-shadowsocks-v2ray-trojan-vmess/com.ambrose.overwall/download`
+>🔒[起飞VPN] `https://www.departuresvpn.tk`
 
 ## 📢机场推荐📢 
 
