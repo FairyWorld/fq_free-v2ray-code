@@ -19,11 +19,22 @@
 
 ## 📢订阅链接📢
 
-`https://stream.payday2.workers.dev`
+### v2ray
 
-`https://yyds.payday2.workers.dev`
+流媒体: `https://stream.payday2.workers.dev`
 
-`https://temp.payday2.workers.dev`
+综合: `https://yyds.payday2.workers.dev`
+
+临时: `https://temp.payday2.workers.dev`
+
+
+### Clash
+
+流媒体: `https://stream-clash.payday2.workers.dev`
+
+综合: `https://yyds-clash.payday2.workers.dev`
+
+临时: `https://temp-clash.payday2.workers.dev`
 
 
 ## 📢Telegram语言包📢
