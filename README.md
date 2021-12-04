@@ -43,7 +43,7 @@
 
 | 语言| 作者| URL|
 | :--- | :--- | :--- |
-| 简中 |@congcong | [setlanguage/zhcncc](https://t.me/setlanguage/zhcncc) |
+| 简中 |@moecn | [setlanguage/zhcncc](https://t.me/setlanguage/moecn) |
 | 繁中 |Unknown | [setlanguage/zh-hant-beta](https://t.me/setlanguage/zh-hant-beta) |
 
 
