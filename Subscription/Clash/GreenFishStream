@@ -5,36 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中转IP被墙暂时无法使用, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
-  - {name: "[TG电报群https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
-  - {name: "[QQ企鹅群]https://qq.payday2.workers.dev", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public), server: us-aws1.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2, server: us-aws2.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3, server: us-aws3.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4, server: us-aws4.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5, server: us-aws5.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6, server: us-aws6.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7, server: us-aws7.tt.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8, server: us-aws8.tt.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public), server: us-gcp1.tt.payday2.eu.org, port: 45522, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public), server: us-aws1.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2, server: us-aws2.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3, server: us-aws3.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4, server: us-aws4.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5, server: us-aws5.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6, server: us-aws6.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7, server: us-aws7.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8, server: us-aws8.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public), server: us-gcp1.t.payday2.eu.org, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
+  - {name: "[官方网站]https://payday2.eu.org", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
+  - {name: "[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
+  - {name: "[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public), server: US-AWS1.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2, server: US-AWS2.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3, server: US-AWS3.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4, server: US-AWS4.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5, server: US-AWS5.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6, server: US-AWS6.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7, server: US-AWS7.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8, server: US-AWS8.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public), server: US-GCP1.TT.PAYDAY2.EU.ORG, port: 53215, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public), server: US-AWS1.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2, server: US-AWS2.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3, server: US-AWS3.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4, server: US-AWS4.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5, server: US-AWS5.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6, server: US-AWS6.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7, server: US-AWS7.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8, server: US-AWS8.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
+  - {name: 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public), server: US-GCP1.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -59,9 +59,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -86,9 +86,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -112,9 +112,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -138,9 +138,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -164,9 +164,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -191,9 +191,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -234,9 +234,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转IP被墙暂时无法使用
-      - "[TG电报群https://t.me/payday4478"
-      - "[QQ企鹅群]https://qq.payday2.workers.dev"
+      - "[官方网站]https://payday2.eu.org"
+      - "[TG电报群]https://t.me/payday4478"
+      - "[TG电报频道]https://t.me/payday501"
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
       - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
@@ -2436,9 +2436,6 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
- - PROCESS-NAME,com.google.android.apps.youtube.music,🌍 国外媒体
- - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🌍 国外媒体
- - PROCESS-NAME,com.vanced.android.apps.youtube.music,🌍 国外媒体
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2451,6 +2448,8 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
+ - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
