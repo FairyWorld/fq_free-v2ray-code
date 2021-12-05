@@ -5,8 +5,65 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇭🇰 香港免流05 解锁新加坡区奈飞, server: 5.zhuzhu12.com, port: 80, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 香港免流04, server: 4.zhuzhu12.com, port: 80, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 香港免流03, server: 3.zhuzhu12.com, port: 80, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 香港免流02, server: 2.zhuzhu12.com, port: 80, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 香港免流01, server: 1.zhuzhu12.com, port: 80, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: a.189.cn}}
+  - {name: 🇰🇷 韩国4-Netflix解锁, server: kr4.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}}
+  - {name: 🇰🇷 韩国4-Netflix解锁 2, server: kr4.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}}
+  - {name: 🇰🇷 韩国3-Netflix解锁, server: kr3.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: 🇰🇷 韩国3-Netflix解锁 2, server: kr3.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: 🇰🇷 韩国2-Netflix解锁, server: kr2.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: 🇰🇷 韩国2-Netflix解锁 2, server: kr2.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: 🇰🇷 韩国1-中转(Lv1限时体验), server: zz1.futi.online, port: 11005, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: krz1.futi.online}}
+  - {name: 🇰🇷 韩国1-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11005, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: krz1.futi.online}}
+  - {name: 🇰🇷 韩国1-Netflix解锁, server: kr1.futi.online, port: 2063, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr1.futi.online}}
+  - {name: 🇰🇷 韩国1-Netflix解锁 2, server: kr1.futi.online, port: 2063, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr1.futi.online}}
+  - {name: 🇰🇷 韩国02, server: zhuzhu12.com, port: 33893, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇰🇷 韩国01, server: zhuzhu12.com, port: 13125, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇳🇱 荷兰, server: zhuzhu12.com, port: 17862, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇬🇧 英国02, server: zhuzhu12.com, port: 20618, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇬🇧 英国01, server: zhuzhu12.com, port: 62274, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇺🇲 美国4, server: us4.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4.futi.online}}
+  - {name: 🇺🇲 美国4 2, server: us4.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4.futi.online}}
+  - {name: 🇺🇲 美国3, server: us3.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3.futi.online}}
+  - {name: 🇺🇲 美国3 2, server: us3.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3.futi.online}}
+  - {name: 🇺🇲 美国2-中转(Lv1限时体验), server: zz1.futi.online, port: 11002, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usz2.futi.online}}
+  - {name: 🇺🇲 美国2-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11002, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usz2.futi.online}}
+  - {name: 🇺🇲 美国2, server: us2.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
+  - {name: 🇺🇲 美国2 2, server: us2.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
   - {name: 🇺🇲 美国1, server: inapus.mooncloud.bike, port: 10099, type: vmess, uuid: 2bdd0da8-c3a0-41fb-b0fb-4517c637bc92, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}}
+  - {name: 🇺🇲 美国1 2, server: usc1.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1.futi.online}}
+  - {name: 🇺🇲 美国1 3, server: usc1.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1.futi.online}}
+  - {name: 🇺🇲 美国02, server: zhuzhu12.com, port: 14718, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇺🇲 美国01, server: zhuzhu12.com, port: 10156, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
   - {name: 🇺🇲 美国（不能用，选择允许不安全链接）, server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: 2bdd0da8-c3a0-41fb-b0fb-4517c637bc92, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: pr1.mooncloud.bike}}
+  - {name: 🇯🇵 日本2, server: jp2.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp2.futi.online}}
+  - {name: 🇯🇵 日本2 2, server: jp2.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp2.futi.online}}
+  - {name: 🇯🇵 日本1-中转(Lv1限时体验), server: zz1.futi.online, port: 11009, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jpz1.futi.online}}
+  - {name: 🇯🇵 日本1-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11009, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jpz1.futi.online}}
+  - {name: 🇯🇵 日本1, server: jp1.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp1.futi.online}}
+  - {name: 🇯🇵 日本1 2, server: jp1.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp1.futi.online}}
+  - {name: 🇯🇵 日本01, server: zhuzhu12.com, port: 14083, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇸🇬 新加坡3, server: sg3.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg3.futi.online}}
+  - {name: 🇸🇬 新加坡3 2, server: sg3.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg3.futi.online}}
+  - {name: 🇸🇬 新加坡2, server: sg2.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg2.futi.online}}
+  - {name: 🇸🇬 新加坡2 2, server: sg2.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg2.futi.online}}
+  - {name: 🇸🇬 新加坡03, server: zhuzhu12.com, port: 12819, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇸🇬 新加坡02, server: zhuzhu12.com, port: 15724, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇸🇬 新加坡01, server: zhuzhu12.com, port: 22164, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇩🇪 德国02, server: zhuzhu12.com, port: 14319, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇩🇪 德国01 邀请好友可获100%返利, server: zhuzhu12.com, port: 46101, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇮🇳 印度1-中转(Lv1限时体验), server: zz1.futi.online, port: 11015, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: inz1.futi.online}}
+  - {name: 🇮🇳 印度1-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11015, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: inz1.futi.online}}
+  - {name: 🇮🇳 印度1, server: in1.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: in1.futi.online}}
+  - {name: 🇮🇳 印度1 2, server: in1.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: in1.futi.online}}
+  - {name: 🇮🇳 印度01, server: zhuzhu12.com, port: 13959, type: vmess, uuid: 22d20011-d47a-35e5-910f-cafd8599fa6f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}}
+  - {name: 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐, server: xg02.xiaobaigou.cc, port: 60012, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐, server: xg3.xiaobaigou.cc, port: 60013, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇷🇺 俄罗斯1, server: ruc1.futi.online, port: 8443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru1.futi.online}}
+  - {name: 🇷🇺 俄罗斯1 2, server: ruc1.futi.online, port: 8443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru1.futi.online}}
   - {name: 🇺🇲 美国2|免费节点, server: 204.44.75.162, port: 80, type: vmess, uuid: a51d26be-b9db-3c9b-9fa4-bf32b7d588fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 204.44.75.162}}
   - {name: 🇺🇲 美国1|免费节点, server: gzcm2.rymv2rayssl.xyz, port: 50031, type: vmess, uuid: a51d26be-b9db-3c9b-9fa4-bf32b7d588fd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 206.253.164.124}}
   - {name: 🇸🇬 新加坡1|免费节点, server: gysg.luohuaxian.xyz, port: 49958, type: vmess, uuid: a51d26be-b9db-3c9b-9fa4-bf32b7d588fd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 128.199.201.98}}
@@ -14,6 +71,29 @@ proxies:
   - {name: 🇭🇰 香港3|免费节点, server: pq.luohuaxian.xyz, port: 80, type: vmess, uuid: a51d26be-b9db-3c9b-9fa4-bf32b7d588fd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: pq.luohuaxian.xyz}}
   - {name: 🇭🇰 香港2|免费节点, server: hzcu.rymv2rayssl.xyz, port: 44609, type: vmess, uuid: a51d26be-b9db-3c9b-9fa4-bf32b7d588fd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 223.17.233.225}}
   - {name: 🇭🇰 香港1|免费节点, server: gyhkc.luohuaxian.xyz, port: 4834, type: vmess, uuid: a51d26be-b9db-3c9b-9fa4-bf32b7d588fd, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 194.156.98.126}}
+  - {name: 🇭🇰 v1丨香港丨高速丨V2ray, server: xg4.xiaobaigou.cc, port: 60014, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁, server: hkt3.xiaobaigou.cc, port: 12561, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨连我丨速度超快丨, server: xgwr8.xiaobaigou.cc, port: 60004, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁, server: xgwr6.xiaobaigou.cc, port: 60003, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁, server: xgwr9.xiaobaigou.cc, port: 60005, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁, server: xgwr15.xiaobaigou.cc, port: 60009, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨微软丨1丨落地, server: xgwr13.xiaobaigou.cc, port: 60007, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨HK丨V2ray, server: xgwr5.xiaobaigou.cc, port: 60002, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨HKT丨netflix 解锁, server: hkt1.xiaobaigou.cc, port: 53581, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁, server: hkt2.xiaobaigou.cc, port: 60019, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨AZ丨netflix解锁, server: xgwr14.xiaobaigou.cc, port: 60218, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁, server: xgwr10.xiaobaigou.cc, port: 30026, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇰🇷 v1丨韩国丨微软丨落地丨V2ray, server: hgwr7.xiaobaigou.cc, port: 12561, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray, server: hgwr07.xiaobaigou.cc, port: 443, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray, server: mgwr6.xiaobaigou.cc, port: 22561, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray, server: mgwr07.xiaobaigou.cc, port: 58673, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray, server: rbwr015.xiaobaigou.cc, port: 34980, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇯🇵 v1丨日本丨微软丨东京丨V2ray, server: rbwr15.xiaobaigou.cc, port: 58942, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray, server: xp02.xiaobaigou.cc, port: 60011, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇸🇬 v1丨新加坡丨直连丨V2ray, server: xp01.xiaobaigou.cc, port: 60010, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁, server: xpwr1.xiaobaigou.cc, port: 61001, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇨🇳 v1丨台湾丨原生丨netflix.解锁, server: twjt1.xiaobaigou.cc, port: 60020, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁, server: tw2.xiaobaigou.cc, port: 12561, type: vmess, uuid: f2f202a8-82c2-3383-8fd5-a9cdeb612e31, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
   - {name: 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04, server: sh.portx.cc, port: 25333, type: ss, cipher: aes-256-gcm, password: NTFrb9MQ5tsb9WrD}
   - {name: 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03, server: sh.portx.cc, port: 25343, type: ss, cipher: aes-256-gcm, password: NTFrb9MQ5tsb9WrD}
   - {name: 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02, server: sh.portx.cc, port: 25340, type: ss, cipher: aes-256-gcm, password: NTFrb9MQ5tsb9WrD}
@@ -28,50 +108,71 @@ proxies:
   - {name: 「🇯🇵」龙鳞果, server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 8206fab0-5da1-428f-9e72-a49385a4e81d}
   - {name: 「🇮🇳」玛莎拉 - 免流, server: v2.emovpn.xyz, port: 80, type: vmess, uuid: 8206fab0-5da1-428f-9e72-a49385a4e81d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 「🇦🇺」仙灵果, server: n20.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 8206fab0-5da1-428f-9e72-a49385a4e81d}
-  - {name: 🇮🇳 印度1, server: in1.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: in1.futi.online}}
-  - {name: 🇮🇳 印度1 2, server: in1.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: in1.futi.online}}
-  - {name: 🇯🇵 日本1, server: jp1.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp1.futi.online}}
-  - {name: 🇯🇵 日本1 2, server: jp1.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp1.futi.online}}
-  - {name: 🇯🇵 日本2, server: jp2.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp2.futi.online}}
-  - {name: 🇯🇵 日本2 2, server: jp2.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jp2.futi.online}}
-  - {name: 🇰🇷 韩国1-Netflix解锁, server: kr1.futi.online, port: 2063, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr1.futi.online}}
-  - {name: 🇰🇷 韩国1-Netflix解锁 2, server: kr1.futi.online, port: 2063, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr1.futi.online}}
-  - {name: 🇰🇷 韩国2-Netflix解锁, server: kr2.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: 🇰🇷 韩国2-Netflix解锁 2, server: kr2.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
-  - {name: 🇰🇷 韩国3-Netflix解锁, server: kr3.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: 🇰🇷 韩国3-Netflix解锁 2, server: kr3.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
-  - {name: 🇰🇷 韩国4-Netflix解锁, server: kr4.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}}
-  - {name: 🇰🇷 韩国4-Netflix解锁 2, server: kr4.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kr4.futi.online}}
-  - {name: 🇷🇺 俄罗斯1, server: ruc1.futi.online, port: 8443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru1.futi.online}}
-  - {name: 🇷🇺 俄罗斯1 2, server: ruc1.futi.online, port: 8443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ru1.futi.online}}
-  - {name: 🇸🇬 新加坡2, server: sg2.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg2.futi.online}}
-  - {name: 🇸🇬 新加坡2 2, server: sg2.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg2.futi.online}}
-  - {name: 🇸🇬 新加坡3, server: sg3.futi.online, port: 2053, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg3.futi.online}}
-  - {name: 🇸🇬 新加坡3 2, server: sg3.futi.online, port: 2053, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sg3.futi.online}}
-  - {name: 🇺🇲 美国2, server: us2.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
-  - {name: 🇺🇲 美国2 2, server: us2.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us2.futi.online}}
-  - {name: 🇺🇲 美国3, server: us3.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3.futi.online}}
-  - {name: 🇺🇲 美国3 2, server: us3.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us3.futi.online}}
-  - {name: 🇺🇲 美国4, server: us4.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4.futi.online}}
-  - {name: 🇺🇲 美国4 2, server: us4.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us4.futi.online}}
-  - {name: 🇺🇲 美国1 2, server: usc1.futi.online, port: 443, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1.futi.online}}
-  - {name: 🇺🇲 美国1 3, server: usc1.futi.online, port: 443, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us1.futi.online}}
-  - {name: 🇮🇳 印度1-中转(Lv1限时体验), server: zz1.futi.online, port: 11015, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: inz1.futi.online}}
-  - {name: 🇮🇳 印度1-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11015, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: inz1.futi.online}}
-  - {name: 🇯🇵 日本1-中转(Lv1限时体验), server: zz1.futi.online, port: 11009, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jpz1.futi.online}}
-  - {name: 🇯🇵 日本1-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11009, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: jpz1.futi.online}}
-  - {name: 🇺🇲 美国2-中转(Lv1限时体验), server: zz1.futi.online, port: 11002, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usz2.futi.online}}
-  - {name: 🇺🇲 美国2-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11002, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: usz2.futi.online}}
-  - {name: 🇰🇷 韩国1-中转(Lv1限时体验), server: zz1.futi.online, port: 11005, type: vmess, uuid: 511510be-bc55-44ba-8de6-1a96288f5005, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: krz1.futi.online}}
-  - {name: 🇰🇷 韩国1-中转(Lv1限时体验) 2, server: zz1.futi.online, port: 11005, type: vmess, uuid: 2b1a5967-ac66-4408-b856-3a162602718f, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: krz1.futi.online}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -79,6 +180,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -93,50 +217,71 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -144,6 +289,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -158,50 +326,71 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -209,6 +398,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -223,49 +435,70 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -273,6 +506,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -287,49 +543,70 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -337,6 +614,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -351,49 +651,70 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -401,6 +722,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -415,50 +759,71 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -466,6 +831,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -480,42 +868,6 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -538,8 +890,65 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港免流05 解锁新加坡区奈飞
+      - 🇭🇰 香港免流04
+      - 🇭🇰 香港免流03
+      - 🇭🇰 香港免流02
+      - 🇭🇰 香港免流01
+      - 🇰🇷 韩国4-Netflix解锁
+      - 🇰🇷 韩国4-Netflix解锁 2
+      - 🇰🇷 韩国3-Netflix解锁
+      - 🇰🇷 韩国3-Netflix解锁 2
+      - 🇰🇷 韩国2-Netflix解锁
+      - 🇰🇷 韩国2-Netflix解锁 2
+      - 🇰🇷 韩国1-中转(Lv1限时体验)
+      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
+      - 🇰🇷 韩国1-Netflix解锁
+      - 🇰🇷 韩国1-Netflix解锁 2
+      - 🇰🇷 韩国02
+      - 🇰🇷 韩国01
+      - 🇳🇱 荷兰
+      - 🇬🇧 英国02
+      - 🇬🇧 英国01
+      - 🇺🇲 美国4
+      - 🇺🇲 美国4 2
+      - 🇺🇲 美国3
+      - 🇺🇲 美国3 2
+      - 🇺🇲 美国2-中转(Lv1限时体验)
+      - 🇺🇲 美国2-中转(Lv1限时体验) 2
+      - 🇺🇲 美国2
+      - 🇺🇲 美国2 2
       - 🇺🇲 美国1
+      - 🇺🇲 美国1 2
+      - 🇺🇲 美国1 3
+      - 🇺🇲 美国02
+      - 🇺🇲 美国01
       - 🇺🇲 美国（不能用，选择允许不安全链接）
+      - 🇯🇵 日本2
+      - 🇯🇵 日本2 2
+      - 🇯🇵 日本1-中转(Lv1限时体验)
+      - 🇯🇵 日本1-中转(Lv1限时体验) 2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本1 2
+      - 🇯🇵 日本01
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡3 2
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡2 2
+      - 🇸🇬 新加坡03
+      - 🇸🇬 新加坡02
+      - 🇸🇬 新加坡01
+      - 🇩🇪 德国02
+      - 🇩🇪 德国01 邀请好友可获100%返利
+      - 🇮🇳 印度1-中转(Lv1限时体验)
+      - 🇮🇳 印度1-中转(Lv1限时体验) 2
+      - 🇮🇳 印度1
+      - 🇮🇳 印度1 2
+      - 🇮🇳 印度01
+      - 🇭🇰 免费丨香港丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇭🇰 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐
+      - 🇷🇺 俄罗斯1
+      - 🇷🇺 俄罗斯1 2
       - 🇺🇲 美国2|免费节点
       - 🇺🇲 美国1|免费节点
       - 🇸🇬 新加坡1|免费节点
@@ -547,6 +956,29 @@ proxy-groups:
       - 🇭🇰 香港3|免费节点
       - 🇭🇰 香港2|免费节点
       - 🇭🇰 香港1|免费节点
+      - 🇭🇰 v1丨香港丨高速丨V2ray
+      - 🇭🇰 v1丨香港丨高速 HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨连我丨速度超快丨
+      - 🇭🇰 v1丨香港丨微软丨优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2优化  Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨2丨落地丨Netflix 解锁
+      - 🇭🇰 v1丨香港丨微软丨1丨落地
+      - 🇭🇰 v1丨香港丨HK丨V2ray
+      - 🇭🇰 v1丨香港丨HKT丨netflix 解锁
+      - 🇭🇰 v1丨香港丨HKT  2丨流媒体解锁
+      - 🇭🇰 v1丨香港丨AZ丨netflix解锁
+      - 🇭🇰 v1丨香港丨AZ丨2丨netflix解锁
+      - 🇰🇷 v1丨韩国丨微软丨落地丨V2ray
+      - 🇰🇷 v1丨韩国丨微软丨落地丨2丨V2ray
+      - 🇺🇲 v1丨美国丨微软丨优化高速丨V2ray
+      - 🇺🇲 v1丨美国丨原生丨三网优化丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨大阪丨2丨V2ray
+      - 🇯🇵 v1丨日本丨微软丨东京丨V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨三网优化V2ray
+      - 🇸🇬 v1丨新加坡丨直连丨V2ray
+      - 🇸🇬 v1丨新加坡丨微软丨高速丨Netflix 解锁
+      - 🇨🇳 v1丨台湾丨原生丨netflix.解锁
+      - 🇨🇳 v1丨台湾丨三网直连丨netflix.解锁
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 04
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 03
       - 🇷🇺 SSRTOOL 公益站 - 美国 俄勒冈 02
@@ -561,42 +993,6 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
-      - 🇮🇳 印度1
-      - 🇮🇳 印度1 2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本2
-      - 🇯🇵 日本2 2
-      - 🇰🇷 韩国1-Netflix解锁
-      - 🇰🇷 韩国1-Netflix解锁 2
-      - 🇰🇷 韩国2-Netflix解锁
-      - 🇰🇷 韩国2-Netflix解锁 2
-      - 🇰🇷 韩国3-Netflix解锁
-      - 🇰🇷 韩国3-Netflix解锁 2
-      - 🇰🇷 韩国4-Netflix解锁
-      - 🇰🇷 韩国4-Netflix解锁 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡2 2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡3 2
-      - 🇺🇲 美国2
-      - 🇺🇲 美国2 2
-      - 🇺🇲 美国3
-      - 🇺🇲 美国3 2
-      - 🇺🇲 美国4
-      - 🇺🇲 美国4 2
-      - 🇺🇲 美国1 2
-      - 🇺🇲 美国1 3
-      - 🇮🇳 印度1-中转(Lv1限时体验)
-      - 🇮🇳 印度1-中转(Lv1限时体验) 2
-      - 🇯🇵 日本1-中转(Lv1限时体验)
-      - 🇯🇵 日本1-中转(Lv1限时体验) 2
-      - 🇺🇲 美国2-中转(Lv1限时体验)
-      - 🇺🇲 美国2-中转(Lv1限时体验) 2
-      - 🇰🇷 韩国1-中转(Lv1限时体验)
-      - 🇰🇷 韩国1-中转(Lv1限时体验) 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
