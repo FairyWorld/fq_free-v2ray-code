@@ -12,7 +12,7 @@
 
 📞[TG电报频道] `https://t.me/payday501`
 
-♾️[机场测速] `http://speedtest.payday2.eu.org`
+♾️[机场测速] `http://gz.cloudtest.cc`
 
 🧰[免费美区Apple账号] `https://free.shadowrocket.online`
 
