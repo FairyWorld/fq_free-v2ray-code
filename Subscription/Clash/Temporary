@@ -108,6 +108,11 @@ proxies:
   - {name: 「🇯🇵」龙鳞果, server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 8206fab0-5da1-428f-9e72-a49385a4e81d}
   - {name: 「🇮🇳」玛莎拉 - 免流, server: v2.emovpn.xyz, port: 80, type: vmess, uuid: 8206fab0-5da1-428f-9e72-a49385a4e81d, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 「🇦🇺」仙灵果, server: n20.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 8206fab0-5da1-428f-9e72-a49385a4e81d}
+  - {name: 🇭🇰 「F HK」海贝公益高速节点, server: 20.205.35.77, port: 80, type: vmess, uuid: 4b3d51ec-56d0-496e-a0a2-c958af1fcbb6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: 20.205.35.77}}
+  - {name: 🇺🇲 「C TC」United States·Ohio, server: 20.205.35.3, port: 42432, type: vmess, uuid: 4b3d51ec-56d0-496e-a0a2-c958af1fcbb6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 20.205.35.3}}
+  - {name: 🇯🇵 「C TC」Japan·Tokyo, server: 20.205.35.3, port: 33312, type: vmess, uuid: 4b3d51ec-56d0-496e-a0a2-c958af1fcbb6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 20.205.35.3}}
+  - {name: 🇺🇲 「C DC」United States·Ohio, server: 3.144.176.174, port: 443, type: vmess, uuid: 4b3d51ec-56d0-496e-a0a2-c958af1fcbb6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 3.144.176.174}}
+  - {name: 🇯🇵 「C DC」Japan·Tokyo, server: 52.199.89.79, port: 443, type: vmess, uuid: 4b3d51ec-56d0-496e-a0a2-c958af1fcbb6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /Net.Hibey.cc, ws-headers: {Host: 52.199.89.79}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -217,6 +222,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -326,6 +336,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -435,6 +450,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: 📲 电报信息
     type: select
     proxies:
@@ -543,6 +563,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -651,6 +676,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -759,6 +789,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -868,6 +903,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -993,6 +1033,11 @@ proxy-groups:
       - 「🇯🇵」龙鳞果
       - 「🇮🇳」玛莎拉 - 免流
       - 「🇦🇺」仙灵果
+      - 🇭🇰 「F HK」海贝公益高速节点
+      - 🇺🇲 「C TC」United States·Ohio
+      - 🇯🇵 「C TC」Japan·Tokyo
+      - 🇺🇲 「C DC」United States·Ohio
+      - 🇯🇵 「C DC」Japan·Tokyo
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
