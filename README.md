@@ -56,7 +56,7 @@
 | v2rayN | v2ray | v2fly & x-ray | [2dust/v2rayN/releases](https://github.com/2dust/v2rayN/releases) |
 | WinXray | v2ray | x-ray | [TheMRLL/WinXray/releases](https://github.com/TheMRLL/WinXray/releases) |
 | Netch | v2ray | x-ray | [netchx/netch/releases](https://github.com/netchx/netch/releases) |
-| Clash.net | clash | clash-core | [ClashDotNetFramework/ClashDotNetFramework/releases](https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases) |
+| Clash.net | clash | clash-core | [ClashDotNetFramework/ClashDotNetFramework/releases](https://github.com/ThekingMX1998/free-v2ray-code/tree/master/File/Clash.NET) |
 | Clash for windows | clash | clash-core | [Fndroid/clash_for_windows_pkg/releases](https://github.com/Fndroid/clash_for_windows_pkg/releases) |
 
 
