@@ -8,24 +8,24 @@ proxies:
   - {name: "[官方网站]https://payday2.eu.org", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
   - {name: "[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
   - {name: "[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMD, sni: payday2.eu.org}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public), server: US-AWS1.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2, server: US-AWS2.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3, server: US-AWS3.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4, server: US-AWS4.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5, server: US-AWS5.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6, server: US-AWS6.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7, server: US-AWS7.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8, server: US-AWS8.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public), server: US-GCP1.TT.PAYDAY2.EU.ORG, port: 11504, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public), server: US-AWS1.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2, server: US-AWS2.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3, server: US-AWS3.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4, server: US-AWS4.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5, server: US-AWS5.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6, server: US-AWS6.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7, server: US-AWS7.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8, server: US-AWS8.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
-  - {name: 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public), server: US-GCP1.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public), server: US-AWS1.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2, server: US-AWS2.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3, server: US-AWS3.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4, server: US-AWS4.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5, server: US-AWS5.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6, server: US-AWS6.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7, server: US-AWS7.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8, server: US-AWS8.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public), server: US-GCP1.TT.PAYDAY2.EU.ORG, port: 25011, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public), server: US-AWS1.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2, server: US-AWS2.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws2.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3, server: US-AWS3.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws3.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4, server: US-AWS4.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws4.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5, server: US-AWS5.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws5.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6, server: US-AWS6.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws6.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7, server: US-AWS7.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws7.payday501.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8, server: US-AWS8.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws8.payday502.workers.dev}}
+  - {name: 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public), server: US-GCP1.T.PAYDAY2.EU.ORG, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-gcp1.payday502.workers.dev}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,24 +35,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,24 +62,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -89,24 +89,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -115,24 +115,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -141,24 +141,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -167,24 +167,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -194,24 +194,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,24 +237,24 @@ proxy-groups:
       - "[官方网站]https://payday2.eu.org"
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(中转)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(中转)(GCP)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public)
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(直连)(AWS)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(直连)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(中转)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(中转)(GCP)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public)
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(直连)(AWS)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(直连)(GCP)(Public)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
