@@ -36,7 +36,7 @@
 
 流媒体: `https://dllx.tk/GreenFishStream-Clash`
 
-综合: `https://dllx.tk/GreenFishYYDS-Clash-Clash`
+综合: `https://dllx.tk/GreenFishYYDS-Clash`
 
 临时: `https://dllx.tk/GreenFishTemp-Clash`
 
