@@ -25,21 +25,22 @@
 
 ### v2ray
 
-流媒体: `https://stream.payday2.workers.dev`
+流媒体: `https://dllx.tk/GreenFishStream`
 
-综合: `https://yyds.payday2.workers.dev`
+综合: `https://dllx.tk/GreenFishYYDS`
 
-临时: `https://temp.payday2.workers.dev`
+临时: `https://dllx.tk/GreenFishTemp`
 
 
 ### Clash
 
-流媒体: `https://stream-clash.payday2.workers.dev`
+流媒体: `https://dllx.tk/GreenFishStream-Clash`
 
-综合: `https://yyds-clash.payday2.workers.dev`
+综合: `https://dllx.tk/GreenFishYYDS-Clash-Clash`
 
-临时: `https://temp-clash.payday2.workers.dev`
+临时: `https://dllx.tk/GreenFishTemp-Clash`
 
+#### PS: `dllx`可替换为`dllc``dlli``dllo``dllv`
 
 ## 📢Telegram语言包📢
 
