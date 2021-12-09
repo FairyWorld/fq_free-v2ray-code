@@ -2,9 +2,9 @@
 
 # 每周五至周日更新节点 * 若节点无法使用请使用
 
-# 🤜[Stream](https://stream.payday2.workers.dev)或[Temporary](https://temp.payday2.workers.dev)🤛 右键复制链接地址
+# 🤜[Stream](https://dllx.tk/GreenFishStream)或[Temporary](https://dllx.tk/GreenFishTemp)🤛 右键复制链接地址
 
-#### PS: [Temporary](https://temp.payday2.workers.dev)属于临时节点，请勿滥用，仅用于更新订阅，谢谢配合
+#### PS: [Temporary](https://dllx.tk/GreenFishTemp)属于临时节点，请勿滥用，仅用于更新订阅，谢谢配合
 
 ## 喜欢本项目 请点击右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
 
