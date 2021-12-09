@@ -40,7 +40,7 @@
 
 临时: `https://dllx.tk/GreenFishTemp-Clash`
 
-#### PS: `dllx`可替换为`dllc``dlli``dllo``dllv`
+#### PS: 链接中的`dllx`可替换为`dllc` `dlli` `dllo` `dllv`
 
 ## 📢Telegram语言包📢
 
