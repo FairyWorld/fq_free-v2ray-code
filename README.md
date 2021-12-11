@@ -139,6 +139,8 @@
 
 💳[Paypal] `https://www.paypal.com/paypalme/thekingmengxian`
 
+₿[BTC] `giYoWjDXRoNDfMFd3A1bZJ4Jf5K6cF6z`
+
 ## 📢友情推荐📢 
 
 [![ghxi](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/ghboke-logo.png)](https://ghxi.com)
