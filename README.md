@@ -107,8 +107,7 @@
 
 🔒[GLaDOS] `https://glados.rocks`
 >🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(注册使用3天使用时间)
->>🧑‍🤝‍🧑[邀请码]`GRGRM-TDINM-JRSGS-XPS52`(额外1天使用时间)
->>>🚀超过4年的老牌机场
+>>🚀超过4年的老牌机场
 
 
 ## 📢免费VPN📢 
