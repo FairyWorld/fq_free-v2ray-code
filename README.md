@@ -144,5 +144,6 @@
 
 [![ghxi](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/ghboke-logo.png)](https://ghxi.com)
 [![52bd](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/52bd-logo.png)](https://www.52bd.net)
-[![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/kinh-Logo.png)](https://kinh.cc/)
+[![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/kinh-logo.png)](https://kinh.cc)
+[![wuyong](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/wuyong-logo.png)](https://wuyong.fun)
 
