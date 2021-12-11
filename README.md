@@ -139,7 +139,7 @@
 
 💳[Paypal] `https://www.paypal.com/paypalme/thekingmengxian`
 
-₿[BTC] `giYoWjDXRoNDfMFd3A1bZJ4Jf5K6cF6z`
+🪙[BTC] `giYoWjDXRoNDfMFd3A1bZJ4Jf5K6cF6z`
 
 ## 📢友情推荐📢 
 
