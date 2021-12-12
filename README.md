@@ -67,8 +67,8 @@
 
 | 名称| 类型| 内核| URL|
 | :--- | :--- | :--- | :--- |
-| v2rayNG | v2ray | v2fly & x-ray | [2dust/v2rayNG/releases](https://github.com/2dust/v2rayNG/releases) |
-| AnXray | v2ray | x-ray | [XTLS/AnXray/releases](https://github.com/XTLS/AnXray/releases) |
+| v2rayNG | v2ray | v2fly & xray | [2dust/v2rayNG/releases](https://github.com/2dust/v2rayNG/releases) |
+| AnXray | v2ray | xray | [XTLS/AnXray/releases](https://github.com/XTLS/AnXray/releases) |
 | Clash for android | clash | clash-core | [Kr328/ClashForAndroid/releases](https://github.com/Kr328/ClashForAndroid/releases) |
 
 
@@ -82,17 +82,17 @@
 
 | 名称| 类型| 内核| URL|
 | :--- | :--- | :--- | :--- |
-| ClashX | clash | clash-core | [yichengchen/clashX/releases](https://github.com/yichengchen/clashX/releases) |
-| v2rayU | v2ray | x-ray | [yanue/V2rayU/releases](https://github.com/yanue/V2rayU/releases) |
-| Qv2ray | v2ray | v2ray | [Qv2ray/Qv2ray/releases](https://github.com/Qv2ray/Qv2ray/releases) |
+| ClashX | clash | clash | [yichengchen/clashX/releases](https://github.com/yichengchen/clashX/releases) |
+| v2rayU | v2ray | xray | [yanue/V2rayU/releases](https://github.com/yanue/V2rayU/releases) |
+| Qv2ray | v2ray | v2fly | [Qv2ray/Qv2ray/releases](https://github.com/Qv2ray/Qv2ray/releases) |
 
 
 ### iOS
 
 | 名称| 类型| 内核| URL|
 | :--- | :--- | :--- | :--- |
-| Shadowrocket | vpn | v2ray | [app/id932747118](https://apps.apple.com/us/app/id932747118) |
-| Quantumult X | vpn | v2ray | [app/id1443988620](https://apps.apple.com/us/app/id1443988620) |
+| Shadowrocket | vpn | clash | [app/id932747118](https://apps.apple.com/us/app/id932747118) |
+| Quantumult X | vpn | clash | [app/id1443988620](https://apps.apple.com/us/app/id1443988620) |
 
 
 ## 📢精选VPN推荐📢 
