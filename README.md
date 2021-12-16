@@ -112,7 +112,7 @@
 
 ## 📢免费VPN📢 
 
-⭐不限设备、不限速、顶级服务器集群、多种线路接入！
+⭐不限设备、不限速、顶级服务器集群、多种线路接入
 >🔒[小牛VPN] `https://www.aoxvpn.com`
 
 ⭐永久免费,连接速度快,稳定
@@ -125,9 +125,11 @@
 
 ⭐低价大流量Azure/AGA稳定直连
 >✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
+>>🧑‍🤝‍🧑[邀请码]`mlnSFnXP`
 
 ⭐适合新手或大流量用户
 >✈[比特云Bitcloud] `https://bityun.org/#/register?code=s1BrCGF5`
+>>🧑‍🤝‍🧑[邀请码]`s1BrCGF5`
 
 ## 📢游戏加速器📢 
 
