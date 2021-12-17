@@ -134,6 +134,38 @@
 
 -----------------------------------------------------------------------------------------------------
 
+# *Clash for Android*
+
+## 1.打开Clash for Android主界面
+
+## 2.点击`配置`
+
+![KXSWKHDSY24](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY24.png)
+
+## 3.点击右上角`＋`
+
+![KXSWKHDSY22](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY22.png)
+
+## 4.名称栏写入`GreenFishYYDS`(可以随便填)
+
+## 5.URL栏写入`https://dllx.tk/GreenFishYYDS-Clash`
+
+## 6.点击右上角`📇`保存
+
+![KXSWKHDSY26](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY26.png)
+
+## 7.退出至主界面并打开代理
+
+![KXSWKHDSY25](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY25.png)
+
+## 8.`点击代理`选择使用节点
+
+![KXSWKHDSY23](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY23.png)
+
+## 9.完成
+
+-----------------------------------------------------------------------------------------------------
+
 # *Shadowrocket(小火箭)*
 
 ## 1.打开Shadowrocket主界面
@@ -146,7 +178,7 @@
 
 ## 4.URL栏写入`https://dllx.tk/GreenFishYYDS`or`https://dllx.tk/GreenFishYYDS-Clash`
 
-## 5.打开禁用随机
+## 5.打开`禁用随机`
 
 ## 6.备注栏写入`GreenFishYYDS`(可以随便填)
 
