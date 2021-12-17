@@ -37,11 +37,11 @@
 
 ## 2.点击`配置`并在下载栏写入`https://dllx.tk/GreenFishYYDS-Clash`再点击`下载`
 
-![KXSWKHDSY5(https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY5png)
+![KXSWKHDSY5](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY5.png)
 
 ## 3.点击`代理`并选择代理方式(全局or规则or脚本)
 
-![KXSWKHDSY6(https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY6ng)
+![KXSWKHDSY6](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY6.png)
 
 ## 4.选择使用节点
 
