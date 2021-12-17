@@ -1,4 +1,4 @@
-# *v2rayN*
+# *v2rayN`*
 
 ## 1.打开v2rayN主界面
 
@@ -19,3 +19,9 @@
 ## 6.点击`保存(O)`
 
 ## 7.再次点击`订阅`并点击`更新订阅`
+
+![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
+
+## 8.右击任务栏的`v2rayN`图标然后点击`系统代理`再点击`自动配置系统代理`
+
+![KXSWKHDSY4](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY4.png)
