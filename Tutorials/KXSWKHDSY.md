@@ -83,3 +83,35 @@
 ## 10.点击右下角v2rayNG图标
 
 ## 11.完成
+
+-----------------------------------------------------------------------------------------------------
+
+# *AnXray*
+
+## 1.打开AnXray主界面
+
+## 2.点击左上角`三`
+
+![KXSWKHDSY17](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY17.png)
+
+## 3.点击`分组`
+
+![KXSWKHDSY16](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY16.png)
+
+## 4.点击右上角`三+`
+
+![KXSWKHDSY15](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY15.png)
+
+## 5.分组名栏写入`GreenFishYYDS`(可以随便填)
+
+## 6.更改`分组类型`为`订阅`
+
+## 7.订阅链接栏写入`https://dllx.tk/GreenFishYYDS`
+
+![KXSWKHDSY14](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY14.png)
+
+## 8.选择使用节点
+
+## 9.点击右下角AnXray图标
+
+## 10.完成
