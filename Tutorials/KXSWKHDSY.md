@@ -115,3 +115,31 @@
 ## 9.点击右下角AnXray图标
 
 ## 10.完成
+
+-----------------------------------------------------------------------------------------------------
+
+# *Shadowrocket(小火箭)*
+
+## 1.打开Shadowrocket主界面
+
+## 2.点击右上角`+`
+
+![KXSWKHDSY18](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY18.png)
+
+## 3.更改类型为`Subscribe`
+
+## 4.URL栏写入`https://dllx.tk/GreenFishYYDS`or`https://dllx.tk/GreenFishYYDS-Clash`
+
+## 5.打开禁用随机
+
+## 6.备注栏写入`GreenFishYYDS`(可以随便填)
+
+![KXSWKHDSY19](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY19.png)
+
+## 7.选择使用节点
+
+## 8.打开代理
+
+![KXSWKHDSY20](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY20.png)
+
+## 9.完成
