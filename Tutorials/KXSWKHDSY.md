@@ -48,4 +48,34 @@
 ## 5.完成
 
 
+# *v2rayNG*
 
+## 1.打开v2rayNG主界面
+
+## 2.点击左上角`三`
+
+![KXSWKHDSY9](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY9.png)
+
+## 3.点击`订阅设置`
+
+![KXSWKHDSY11](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY11.png)
+
+## 4.备注栏写入`GreenFishYYDS`(可以随便填)
+
+## 5.地址(url)栏写入`https://dllx.tk/GreenFishYYDS`
+
+## 6.点击右上角`✔`
+
+![KXSWKHDSY13](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY13.png)
+
+## 7.退出至主界面并点击右上角`⋮`
+
+![KXSWKHDSY10](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY10.png)
+
+## 8.点击`更新订阅`
+
+![KXSWKHDSY12](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY12.png)
+
+## 9.选择使用节点
+
+## 10.完成
