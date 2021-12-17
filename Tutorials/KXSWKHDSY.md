@@ -1,3 +1,12 @@
+# 快捷跳转
+# [v2rayN](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayn) [Clash for Windows](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#clash-for-windows) [v2rayNG](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayng) [AnXray](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#anxray)
+
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
 # *v2rayN*
 
 ## 1.打开v2rayN主界面
