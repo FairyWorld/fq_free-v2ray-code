@@ -54,7 +54,7 @@
 
 ## 1.打开v2rayNG主界面
 
-## 2.点击左上角`三`
+## 2.点击左上角`≡`
 
 ![KXSWKHDSY9](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY9.png)
 
@@ -90,7 +90,7 @@
 
 ## 1.打开AnXray主界面
 
-## 2.点击左上角`三`
+## 2.点击左上角`≡`
 
 ![KXSWKHDSY17](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY17.png)
 
@@ -98,7 +98,7 @@
 
 ![KXSWKHDSY16](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY16.png)
 
-## 4.点击右上角`三+`
+## 4.点击右上角`≡+`
 
 ![KXSWKHDSY15](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY15.png)
 
