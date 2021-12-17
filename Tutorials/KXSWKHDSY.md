@@ -1,4 +1,4 @@
-# *v2rayN`*
+# *v2rayN*
 
 ## 1.打开v2rayN主界面
 
@@ -22,6 +22,30 @@
 
 ![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
 
-## 8.右击任务栏的`v2rayN`图标然后点击`系统代理`再点击`自动配置系统代理`
+## 8.选择使用的节点
+
+## 9.点击任务栏的`v2rayN`图标然后点击`系统代理`再点击`自动配置系统代理`
 
 ![KXSWKHDSY4](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY4.png)
+
+## 10.完成
+
+
+# *Clash for Windows*
+
+## 1.打开Clash for Windows主界面
+
+## 2.点击`配置`并在下载栏写入`https://dllx.tk/GreenFishYYDS-Clash`再点击`下载`
+
+![KXSWKHDSY5(https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY5png)
+
+## 3.点击`代理`并选择代理方式(全局or规则or脚本)
+
+![KXSWKHDSY6(https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY6ng)
+
+## 4.选择使用节点
+
+## 5.完成
+
+
+
