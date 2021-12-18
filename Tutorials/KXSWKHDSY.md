@@ -208,7 +208,7 @@
 
 >### 1.打开v2rayN主界面
 >>###  2.点击订阅再点击更新订阅
-![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
+>> ![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
 >>>### 3.完成
 
 
@@ -216,5 +216,11 @@
 
 >### 1.打开Clash for Windows主界面
 >>### 2.点击配置并点击`🔁`
-![KXSWKHDSY27](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY27.png)
+>> ![KXSWKHDSY27](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY27.png)
 >>>### 3.完成
+
+## 4.v2rayNG怎么更新订阅
+
+>### 1.打开v2rayNG主界面
+>>### 2.点击右上角`⋮`并点击
+>> ![KXSWKHDSY28](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY28.png)
