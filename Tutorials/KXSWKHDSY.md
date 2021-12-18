@@ -199,6 +199,6 @@
 
 ## 1.v2rayN怎么更新订阅
 
-> ## 1.打开v2rayN主界面
->> ##  2.点击订阅再点击更新订阅
+>## 1.打开v2rayN主界面
+>>##  2.点击订阅再点击更新订阅
 ![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
