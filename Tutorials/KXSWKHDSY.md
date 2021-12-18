@@ -282,3 +282,15 @@
 >>> ### 3.点击`⋮`并点击`更新`
 >>> ![KXSWKHDSY30](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY30.png)
 >>>> ### 4.完成 
+
+-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+## 7.Shadowrocket怎么更新订阅
+
+> ### 1.打开Shadowrocket主界面
+>> ### 2.点击`ℹ️`
+>> ![KXSWKHDSY31](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY31.png)
+>>> ### 3.点击`完成` 
+>>> ![KXSWKHDSY32](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY32.png)
+>>>> ### 5.完成
