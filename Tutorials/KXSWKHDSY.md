@@ -222,5 +222,17 @@
 ## 4.v2rayNG怎么更新订阅
 
 >### 1.打开v2rayNG主界面
->>### 2.点击右上角`⋮`并点击
+>>### 2.点击右上角`⋮`并点击更新订阅
 >> ![KXSWKHDSY28](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY28.png)
+>>>### 3.完成
+
+## 5.AnXray怎么更新订阅
+
+>### 1.打开AnXray主界面
+>>### 2.点击左上角`≡`
+>> ![KXSWKHDSY17](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY17.png)
+>>>### 3.点击`分组`
+>>>![KXSWKHDSY16](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY16.png)
+>>>>### 4.点击更新
+>>>> ![KXSWKHDSY29](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY29.png)
+>>>>>### 5.完成 
