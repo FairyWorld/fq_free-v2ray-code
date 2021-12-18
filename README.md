@@ -1,8 +1,8 @@
-[![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/QWZKMYZY.png)](https://github.com/ThekingMX1998/free-v2ray-code#)
+![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/QWZKMYZY.png)](https://github.com/ThekingMX1998/free-v2ray-code#)
 
 # 每周五至周日更新节点 * 若节点无法使用请使用
 
-# 🤜[Stream](https://dllx.tk/GreenFishStream)或[Temporary](https://dllx.tk/GreenFishTemp)🤛 右键复制链接地址
+# 🤜[Temporary](https://dllx.tk/GreenFishTemp)🤛 右键复制链接地址
 
 #### PS: [Temporary](https://dllx.tk/GreenFishTemp)属于临时节点，请勿滥用，仅用于更新订阅，谢谢配合
 
