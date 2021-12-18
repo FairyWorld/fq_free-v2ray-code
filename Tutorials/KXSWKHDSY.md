@@ -197,8 +197,16 @@
 
 # *常见问题*
 
-## 1.v2rayN怎么更新订阅
+## 1.为什么更新不了订阅
+
+>## 因节点信息存储在GitHub上
+>## raw.githubusercontent.com被在国内墙
+>>## 挂梯子即可解决[临时节点](https://dllx.tk/GreenFishTemp)
+
+
+## 2.v2rayN怎么更新订阅
 
 >## 1.打开v2rayN主界面
 >>##  2.点击订阅再点击更新订阅
 ![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
+>>>## 3.完成
