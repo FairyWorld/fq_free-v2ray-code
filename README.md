@@ -23,7 +23,7 @@
 
 ## 📢订阅链接📢
 
-### v2ray (需要翻墙)
+### v2ray
 
 流媒体: `https://dllx.tk/GreenFishStream`
 
@@ -32,7 +32,7 @@
 临时: `https://dllx.tk/GreenFishTemp`
 
 
-### Clash (需要翻墙)
+### Clash
 
 流媒体: `https://dllx.tk/GreenFishStream-Clash`
 
