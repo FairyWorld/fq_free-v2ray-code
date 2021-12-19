@@ -122,8 +122,8 @@
 ⭐超过4年的老牌机场
 >✈[GLaDOS] `https://glados.rocks`
 >>🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(3天使用时间)
->>🎫[优惠码]`PORTALGUN`(满100减50)
->>🎫[优惠码]`Of-Course-I-Still-Love-You`(满100减50)
+>>>🎫[优惠码]`PORTALGUN`(满100减50)
+>>>🎫[优惠码]`Of-Course-I-Still-Love-You`(满100减50)
 
 ⭐低价大流量Azure/AGA稳定直连
 >✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
