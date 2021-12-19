@@ -105,10 +105,6 @@
 >🧑‍🤝‍🧑[邀请码]`NDg0NA`(额外7天使用时间)
 >>🚀没有速度限制，没有流量限制
 
-🔒[GLaDOS] `https://glados.rocks`
->🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(注册使用3天使用时间)
->>🚀超过4年的老牌机场
-
 
 ## 📢免费VPN📢 
 
@@ -121,7 +117,13 @@
 ⭐免费,较多地区节点，高速
 >🔒[起飞VPN] `https://www.departuresvpn.tk`
 
+
 ## 📢机场推荐📢 
+⭐超过4年的老牌机场
+>✈[GLaDOS] `https://glados.rocks`
+>>🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(3天使用时间)
+>>🎫[优惠码]`PORTALGUN`(满100减50)
+>🎫[优惠码]`Of-Course-I-Still-Love-You`(满100减50)
 
 ⭐低价大流量Azure/AGA稳定直连
 >✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
@@ -131,9 +133,11 @@
 >✈[比特云Bitcloud] `https://bityun.org/#/register?code=s1BrCGF5`
 >>🧑‍🤝‍🧑[邀请码]`s1BrCGF5`
 
+
 ## 📢游戏加速器📢 
 
 ⭕[蓝泡] `https://www.lpjsq.cn`
+
 
 ## 📢捐赠地址📢 
 
@@ -142,6 +146,7 @@
 💳[Paypal] `https://www.paypal.com/paypalme/thekingmengxian`
 
 🪙[BTC] `giYoWjDXRoNDfMFd3A1bZJ4Jf5K6cF6z`
+
 
 ## 📢友情推荐📢 
 
