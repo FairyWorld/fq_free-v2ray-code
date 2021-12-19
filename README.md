@@ -8,6 +8,12 @@
 
 ## 喜欢本项目 请点击右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### [推荐信息](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E6%8E%A8%E8%8D%90%E4%BF%A1%E6%81%AF) | [订阅链接](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5)https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5 | [TG语言包](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#telegram%E8%AF%AD%E8%A8%80%E5%8C%85) | [科学上网客户端](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF) | [精选vpn推荐](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E7%B2%BE%E9%80%89vpn%E6%8E%A8%E8%8D%90) | [免费VPN](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E5%85%8D%E8%B4%B9vpn) | [机场推荐](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90) | [游戏加速器](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8) | [捐赠地址](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E6%8D%90%E8%B5%A0%E5%9C%B0%E5%9D%80) | [友情推荐](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/README.md#%E5%8F%8B%E6%83%85%E6%8E%A8%E8%8D%90)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 📢推荐信息📢
 
 📞[TG电报群] `https://t.me/payday4478`
