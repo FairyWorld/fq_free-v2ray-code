@@ -3,21 +3,23 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
+external-controller: :9090
 proxies:
   - {name: "[TG电报群https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
   - {name: "[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚(绿头外网集团)(Public), server: 120.232.43.189, port: 15538, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
+  - {name: 阿联酋(绿头外网集团)(Public), server: ah.jiyunshu.com, port: 61352, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 澳大利亚(绿头外网集团)(Public), server: 3.106.142.132, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 澳大利亚(绿头外网集团)(Public) 2, server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy, udp: true}
+  - {name: 澳大利亚(绿头外网集团)(Public) 3, server: n20.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 6bdd9b72-3d2d-4421-9690-445d608dc5d7, udp: true}
   - {name: 保加利亚(绿头外网集团)(Public), server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
-  - {name: 巴西(绿头外网集团)(Public), server: shlt111.manaoapp.com, port: 18839, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public), server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public) 2, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public) 3, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public) 4, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public) 5, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
-  - {name: 加拿大(绿头外网集团)(Public) 6, server: shlt111.manaoapp.com, port: 18838, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public), server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 2, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 3, server: 165.154.226.148, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.226.148}, udp: true}
+  - {name: 中国(绿头外网集团)(Public), server: 42.157.8.162, port: 48106, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 德国(绿头外网集团)(Public), server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
-  - {name: 法国(绿头外网集团)(Public), server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 德国(绿头外网集团)(Public) 2, server: 00.cn3.rocketdns.xyz, port: 65008, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 德国(绿头外网集团)(Public) 3, server: 18.192.212.68, port: 21888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 芬兰(绿头外网集团)(Public), server: 00.cn3.rocketdns.xyz, port: 65020, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
   - {name: 英国(绿头外网集团)(Public), server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 英国(绿头外网集团)(Public) 2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 英国(绿头外网集团)(Public) 3, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
@@ -25,143 +27,175 @@ proxies:
   - {name: 英国(绿头外网集团)(Public) 5, server: 198.244.150.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
   - {name: 英国(绿头外网集团)(Public) 6, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 英国(绿头外网集团)(Public) 7, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 英国(绿头外网集团)(Public) 8, server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 英国(绿头外网集团)(Public) 9, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 英国(绿头外网集团)(Public) 10, server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: gz.52node.xyz, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 3, server: h517439.droplet.today, port: 13544, type: trojan, password: b6a7075fd6, sni: h517439.droplet.today, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 4, server: v11.88host.buzz, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 5, server: v12.88host.buzz, port: 18006, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 6, server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 7, server: hkaws7.biteb-ssx.xyz, port: 14449, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkaws7.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 8, server: hkaz14.biteb-ssx.xyz, port: 12493, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkaz14.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 9, server: hkaz8.biteb-ssx.xyz, port: 14467, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkaz8.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 10, server: hkaz9.biteb-ssx.xyz, port: 12493, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkaz9.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 11, server: a49282d42ea3e0710.awsglobalaccelerator.com, port: 10009, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: a49282d42ea3e0710.awsglobalaccelerator.com}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 12, server: a0ce3b6b7b4f641e6.awsglobalaccelerator.com, port: 10568, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: a0ce3b6b7b4f641e6.awsglobalaccelerator.com}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 13, server: a11429d1138954f21.awsglobalaccelerator.com, port: 14443, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: a11429d1138954f21.awsglobalaccelerator.com}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 14, server: hkawst1.biteb-ssx.xyz, port: 14368, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkawst1.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 15, server: hkawst2.biteb-ssx.xyz, port: 14461, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkawst2.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 16, server: hkaz7.biteb-ssx.xyz, port: 14456, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: hkaz7.biteb-ssx.xyz}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 17, server: 20.187.86.31, port: 80, type: vmess, uuid: b638006b-8fe5-4e4c-ba84-7efcfc9df418, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.187.86.31}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 18, server: 120.232.43.189, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 19, server: 120.232.43.189, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 20, server: 120.232.43.189, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 21, server: 120.232.43.189, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 22, server: 120.232.43.189, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 23, server: 20.205.38.139, port: 80, type: vmess, uuid: b638006b-8fe5-4e4c-ba84-7efcfc9df418, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.38.139}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 24, server: 20.205.114.42, port: 80, type: vmess, uuid: b638006b-8fe5-4e4c-ba84-7efcfc9df418, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.114.42}, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 25, server: iepl.hk.c474.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 26, server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 27, server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 28, server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 29, server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 30, server: iepl.hk.a934.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 31, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 8, server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 9, server: 00.cn3.rocketdns.xyz, port: 65007, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 10, server: 00.cn3.rocketdns.xyz, port: 65009, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 11, server: 104.168.11.36, port: 28888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 12, server: 129.159.36.48, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 13, server: 140.179.98.88, port: 30937, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 14, server: 140.179.98.88, port: 14477, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 15, server: 165.154.226.148, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 16, server: 165.154.226.148, port: 80, type: vmess, uuid: 066954a8-7178-3edf-9535-cd9278c81fb4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 17, server: 165.154.226.148, port: 80, type: vmess, uuid: b604ff6a-385f-37a2-aaaf-23f96068d881, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 18, server: 165.154.226.148, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 19, server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 20, server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 21, server: 18.130.172.237, port: 8888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 22, server: 188.214.106.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: cNbqVVyUfbJFZ6S8EgRH, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 23, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 24, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 25, server: 198.16.63.181, port: 7000, type: vmess, uuid: 92b5c0bb-cc7f-46ff-b0b8-b3f4ac0a64b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 26, server: 199.19.226.178, port: 1234, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 27, server: 2.56.173.239, port: 8888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 28, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 29, server: 23.234.242.253, port: 8888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 30, server: 23.94.183.109, port: 80, type: vmess, uuid: fadd8320-d5c2-4628-8ddb-af885f5470e8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 31, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 32, server: 38.75.136.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 33, server: 45.11.92.50, port: 8888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 34, server: 45.147.201.175, port: 8080, type: vmess, uuid: 48fde697-e39a-4db5-a665-06af84ffbb11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 35, server: 45.45.177.88, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 36, server: 520yyds.zhqt.xyz, port: 30003, type: vmess, uuid: e6e8150f-c7b0-4c7a-aefb-b0b5bbda0fd9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 37, server: ah.jiyunshu.com, port: 61356, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 38, server: cf666.jklist.tk, port: 8080, type: vmess, uuid: 48fde697-e39a-4db5-a665-06af84ffbb11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: els.jklist.tk}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 39, server: cxcu.jiyunshu.com, port: 18888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 40, server: cxcu.jiyunshu.com, port: 14672, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 41, server: cxcu.jiyunshu.com, port: 62350, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 42, server: n20.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 92b82bbb-c007-45eb-b159-6e43724f5c13, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 43, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ee4e5da-93fb-4a55-933b-ff882337b662, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 44, server: sh.jiyunshu.com, port: 10102, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 45, server: sh.jiyunshu.com, port: 11021, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 英国(绿头外网集团)(Public) 46, server: sh.jiyunshu.com, port: 26817, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 格鲁吉亚(绿头外网集团)(Public), server: 185.252.223.203, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: gz.52node.xyz, port: 28038, type: vmess, uuid: fead7086-54ec-3772-b603-ba9e740ec3da, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: v11.88host.buzz, port: 18008, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: v12.88host.buzz, port: 18006, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 4, server: v13.88host.buzz, port: 18007, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v13.88host.buzz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 5, server: iepl.hk.31c4.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 6, server: iepl.hk.f6e8.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 7, server: iepl.hk.023d.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 8, server: iepl.hk.fda0.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 9, server: iepl.hk.206f.linkit.dev, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 10, server: 00.cn1.rocketdns.xyz, port: 65003, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 11, server: 00.cn1.rocketdns.xyz, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 12, server: 00.cn2.rocketdns.xyz, port: 65001, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 13, server: 00.cn3.rocketdns.xyz, port: 65002, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 14, server: 101.32.26.213, port: 33333, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 15, server: 103.117.102.201, port: 8888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 16, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 17, server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 18, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 19, server: 20.205.124.103, port: 28888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 20, server: 47.243.67.117, port: 8888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 21, server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 9130cf82-3615-4582-a2d0-d7e2a74134d3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 22, server: cxcu.jiyunshu.com, port: 10633, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 23, server: cxcu.jiyunshu.com, port: 59647, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 24, server: cxcu.jiyunshu.com, port: 11380, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 25, server: gy.c6.nkeo.top, port: 45112, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 26, server: gy.c6.nkeo.top, port: 45117, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 27, server: gz.hmbiplc.com, port: 54209, type: ss, cipher: chacha20-ietf-poly1305, password: becdc856-4b46-4a9b-82cb-9fe3537d62c3, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 28, server: sh.hmbiplc.com, port: 54209, type: ss, cipher: chacha20-ietf-poly1305, password: becdc856-4b46-4a9b-82cb-9fe3537d62c3, udp: true}
+  - {name: 印度尼西亚(绿头外网集团)(Public), server: 108.136.139.33, port: 21888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 印度尼西亚(绿头外网集团)(Public) 2, server: cxcu.jiyunshu.com, port: 27399, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: 爱尔兰(绿头外网集团)(Public), server: 217.138.222.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
   - {name: 印度(绿头外网集团)(Public), server: 172.105.57.249, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 印度(绿头外网集团)(Public) 2, server: 172.105.57.249, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 印度(绿头外网集团)(Public) 3, server: 172.105.57.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 印度(绿头外网集团)(Public) 4, server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 印度(绿头外网集团)(Public) 5, server: 172.105.57.249, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: 183.232.163.3, port: 2626, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 2, server: jpaws1.biteb-ssx.xyz, port: 14359, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaws1.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 3, server: jpaz2.biteb-ssx.xyz, port: 14278, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz2.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 4, server: jpaws6.biteb-ssx.xyz, port: 14459, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaws6.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 5, server: jpaz1.biteb-ssx.xyz, port: 12534, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz1.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 6, server: jpaz2.biteb-ssx.xyz, port: 14353, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz2.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 7, server: jpaz3.biteb-ssx.xyz, port: 14341, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz3.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 8, server: jpaz4.biteb-ssx.xyz, port: 11742, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz4.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 9, server: jpaz5.biteb-ssx.xyz, port: 11742, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz5.biteb-ssx.xyz}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 10, server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 11, server: 85.208.108.106, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 12, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 13, server: 85.208.108.146, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 14, server: shlt222.manaoapp.com, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 15, server: 117.148.168.133, port: 19999, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 16, server: 20.210.228.244, port: 80, type: vmess, uuid: b638006b-8fe5-4e4c-ba84-7efcfc9df418, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.210.228.244}, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 17, server: shlt222.manaoapp.com, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 18, server: shlt222.manaoapp.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 19, server: shlt222.manaoapp.com, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 20, server: shlt222.manaoapp.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 21, server: shlt222.manaoapp.com, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 日本(绿头外网集团)(Public) 22, server: shlt222.manaoapp.com, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: jpaz3.biteb-ssx.xyz, port: 14341, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz3.biteb-ssx.xyz}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: 85.208.108.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: 85.208.108.146, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 4, server: 00.cn2.rocketdns.xyz, port: 65004, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 5, server: 00.cn3.rocketdns.xyz, port: 65005, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 6, server: 00.cn3.rocketdns.xyz, port: 65006, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 7, server: 140.179.98.88, port: 21889, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 8, server: 140.179.98.88, port: 24418, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 9, server: 140.179.98.88, port: 36455, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 10, server: 3.112.194.253, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 11, server: azhk1.sf66.cf, port: 20000, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 12, server: jp.node.qchwnd.moe, port: 49603, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: 韩国(绿头外网集团)(Public), server: 34.64.219.99, port: 80, type: vmess, uuid: 8dd34202-7790-43e3-f56e-897968e8f1a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg.gg/lqmoe}, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 2, server: kraws1.biteb-ssx.xyz, port: 14393, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: kraws1.biteb-ssx.xyz}, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 3, server: 116.163.14.105, port: 11106, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 4, server: 116.163.10.24, port: 15538, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 韩国(绿头外网集团)(Public) 5, server: 116.163.10.26, port: 15538, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 2, server: 140.179.98.88, port: 21888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 3, server: 146.56.110.33, port: 21888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 韩国(绿头外网集团)(Public) 4, server: 152.69.228.146, port: 21888, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: 卢森堡(绿头外网集团)(Public), server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}, udp: true}
+  - {name: 澳门(绿头外网集团)(Public), server: ctm.poloddns.xyz, port: 35553, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 澳门(绿头外网集团)(Public) 2, server: cxcu.jiyunshu.com, port: 19072, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 马来西亚(绿头外网集团)(Public), server: mlml1.yyyywe.top, port: 10281, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: 挪威(绿头外网集团)(Public), server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 挪威(绿头外网集团)(Public) 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 3, server: 46.29.218.146, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 4, server: 46.29.218.146, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 5, server: 46.29.218.146, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 6, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 7, server: 46.29.219.246, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 8, server: 46.29.219.246, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 9, server: 46.29.219.246, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 挪威(绿头外网集团)(Public) 10, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 新西兰(绿头外网集团)(Public), server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5, udp: true}
   - {name: 菲律宾(绿头外网集团)(Public), server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
-  - {name: 波兰(绿头外网集团)(Public), server: 183.232.202.87, port: 15538, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
   - {name: 葡萄牙(绿头外网集团)(Public), server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
   - {name: 葡萄牙(绿头外网集团)(Public) 2, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
-  - {name: 俄罗斯(绿头外网集团)(Public), server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(绿头外网集团)(Public) 2, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯(绿头外网集团)(Public) 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: 183.232.163.3, port: 2424, type: vmess, uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: 217.197.161.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 3, server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 4, server: 217.197.161.136, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 5, server: 217.197.161.136, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 6, server: 217.197.161.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 7, server: 217.197.161.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 8, server: 217.197.161.136, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 9, server: 217.197.161.138, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 10, server: 217.197.161.138, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 11, server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 12, server: 217.197.161.138, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 13, server: 217.197.161.138, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 14, server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 15, server: 217.197.161.138, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 16, server: 217.197.161.166, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 17, server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 18, server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 19, server: 217.197.161.166, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 20, server: 217.197.161.166, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 21, server: 217.197.161.166, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 22, server: 217.197.161.166, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 23, server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 24, server: 217.197.161.166, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 25, server: 217.197.161.166, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 26, server: 217.197.161.166, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 27, server: v12.88host.buzz, port: 18004, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 28, server: zecjk.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 29, server: 103.253.26.20, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: zecjk.com}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 30, server: 120.232.43.186, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 31, server: 120.232.43.186, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 32, server: 120.232.43.186, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 33, server: 120.232.43.186, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 34, server: 120.232.43.186, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public), server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public) 2, server: 185.246.154.241, port: 80, type: vmess, uuid: 066954a8-7178-3edf-9535-cd9278c81fb4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public) 3, server: 185.246.154.241, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 俄罗斯(绿头外网集团)(Public) 4, server: 185.246.154.241, port: 80, type: vmess, uuid: b604ff6a-385f-37a2-aaaf-23f96068d881, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: 217.197.161.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: 217.197.161.136, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 3, server: 217.197.161.136, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 4, server: 217.197.161.136, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 5, server: 217.197.161.136, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 6, server: 217.197.161.136, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 7, server: 217.197.161.136, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 8, server: 217.197.161.138, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 9, server: 217.197.161.138, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 10, server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 11, server: 217.197.161.138, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 12, server: 217.197.161.138, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 13, server: 217.197.161.138, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 14, server: 217.197.161.138, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 15, server: 217.197.161.166, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 16, server: 217.197.161.166, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 17, server: 217.197.161.166, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 18, server: 217.197.161.166, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 19, server: 217.197.161.166, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 20, server: 217.197.161.166, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 21, server: 217.197.161.166, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 22, server: 217.197.161.166, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 23, server: 217.197.161.166, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 24, server: 217.197.161.166, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 25, server: 217.197.161.166, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 26, server: v12.88host.buzz, port: 18004, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v12.88host.buzz}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 27, server: 00.cn2.rocketdns.xyz, port: 65016, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 28, server: 18.141.180.10, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 29, server: ah.jiyunshu.com, port: 27120, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 30, server: azhk1.sf66.cf, port: 20005, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 31, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: ec33bb79-547a-420e-a2fe-994de2c756fd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 32, server: v5.emovpn.xyz, port: 80, type: vmess, uuid: 6bdd9b72-3d2d-4421-9690-445d608dc5d7, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
   - {name: 台湾(绿头外网集团)(Public), server: 104.199.206.233, port: 80, type: vmess, uuid: 41b7aec8-2c85-4870-d1b3-a9d773ee618f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg.gg/lqmoe}, udp: true}
   - {name: 台湾(绿头外网集团)(Public) 2, server: v13.88host.buzz, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(绿头外网集团)(Public), server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
   - {name: 美国(绿头外网集团)(Public) 2, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
   - {name: 美国(绿头外网集团)(Public) 3, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 4, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 5, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 6, server: v11.88host.buzz, port: 18121, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 7, server: wq199879.xyz, port: 443, type: vmess, uuid: da888772-3b91-4cce-8042-26ddc5c9fbf0, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 8, server: jpaz4.biteb-ssx.xyz, port: 14264, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz4.biteb-ssx.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 9, server: jpaz3.biteb-ssx.xyz, port: 14464, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz3.biteb-ssx.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 10, server: usin4.biteb-ssx.xyz, port: 14360, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: usin4.biteb-ssx.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 11, server: usin5.biteb-ssx.xyz, port: 14350, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: usin5.biteb-ssx.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 12, server: usin6.biteb-ssx.xyz, port: 14466, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: usin6.biteb-ssx.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 13, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 14, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 15, server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 16, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 17, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 18, server: 172.99.190.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 19, server: shlt111.manaoapp.com, port: 19998, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 20, server: shlt111.manaoapp.com, port: 19999, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 21, server: shlt111.manaoapp.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 22, server: shlt111.manaoapp.com, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 23, server: shlt111.manaoapp.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
-  - {name: 美国(绿头外网集团)(Public) 24, server: 120.232.43.186, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 4, server: v11.88host.buzz, port: 18121, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mojing, ws-headers: {Host: v11.88host.buzz}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 5, server: jpaz4.biteb-ssx.xyz, port: 14264, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz4.biteb-ssx.xyz}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 6, server: jpaz3.biteb-ssx.xyz, port: 14464, type: vmess, uuid: 012ef1e1-ac39-3cdc-a646-efbe7ed326b4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: index, ws-headers: {Host: jpaz3.biteb-ssx.xyz}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 7, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 8, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 9, server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 10, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 11, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 12, server: 172.99.190.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 13, server: 120.197.88.216, port: 20004, type: vmess, uuid: 9130cf82-3615-4582-a2d0-d7e2a74134d3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 14, server: 167.88.62.104, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 15, server: 18.218.198.254, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 16, server: 198.16.63.208, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 17, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 18, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 19, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 20, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 21, server: www.xinyi369.tk, port: 443, type: trojan, password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a, sni: www.xinyi369.tk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -170,17 +204,19 @@ proxy-groups:
       - DIRECT
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -191,6 +227,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -219,9 +292,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -240,31 +312,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -297,8 +370,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -322,9 +393,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -333,17 +401,19 @@ proxy-groups:
     proxies:
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -354,6 +424,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -382,9 +489,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -403,31 +509,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -460,8 +567,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -485,9 +590,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -496,17 +598,19 @@ proxy-groups:
       - 🎯 全球直连
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -517,6 +621,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -545,9 +686,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -566,31 +706,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -623,8 +764,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -648,9 +787,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
   - name: 📲 电报信息
     type: select
     proxies:
@@ -658,17 +794,19 @@ proxy-groups:
       - 🎯 全球直连
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -679,6 +817,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -707,9 +882,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -728,31 +902,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -785,8 +960,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -810,9 +983,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -820,17 +990,19 @@ proxy-groups:
       - 🚀 节点选择
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -841,6 +1013,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -869,9 +1078,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -890,31 +1098,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -947,8 +1156,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -972,9 +1179,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -982,17 +1186,19 @@ proxy-groups:
       - 🎯 全球直连
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -1003,6 +1209,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -1031,9 +1274,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -1052,31 +1294,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -1109,8 +1352,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -1134,9 +1375,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1161,17 +1399,19 @@ proxy-groups:
       - ♻️ 自动选择
       - "[TG电报群https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
+      - 阿联酋(绿头外网集团)(Public)
       - 澳大利亚(绿头外网集团)(Public)
+      - 澳大利亚(绿头外网集团)(Public) 2
+      - 澳大利亚(绿头外网集团)(Public) 3
       - 保加利亚(绿头外网集团)(Public)
-      - 巴西(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public)
       - 加拿大(绿头外网集团)(Public) 2
       - 加拿大(绿头外网集团)(Public) 3
-      - 加拿大(绿头外网集团)(Public) 4
-      - 加拿大(绿头外网集团)(Public) 5
-      - 加拿大(绿头外网集团)(Public) 6
+      - 中国(绿头外网集团)(Public)
       - 德国(绿头外网集团)(Public)
-      - 法国(绿头外网集团)(Public)
+      - 德国(绿头外网集团)(Public) 2
+      - 德国(绿头外网集团)(Public) 3
+      - 芬兰(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public)
       - 英国(绿头外网集团)(Public) 2
       - 英国(绿头外网集团)(Public) 3
@@ -1182,6 +1422,43 @@ proxy-groups:
       - 英国(绿头外网集团)(Public) 8
       - 英国(绿头外网集团)(Public) 9
       - 英国(绿头外网集团)(Public) 10
+      - 英国(绿头外网集团)(Public) 11
+      - 英国(绿头外网集团)(Public) 12
+      - 英国(绿头外网集团)(Public) 13
+      - 英国(绿头外网集团)(Public) 14
+      - 英国(绿头外网集团)(Public) 15
+      - 英国(绿头外网集团)(Public) 16
+      - 英国(绿头外网集团)(Public) 17
+      - 英国(绿头外网集团)(Public) 18
+      - 英国(绿头外网集团)(Public) 19
+      - 英国(绿头外网集团)(Public) 20
+      - 英国(绿头外网集团)(Public) 21
+      - 英国(绿头外网集团)(Public) 22
+      - 英国(绿头外网集团)(Public) 23
+      - 英国(绿头外网集团)(Public) 24
+      - 英国(绿头外网集团)(Public) 25
+      - 英国(绿头外网集团)(Public) 26
+      - 英国(绿头外网集团)(Public) 27
+      - 英国(绿头外网集团)(Public) 28
+      - 英国(绿头外网集团)(Public) 29
+      - 英国(绿头外网集团)(Public) 30
+      - 英国(绿头外网集团)(Public) 31
+      - 英国(绿头外网集团)(Public) 32
+      - 英国(绿头外网集团)(Public) 33
+      - 英国(绿头外网集团)(Public) 34
+      - 英国(绿头外网集团)(Public) 35
+      - 英国(绿头外网集团)(Public) 36
+      - 英国(绿头外网集团)(Public) 37
+      - 英国(绿头外网集团)(Public) 38
+      - 英国(绿头外网集团)(Public) 39
+      - 英国(绿头外网集团)(Public) 40
+      - 英国(绿头外网集团)(Public) 41
+      - 英国(绿头外网集团)(Public) 42
+      - 英国(绿头外网集团)(Public) 43
+      - 英国(绿头外网集团)(Public) 44
+      - 英国(绿头外网集团)(Public) 45
+      - 英国(绿头外网集团)(Public) 46
+      - 格鲁吉亚(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public)
       - 香港(绿头外网集团)(Public) 2
       - 香港(绿头外网集团)(Public) 3
@@ -1210,9 +1487,8 @@ proxy-groups:
       - 香港(绿头外网集团)(Public) 26
       - 香港(绿头外网集团)(Public) 27
       - 香港(绿头外网集团)(Public) 28
-      - 香港(绿头外网集团)(Public) 29
-      - 香港(绿头外网集团)(Public) 30
-      - 香港(绿头外网集团)(Public) 31
+      - 印度尼西亚(绿头外网集团)(Public)
+      - 印度尼西亚(绿头外网集团)(Public) 2
       - 爱尔兰(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public)
       - 印度(绿头外网集团)(Public) 2
@@ -1231,31 +1507,32 @@ proxy-groups:
       - 日本(绿头外网集团)(Public) 10
       - 日本(绿头外网集团)(Public) 11
       - 日本(绿头外网集团)(Public) 12
-      - 日本(绿头外网集团)(Public) 13
-      - 日本(绿头外网集团)(Public) 14
-      - 日本(绿头外网集团)(Public) 15
-      - 日本(绿头外网集团)(Public) 16
-      - 日本(绿头外网集团)(Public) 17
-      - 日本(绿头外网集团)(Public) 18
-      - 日本(绿头外网集团)(Public) 19
-      - 日本(绿头外网集团)(Public) 20
-      - 日本(绿头外网集团)(Public) 21
-      - 日本(绿头外网集团)(Public) 22
       - 韩国(绿头外网集团)(Public)
       - 韩国(绿头外网集团)(Public) 2
       - 韩国(绿头外网集团)(Public) 3
       - 韩国(绿头外网集团)(Public) 4
-      - 韩国(绿头外网集团)(Public) 5
       - 卢森堡(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public)
+      - 澳门(绿头外网集团)(Public) 2
+      - 马来西亚(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public)
       - 挪威(绿头外网集团)(Public) 2
+      - 挪威(绿头外网集团)(Public) 3
+      - 挪威(绿头外网集团)(Public) 4
+      - 挪威(绿头外网集团)(Public) 5
+      - 挪威(绿头外网集团)(Public) 6
+      - 挪威(绿头外网集团)(Public) 7
+      - 挪威(绿头外网集团)(Public) 8
+      - 挪威(绿头外网集团)(Public) 9
+      - 挪威(绿头外网集团)(Public) 10
+      - 新西兰(绿头外网集团)(Public)
       - 菲律宾(绿头外网集团)(Public)
-      - 波兰(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public)
       - 葡萄牙(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public)
       - 俄罗斯(绿头外网集团)(Public) 2
       - 俄罗斯(绿头外网集团)(Public) 3
+      - 俄罗斯(绿头外网集团)(Public) 4
       - 新加坡(绿头外网集团)(Public)
       - 新加坡(绿头外网集团)(Public) 2
       - 新加坡(绿头外网集团)(Public) 3
@@ -1288,8 +1565,6 @@ proxy-groups:
       - 新加坡(绿头外网集团)(Public) 30
       - 新加坡(绿头外网集团)(Public) 31
       - 新加坡(绿头外网集团)(Public) 32
-      - 新加坡(绿头外网集团)(Public) 33
-      - 新加坡(绿头外网集团)(Public) 34
       - 台湾(绿头外网集团)(Public)
       - 台湾(绿头外网集团)(Public) 2
       - 美国(绿头外网集团)(Public)
@@ -1313,9 +1588,6 @@ proxy-groups:
       - 美国(绿头外网集团)(Public) 19
       - 美国(绿头外网集团)(Public) 20
       - 美国(绿头外网集团)(Public) 21
-      - 美国(绿头外网集团)(Public) 22
-      - 美国(绿头外网集团)(Public) 23
-      - 美国(绿头外网集团)(Public) 24
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
