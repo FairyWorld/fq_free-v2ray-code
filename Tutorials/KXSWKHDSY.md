@@ -1,9 +1,9 @@
 # 快捷跳转:
-## [v2rayN](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayn) | [Clash for Windows](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#clash-for-windows) 
-## [v2rayNG](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayng) | [AnXray](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#anxray) | [Clash for Android](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#clash-for-android)
-## [Shadowrocket(小火箭)](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#shadowrocket%E5%B0%8F%E7%81%AB%E7%AE%AD)
+## [v2rayN](/Tutorials/KXSWKHDSY.md#v2rayn) | [Clash for Windows](/Tutorials/KXSWKHDSY.md#clash-for-windows) 
+## [v2rayNG](/Tutorials/KXSWKHDSY.md#v2rayng) | [AnXray](/Tutorials/KXSWKHDSY.md#anxray) | [Clash for Android](/Tutorials/KXSWKHDSY.md#clash-for-android)
+## [Shadowrocket(小火箭)](/Tutorials/KXSWKHDSY.md#shadowrocket%E5%B0%8F%E7%81%AB%E7%AE%AD)
 
-## [常见问题](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-1)
+## [常见问题](/Tutorials/KXSWKHDSY.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-1)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
@@ -26,25 +26,25 @@
 
 ## 3.点击左下角`添加(A)`新建一个订阅栏位
 
-![KXSWKHDSY1](Image/KXSWKHDSY1.png)
+![KXSWKHDSY1](/Image/KXSWKHDSY1.png)
 
 ## 4.备注栏写入`GreenFishYYDS`(可以随便填)
 
 ## 5.地址(url)栏写入`https://dllx.tk/GreenFishYYDS`
 
-![KXSWKHDSY2](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY2.png)
+![KXSWKHDSY2](/Image/KXSWKHDSY2.png)
 
 ## 6.点击`保存(O)`
 
 ## 7.再次点击`订阅`并点击`更新订阅`
 
-![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
+![KXSWKHDSY3](/Image/KXSWKHDSY3.png)
 
 ## 8.选择使用的节点
 
 ## 9.点击任务栏的`v2rayN`图标然后点击`系统代理`再点击`自动配置系统代理`
 
-![KXSWKHDSY4](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY4.png)
+![KXSWKHDSY4](/Image/KXSWKHDSY4.png)
 
 ## 10.完成
 
@@ -56,11 +56,11 @@
 
 ## 2.点击`配置`并在下载栏写入`https://dllx.tk/GreenFishYYDS-Clash`再点击`下载`
 
-![KXSWKHDSY5](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY5.png)
+![KXSWKHDSY5](/Image/KXSWKHDSY5.png)
 
 ## 3.点击`代理`并选择代理方式(全局or规则or脚本)
 
-![KXSWKHDSY6](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY6.png)
+![KXSWKHDSY6](/Image/KXSWKHDSY6.png)
 
 ## 4.选择使用节点
 
@@ -74,11 +74,11 @@
 
 ## 2.点击左上角`≡`
 
-![KXSWKHDSY9](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY9.png)
+![KXSWKHDSY9](/Image/KXSWKHDSY9.png)
 
 ## 3.点击`订阅设置`
 
-![KXSWKHDSY11](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY11.png)
+![KXSWKHDSY11](/Image/KXSWKHDSY11.png)
 
 ## 4.备注栏写入`GreenFishYYDS`(可以随便填)
 
@@ -86,15 +86,15 @@
 
 ## 6.点击右上角`✔`
 
-![KXSWKHDSY13](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY13.png)
+![KXSWKHDSY13](/Image/KXSWKHDSY13.png)
 
 ## 7.退出至主界面并点击右上角`⋮`
 
-![KXSWKHDSY10](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY10.png)
+![KXSWKHDSY10](/Image/KXSWKHDSY10.png)
 
 ## 8.点击`更新订阅`
 
-![KXSWKHDSY12](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY12.png)
+![KXSWKHDSY12](/Image/KXSWKHDSY12.png)
 
 ## 9.选择使用节点
 
@@ -110,15 +110,15 @@
 
 ## 2.点击左上角`≡`
 
-![KXSWKHDSY17](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY17.png)
+![KXSWKHDSY17](/Image/KXSWKHDSY17.png)
 
 ## 3.点击`分组`
 
-![KXSWKHDSY16](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY16.png)
+![KXSWKHDSY16](/Image/KXSWKHDSY16.png)
 
 ## 4.点击右上角`≡+`
 
-![KXSWKHDSY15](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY15.png)
+![KXSWKHDSY15](/Image/KXSWKHDSY15.png)
 
 ## 5.分组名栏写入`GreenFishYYDS`(可以随便填)
 
@@ -126,7 +126,7 @@
 
 ## 7.订阅链接栏写入`https://dllx.tk/GreenFishYYDS`
 
-![KXSWKHDSY14](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY14.png)
+![KXSWKHDSY14](/Image/KXSWKHDSY14.png)
 
 ## 8.选择使用节点
 
@@ -142,11 +142,11 @@
 
 ## 2.点击`配置`
 
-![KXSWKHDSY24](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY24.png)
+![KXSWKHDSY24](/Image/KXSWKHDSY24.png)
 
 ## 3.点击右上角`＋`
 
-![KXSWKHDSY22](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY22.png)
+![KXSWKHDSY22](/Image/KXSWKHDSY22.png)
 
 ## 4.名称栏写入`GreenFishYYDS`(可以随便填)
 
@@ -154,15 +154,15 @@
 
 ## 6.点击右上角`📇`保存
 
-![KXSWKHDSY26](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY26.png)
+![KXSWKHDSY26](/Image/KXSWKHDSY26.png)
 
 ## 7.退出至主界面并打开代理
 
-![KXSWKHDSY25](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY25.png)
+![KXSWKHDSY25](/Image/KXSWKHDSY25.png)
 
 ## 8.`点击代理`选择使用节点
 
-![KXSWKHDSY23](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY23.png)
+![KXSWKHDSY23](/Image/KXSWKHDSY23.png)
 
 ## 9.完成
 
@@ -174,7 +174,7 @@
 
 ## 2.点击右上角`+`
 
-![KXSWKHDSY18](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY18.png)
+![KXSWKHDSY18](/Image/KXSWKHDSY18.png)
 
 ## 3.更改类型为`Subscribe`
 
@@ -184,13 +184,13 @@
 
 ## 6.备注栏写入`GreenFishYYDS`(可以随便填)
 
-![KXSWKHDSY19](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY19.png)
+![KXSWKHDSY19](/Image/KXSWKHDSY19.png)
 
 ## 7.选择使用节点
 
 ## 8.打开代理
 
-![KXSWKHDSY20](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY20.png)
+![KXSWKHDSY20](/Image/KXSWKHDSY20.png)
 
 ## 9.完成
 
@@ -202,13 +202,13 @@
 
 # *常见问题*
 
-### * [为什么更新不了订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#1%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E8%AE%A2%E9%98%85)
-### * [v2rayN怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#2v2rayn%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [CFW怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#3cfw%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [v2rayNG怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#4v2rayng%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [AnXray怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#5anxray%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [CFA怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#6cfa%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [Shadowrocket怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#7shadowrocket%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [为什么更新不了订阅](/Tutorials/KXSWKHDSY.md#1%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E8%AE%A2%E9%98%85)
+### * [v2rayN怎么更新订阅](/Tutorials/KXSWKHDSY.md#2v2rayn%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [CFW怎么更新订阅](/Tutorials/KXSWKHDSY.md#3cfw%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [v2rayNG怎么更新订阅](/Tutorials/KXSWKHDSY.md#4v2rayng%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [AnXray怎么更新订阅](/Tutorials/KXSWKHDSY.md#5anxray%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [CFA怎么更新订阅](/Tutorials/KXSWKHDSY.md#6cfa%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [Shadowrocket怎么更新订阅](/Tutorials/KXSWKHDSY.md#7shadowrocket%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
@@ -235,7 +235,7 @@
 
 >### 1.打开v2rayN主界面
 >>###  2.点击订阅再点击更新订阅
->> ![KXSWKHDSY3](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY3.png)
+>> ![KXSWKHDSY3](/Image/KXSWKHDSY3.png)
 >>>### 3.完成
 
 -----------------------------------------------------------------------------------------------------
@@ -245,7 +245,7 @@
 
 >### 1.打开Clash for Windows主界面
 >>### 2.点击配置并点击`🔁`
->> ![KXSWKHDSY27](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY27.png)
+>> ![KXSWKHDSY27](/Image/KXSWKHDSY27.png)
 >>>### 3.完成
 
 -----------------------------------------------------------------------------------------------------
@@ -255,7 +255,7 @@
 
 >### 1.打开v2rayNG主界面
 >>### 2.点击右上角`⋮`并点击更新订阅
->> ![KXSWKHDSY28](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY28.png)
+>> ![KXSWKHDSY28](/Image/KXSWKHDSY28.png)
 >>>### 3.完成
 
 -----------------------------------------------------------------------------------------------------
@@ -265,11 +265,11 @@
 
 >### 1.打开AnXray主界面
 >>### 2.点击左上角`≡`
->> ![KXSWKHDSY17](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY17.png)
+>> ![KXSWKHDSY17](/Image/KXSWKHDSY17.png)
 >>>### 3.点击`分组`
->>>![KXSWKHDSY16](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY16.png)
+>>>![KXSWKHDSY16](/Image/KXSWKHDSY16.png)
 >>>>### 4.点击`更新`
->>>> ![KXSWKHDSY29](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY29.png)
+>>>> ![KXSWKHDSY29](/Image/KXSWKHDSY29.png)
 >>>>>### 5.完成 
 
 -----------------------------------------------------------------------------------------------------
@@ -279,9 +279,9 @@
 
 >### 1.打开Clash for Android主界面
 >>### 2.点击`配置`
->> ![KXSWKHDSY24](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY24.png)
+>> ![KXSWKHDSY24](/Image/KXSWKHDSY24.png)
 >>> ### 3.点击`⋮`并点击`更新`
->>> ![KXSWKHDSY30](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY30.png)
+>>> ![KXSWKHDSY30](/Image/KXSWKHDSY30.png)
 >>>> ### 4.完成 
 
 -----------------------------------------------------------------------------------------------------
@@ -291,7 +291,7 @@
 
 > ### 1.打开Shadowrocket主界面
 >> ### 2.点击`ℹ️`
->> ![KXSWKHDSY31](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY31.png)
+>> ![KXSWKHDSY31](/Image/KXSWKHDSY31.png)
 >>> ### 3.点击`完成` 
->>> ![KXSWKHDSY32](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY32.png)
+>>> ![KXSWKHDSY32](/Image/KXSWKHDSY32.png)
 >>>> ### 5.完成
