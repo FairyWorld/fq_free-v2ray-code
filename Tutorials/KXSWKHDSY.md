@@ -22,11 +22,11 @@
 
 ## 2.点击`订阅`再点击`订阅设置`
 
-![KXSWKHDSY0](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY0.png)
+![KXSWKHDSY0](/Image/KXSWKHDSY0.png)
 
 ## 3.点击左下角`添加(A)`新建一个订阅栏位
 
-![KXSWKHDSY1](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Image/KXSWKHDSY1.png)
+![KXSWKHDSY1](Image/KXSWKHDSY1.png)
 
 ## 4.备注栏写入`GreenFishYYDS`(可以随便填)
 
