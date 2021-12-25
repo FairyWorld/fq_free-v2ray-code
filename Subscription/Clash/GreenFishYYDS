@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {name: 🏳️‍🌈 节点更新时间2021/12/25, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDC, sni: payday2.eu.org, skip-cert-verify: false, udp: true}
   - {name: "[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: false, udp: true}
   - {name: "[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: false, udp: true}
   - {name: 🇦🇷 阿根廷(绿头外网集团)(Public), server: donweb.ar.01.5566365.xyz, port: 21016, type: trojan, password: 9df07935-b402-4272-b2e7-219a040609d5, sni: donweb.ar.01.5566365.xyz, skip-cert-verify: false, udp: true}
@@ -14,7 +15,7 @@ proxies:
   - {name: 🇦🇺 澳大利亚(绿头外网集团)(Public) 3, server: 1.0.0.1, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess, ws-headers: {Host: us-aws1.payday501.workers.dev}, udp: true}
   - {name: 🇦🇺 澳大利亚(绿头外网集团)(Public) 4, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 🇦🇺 澳大利亚(绿头外网集团)(Public) 5, server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8, udp: true}
-  - {name: 🇧🇬 保加利亚(绿头外网集团)(Public), server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: 保加利亚(绿头外网集团)(Public), server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
   - {name: 🇨🇦 加拿大(绿头外网集团)(Public), server: v28.88host.buzz, port: 18073, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: youtube-aweikeji}, udp: true}
   - {name: 🇨🇦 加拿大(绿头外网集团)(Public) 2, server: v27.88host.buzz, port: 18072, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: youtube-aweikeji}, udp: true}
   - {name: 🇨🇦 加拿大(绿头外网集团)(Public) 3, server: 217.138.200.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS, udp: true}
@@ -132,7 +133,7 @@ proxies:
   - {name: 🇳🇴 挪威(绿头外网集团)(Public) 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇵🇭 菲律宾(绿头外网集团)(Public), server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
   - {name: 🇵🇭 菲律宾(绿头外网集团)(Public) 2, server: 188.214.125.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
-  - {name: 🇵🇹 葡萄牙(绿头外网集团)(Public), server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
+  - {name: 葡萄牙(绿头外网集团)(Public), server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf, udp: true}
   - {name: 🇷🇺 俄罗斯(绿头外网集团)(Public), server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}, udp: true}
   - {name: 🇷🇺 俄罗斯(绿头外网集团)(Public) 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: 🇷🇺 俄罗斯(绿头外网集团)(Public) 3, server: 00.cn3.rocketdns.xyz, port: 65021, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
@@ -197,63 +198,63 @@ proxies:
   - {name: 🇨🇳 台湾(绿头外网集团)(Public) 14, server: 00.cn3.rocketdns.xyz, port: 65014, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
   - {name: 🇨🇳 台湾(绿头外网集团)(Public) 15, server: 00.cn1.rocketdns.xyz, port: 65018, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn1.rocketdns.xyz}, udp: true}
   - {name: 🇨🇳 台湾(绿头外网集团)(Public) 16, server: v13.88host.buzz, port: 18119, type: vmess, uuid: e842b316-864c-38ed-b26e-31f07add8ddb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public), server: v24.88host.buzz, port: 18140, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: youtube-aweikeji}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 2, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 3, server: multa.us.01.5566365.xyz, port: 21000, type: trojan, password: 9df07935-b402-4272-b2e7-219a040609d5, sni: multa.us.01.5566365.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 4, server: iplcvula.us.01.5566365.xyz, port: 45000, type: trojan, password: 9df07935-b402-4272-b2e7-219a040609d5, sni: iplcvula.us.01.5566365.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 5, server: inapus.mooncloud.bike, port: 443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 6, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 7, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 8, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 9, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 10, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 11, server: 38.68.135.19, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 12, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 13, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 14, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 15, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 16, server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 17, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 18, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 19, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 20, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 21, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 22, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 23, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22183.232.13.115%22%7D"}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 24, server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 25, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 26, server: 142.202.48.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 27, server: 142.202.48.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 28, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 29, server: 142.202.48.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 30, server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 31, server: 142.202.48.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 32, server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 33, server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 34, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 35, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 36, server: www.xinyi369.tk, port: 443, type: trojan, password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a, sni: www.xinyi369.tk, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 37, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 38, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 39, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 40, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.13.115}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 41, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 42, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 142.4.105.253}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 43, server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 44, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 45, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 46, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 47, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 48, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 49, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 50, server: 120.197.88.216, port: 20004, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 51, server: 120.197.88.216, port: 20047, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 52, server: 120.197.88.216, port: 20005, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 53, server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 54, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 55, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 56, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 🇺🇸 美国(绿头外网集团)(Public) 57, server: v24.88host.buzz, port: 18140, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public), server: v24.88host.buzz, port: 18140, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: youtube-aweikeji}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 2, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 3, server: multa.us.01.5566365.xyz, port: 21000, type: trojan, password: 9df07935-b402-4272-b2e7-219a040609d5, sni: multa.us.01.5566365.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 4, server: iplcvula.us.01.5566365.xyz, port: 45000, type: trojan, password: 9df07935-b402-4272-b2e7-219a040609d5, sni: iplcvula.us.01.5566365.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 5, server: inapus.mooncloud.bike, port: 443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: inapus.mooncloud.bike}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 6, server: cm-jm.okvpn.xyz, port: 20004, type: vmess, uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 7, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 8, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 9, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 10, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 11, server: 38.68.135.19, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 12, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 13, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 14, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 15, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 16, server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 17, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 18, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 19, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 20, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 21, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 22, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 23, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22183.232.13.115%22%7D"}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 24, server: 142.202.48.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 25, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 26, server: 142.202.48.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 27, server: 142.202.48.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 28, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 29, server: 142.202.48.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 30, server: 142.202.48.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 31, server: 142.202.48.99, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 32, server: 142.202.48.99, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 33, server: 142.202.48.43, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 34, server: 142.202.48.43, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 35, server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 36, server: www.xinyi369.tk, port: 443, type: trojan, password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a, sni: www.xinyi369.tk, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 37, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 38, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 39, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 40, server: 183.232.13.115, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 183.232.13.115}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 41, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 42, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 142.4.105.253}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 43, server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 44, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 45, server: 142.202.48.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 46, server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 47, server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 48, server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 49, server: 142.202.48.43, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 50, server: 120.197.88.216, port: 20004, type: vmess, uuid: 973f8975-e494-4c77-921f-212ca83fff8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 51, server: 120.197.88.216, port: 20047, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 52, server: 120.197.88.216, port: 20005, type: vmess, uuid: d73ff709-70bf-4183-9648-6cb1f5e8aafd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 120.197.88.216}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 53, server: 116.163.14.146, port: 65000, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 116.163.14.146}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 54, server: 00.cn2.rocketdns.xyz, port: 65010, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn2.rocketdns.xyz}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 55, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: 00.cn3.rocketdns.xyz}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 56, server: 00.cn3.rocketdns.xyz, port: 65011, type: vmess, uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /rocket, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 🇺🇲 美国(绿头外网集团)(Public) 57, server: v24.88host.buzz, port: 18140, type: vmess, uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /mojing, ws-headers: {Host: v24.88host.buzz}, udp: true}
   - {name: 🇻🇳 越南(绿头外网集团)(Public), server: 188.214.152.194, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -261,6 +262,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -270,7 +272,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -388,7 +390,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -453,69 +455,71 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
+    tolerance: 50
     proxies:
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -525,7 +529,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -643,7 +647,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -708,63 +712,63 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
   - name: 🌍 国外媒体
     type: select
@@ -772,6 +776,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -781,7 +786,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -899,7 +904,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -964,69 +969,70 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -1036,7 +1042,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -1154,7 +1160,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -1219,69 +1225,70 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -1291,7 +1298,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -1409,7 +1416,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -1474,69 +1481,70 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -1546,7 +1554,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -1664,7 +1672,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -1729,319 +1737,63 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
-      - 🇻🇳 越南(绿头外网集团)(Public)
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - "[TG电报群]https://t.me/payday4478"
-      - "[TG电报频道]https://t.me/payday501"
-      - 🇦🇷 阿根廷(绿头外网集团)(Public)
-      - 🇦🇹 奥地利(绿头外网集团)(Public)
-      - 🇦🇺 澳大利亚(绿头外网集团)(Public)
-      - 🇦🇺 澳大利亚(绿头外网集团)(Public) 2
-      - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
-      - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
-      - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
-      - 🇨🇦 加拿大(绿头外网集团)(Public)
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 2
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 3
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 4
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 5
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 6
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 7
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 8
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 9
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 10
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 11
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 12
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 13
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 14
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 15
-      - 🇨🇦 加拿大(绿头外网集团)(Public) 16
-      - 🇩🇪 德国(绿头外网集团)(Public)
-      - 🇩🇪 德国(绿头外网集团)(Public) 2
-      - 🇩🇪 德国(绿头外网集团)(Public) 3
-      - 🇩🇪 德国(绿头外网集团)(Public) 4
-      - 🇩🇪 德国(绿头外网集团)(Public) 5
-      - 🇩🇰 丹麦(绿头外网集团)(Public)
-      - 🇩🇰 丹麦(绿头外网集团)(Public) 2
-      - 🇫🇮 芬兰(绿头外网集团)(Public)
-      - 🇫🇮 芬兰(绿头外网集团)(Public) 2
-      - 🇫🇷 法国(绿头外网集团)(Public)
-      - 🇫🇷 法国(绿头外网集团)(Public) 2
-      - 🇫🇷 法国(绿头外网集团)(Public) 3
-      - 🇫🇷 法国(绿头外网集团)(Public) 4
-      - 🇫🇷 法国(绿头外网集团)(Public) 5
-      - 🇫🇷 法国(绿头外网集团)(Public) 6
-      - 🇬🇧 英国(绿头外网集团)(Public)
-      - 🇬🇧 英国(绿头外网集团)(Public) 2
-      - 🇬🇧 英国(绿头外网集团)(Public) 3
-      - 🇬🇧 英国(绿头外网集团)(Public) 4
-      - 🇬🇧 英国(绿头外网集团)(Public) 5
-      - 🇬🇧 英国(绿头外网集团)(Public) 6
-      - 🇬🇧 英国(绿头外网集团)(Public) 7
-      - 🇬🇧 英国(绿头外网集团)(Public) 8
-      - 🇬🇧 英国(绿头外网集团)(Public) 9
-      - 🇬🇧 英国(绿头外网集团)(Public) 10
-      - 🇬🇧 英国(绿头外网集团)(Public) 11
-      - 🇬🇧 英国(绿头外网集团)(Public) 12
-      - 🇭🇰 香港(绿头外网集团)(Public)
-      - 🇭🇰 香港(绿头外网集团)(Public) 2
-      - 🇭🇰 香港(绿头外网集团)(Public) 3
-      - 🇭🇰 香港(绿头外网集团)(Public) 4
-      - 🇭🇰 香港(绿头外网集团)(Public) 5
-      - 🇭🇰 香港(绿头外网集团)(Public) 6
-      - 🇭🇰 香港(绿头外网集团)(Public) 7
-      - 🇭🇰 香港(绿头外网集团)(Public) 8
-      - 🇭🇰 香港(绿头外网集团)(Public) 9
-      - 🇭🇰 香港(绿头外网集团)(Public) 10
-      - 🇭🇰 香港(绿头外网集团)(Public) 11
-      - 🇭🇰 香港(绿头外网集团)(Public) 12
-      - 🇭🇰 香港(绿头外网集团)(Public) 13
-      - 🇭🇰 香港(绿头外网集团)(Public) 14
-      - 🇭🇰 香港(绿头外网集团)(Public) 15
-      - 🇭🇰 香港(绿头外网集团)(Public) 16
-      - 🇭🇰 香港(绿头外网集团)(Public) 17
-      - 🇭🇰 香港(绿头外网集团)(Public) 18
-      - 🇭🇰 香港(绿头外网集团)(Public) 19
-      - 🇭🇰 香港(绿头外网集团)(Public) 20
-      - 🇭🇰 香港(绿头外网集团)(Public) 21
-      - 🇭🇰 香港(绿头外网集团)(Public) 22
-      - 🇭🇰 香港(绿头外网集团)(Public) 23
-      - 🇭🇰 香港(绿头外网集团)(Public) 24
-      - 🇭🇰 香港(绿头外网集团)(Public) 25
-      - 🇭🇰 香港(绿头外网集团)(Public) 26
-      - 🇭🇰 香港(绿头外网集团)(Public) 27
-      - 🇭🇰 香港(绿头外网集团)(Public) 28
-      - 🇭🇰 香港(绿头外网集团)(Public) 29
-      - 🇭🇰 香港(绿头外网集团)(Public) 30
-      - 🇭🇰 香港(绿头外网集团)(Public) 31
-      - 🇭🇰 香港(绿头外网集团)(Public) 32
-      - 🇭🇰 香港(绿头外网集团)(Public) 33
-      - 🇭🇰 香港(绿头外网集团)(Public) 34
-      - 🇭🇰 香港(绿头外网集团)(Public) 35
-      - 🇭🇰 香港(绿头外网集团)(Public) 36
-      - 🇭🇰 香港(绿头外网集团)(Public) 37
-      - 🇭🇰 香港(绿头外网集团)(Public) 38
-      - 🇮🇩 印度尼西亚(绿头外网集团)(Public)
-      - 🇮🇩 印度尼西亚(绿头外网集团)(Public) 2
-      - 🇮🇪 爱尔兰(绿头外网集团)(Public)
-      - 🇮🇱 以色列(绿头外网集团)(Public)
-      - 🇮🇳 印度(绿头外网集团)(Public)
-      - 🇮🇳 印度(绿头外网集团)(Public) 2
-      - 🇮🇳 印度(绿头外网集团)(Public) 3
-      - 🇮🇳 印度(绿头外网集团)(Public) 4
-      - 🇮🇳 印度(绿头外网集团)(Public) 5
-      - 🇮🇳 印度(绿头外网集团)(Public) 6
-      - 🇯🇵 日本(绿头外网集团)(Public)
-      - 🇯🇵 日本(绿头外网集团)(Public) 2
-      - 🇯🇵 日本(绿头外网集团)(Public) 3
-      - 🇯🇵 日本(绿头外网集团)(Public) 4
-      - 🇯🇵 日本(绿头外网集团)(Public) 5
-      - 🇯🇵 日本(绿头外网集团)(Public) 6
-      - 🇯🇵 日本(绿头外网集团)(Public) 7
-      - 🇯🇵 日本(绿头外网集团)(Public) 8
-      - 🇯🇵 日本(绿头外网集团)(Public) 9
-      - 🇯🇵 日本(绿头外网集团)(Public) 10
-      - 🇯🇵 日本(绿头外网集团)(Public) 11
-      - 🇯🇵 日本(绿头外网集团)(Public) 12
-      - 🇯🇵 日本(绿头外网集团)(Public) 13
-      - 🇰🇷 韩国(绿头外网集团)(Public)
-      - 🇰🇷 韩国(绿头外网集团)(Public) 2
-      - 🇰🇷 韩国(绿头外网集团)(Public) 3
-      - 🇰🇷 韩国(绿头外网集团)(Public) 4
-      - 🇲🇾 马来西亚(绿头外网集团)(Public)
-      - 🇲🇾 马来西亚(绿头外网集团)(Public) 2
-      - 🇲🇾 马来西亚(绿头外网集团)(Public) 3
-      - 🇲🇾 马来西亚(绿头外网集团)(Public) 4
-      - 🇲🇾 马来西亚(绿头外网集团)(Public) 5
-      - 🇳🇴 挪威(绿头外网集团)(Public)
-      - 🇳🇴 挪威(绿头外网集团)(Public) 2
-      - 🇵🇭 菲律宾(绿头外网集团)(Public)
-      - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
-      - 🇷🇺 俄罗斯(绿头外网集团)(Public)
-      - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
-      - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
-      - 🇸🇦 沙特阿拉伯(绿头外网集团)(Public)
-      - 🇸🇬 新加坡(绿头外网集团)(Public)
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 2
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 3
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 4
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 5
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 6
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 7
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 8
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 9
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 10
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 11
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 12
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 13
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 14
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 15
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 16
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 17
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 18
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 19
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 20
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 21
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 22
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 23
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 24
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 25
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 26
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 27
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 28
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 29
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 30
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 31
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 32
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 33
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 34
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 35
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 36
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 37
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 38
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 39
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 40
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 41
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 42
-      - 🇸🇬 新加坡(绿头外网集团)(Public) 43
-      - 🇹🇷 土耳其(绿头外网集团)(Public)
-      - 🇨🇳 台湾(绿头外网集团)(Public)
-      - 🇨🇳 台湾(绿头外网集团)(Public) 2
-      - 🇨🇳 台湾(绿头外网集团)(Public) 3
-      - 🇨🇳 台湾(绿头外网集团)(Public) 4
-      - 🇨🇳 台湾(绿头外网集团)(Public) 5
-      - 🇨🇳 台湾(绿头外网集团)(Public) 6
-      - 🇨🇳 台湾(绿头外网集团)(Public) 7
-      - 🇨🇳 台湾(绿头外网集团)(Public) 8
-      - 🇨🇳 台湾(绿头外网集团)(Public) 9
-      - 🇨🇳 台湾(绿头外网集团)(Public) 10
-      - 🇨🇳 台湾(绿头外网集团)(Public) 11
-      - 🇨🇳 台湾(绿头外网集团)(Public) 12
-      - 🇨🇳 台湾(绿头外网集团)(Public) 13
-      - 🇨🇳 台湾(绿头外网集团)(Public) 14
-      - 🇨🇳 台湾(绿头外网集团)(Public) 15
-      - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
   - name: 🎯 全球直连
     type: select
@@ -2065,6 +1817,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🏳️‍🌈 节点更新时间2021/12/25
       - "[TG电报群]https://t.me/payday4478"
       - "[TG电报频道]https://t.me/payday501"
       - 🇦🇷 阿根廷(绿头外网集团)(Public)
@@ -2074,7 +1827,7 @@ proxy-groups:
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 3
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 4
       - 🇦🇺 澳大利亚(绿头外网集团)(Public) 5
-      - 🇧🇬 保加利亚(绿头外网集团)(Public)
+      - 保加利亚(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public)
       - 🇨🇦 加拿大(绿头外网集团)(Public) 2
       - 🇨🇦 加拿大(绿头外网集团)(Public) 3
@@ -2192,7 +1945,7 @@ proxy-groups:
       - 🇳🇴 挪威(绿头外网集团)(Public) 2
       - 🇵🇭 菲律宾(绿头外网集团)(Public)
       - 🇵🇭 菲律宾(绿头外网集团)(Public) 2
-      - 🇵🇹 葡萄牙(绿头外网集团)(Public)
+      - 葡萄牙(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public)
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 2
       - 🇷🇺 俄罗斯(绿头外网集团)(Public) 3
@@ -2257,63 +2010,63 @@ proxy-groups:
       - 🇨🇳 台湾(绿头外网集团)(Public) 14
       - 🇨🇳 台湾(绿头外网集团)(Public) 15
       - 🇨🇳 台湾(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public)
-      - 🇺🇸 美国(绿头外网集团)(Public) 2
-      - 🇺🇸 美国(绿头外网集团)(Public) 3
-      - 🇺🇸 美国(绿头外网集团)(Public) 4
-      - 🇺🇸 美国(绿头外网集团)(Public) 5
-      - 🇺🇸 美国(绿头外网集团)(Public) 6
-      - 🇺🇸 美国(绿头外网集团)(Public) 7
-      - 🇺🇸 美国(绿头外网集团)(Public) 8
-      - 🇺🇸 美国(绿头外网集团)(Public) 9
-      - 🇺🇸 美国(绿头外网集团)(Public) 10
-      - 🇺🇸 美国(绿头外网集团)(Public) 11
-      - 🇺🇸 美国(绿头外网集团)(Public) 12
-      - 🇺🇸 美国(绿头外网集团)(Public) 13
-      - 🇺🇸 美国(绿头外网集团)(Public) 14
-      - 🇺🇸 美国(绿头外网集团)(Public) 15
-      - 🇺🇸 美国(绿头外网集团)(Public) 16
-      - 🇺🇸 美国(绿头外网集团)(Public) 17
-      - 🇺🇸 美国(绿头外网集团)(Public) 18
-      - 🇺🇸 美国(绿头外网集团)(Public) 19
-      - 🇺🇸 美国(绿头外网集团)(Public) 20
-      - 🇺🇸 美国(绿头外网集团)(Public) 21
-      - 🇺🇸 美国(绿头外网集团)(Public) 22
-      - 🇺🇸 美国(绿头外网集团)(Public) 23
-      - 🇺🇸 美国(绿头外网集团)(Public) 24
-      - 🇺🇸 美国(绿头外网集团)(Public) 25
-      - 🇺🇸 美国(绿头外网集团)(Public) 26
-      - 🇺🇸 美国(绿头外网集团)(Public) 27
-      - 🇺🇸 美国(绿头外网集团)(Public) 28
-      - 🇺🇸 美国(绿头外网集团)(Public) 29
-      - 🇺🇸 美国(绿头外网集团)(Public) 30
-      - 🇺🇸 美国(绿头外网集团)(Public) 31
-      - 🇺🇸 美国(绿头外网集团)(Public) 32
-      - 🇺🇸 美国(绿头外网集团)(Public) 33
-      - 🇺🇸 美国(绿头外网集团)(Public) 34
-      - 🇺🇸 美国(绿头外网集团)(Public) 35
-      - 🇺🇸 美国(绿头外网集团)(Public) 36
-      - 🇺🇸 美国(绿头外网集团)(Public) 37
-      - 🇺🇸 美国(绿头外网集团)(Public) 38
-      - 🇺🇸 美国(绿头外网集团)(Public) 39
-      - 🇺🇸 美国(绿头外网集团)(Public) 40
-      - 🇺🇸 美国(绿头外网集团)(Public) 41
-      - 🇺🇸 美国(绿头外网集团)(Public) 42
-      - 🇺🇸 美国(绿头外网集团)(Public) 43
-      - 🇺🇸 美国(绿头外网集团)(Public) 44
-      - 🇺🇸 美国(绿头外网集团)(Public) 45
-      - 🇺🇸 美国(绿头外网集团)(Public) 46
-      - 🇺🇸 美国(绿头外网集团)(Public) 47
-      - 🇺🇸 美国(绿头外网集团)(Public) 48
-      - 🇺🇸 美国(绿头外网集团)(Public) 49
-      - 🇺🇸 美国(绿头外网集团)(Public) 50
-      - 🇺🇸 美国(绿头外网集团)(Public) 51
-      - 🇺🇸 美国(绿头外网集团)(Public) 52
-      - 🇺🇸 美国(绿头外网集团)(Public) 53
-      - 🇺🇸 美国(绿头外网集团)(Public) 54
-      - 🇺🇸 美国(绿头外网集团)(Public) 55
-      - 🇺🇸 美国(绿头外网集团)(Public) 56
-      - 🇺🇸 美国(绿头外网集团)(Public) 57
+      - 🇺🇲 美国(绿头外网集团)(Public)
+      - 🇺🇲 美国(绿头外网集团)(Public) 2
+      - 🇺🇲 美国(绿头外网集团)(Public) 3
+      - 🇺🇲 美国(绿头外网集团)(Public) 4
+      - 🇺🇲 美国(绿头外网集团)(Public) 5
+      - 🇺🇲 美国(绿头外网集团)(Public) 6
+      - 🇺🇲 美国(绿头外网集团)(Public) 7
+      - 🇺🇲 美国(绿头外网集团)(Public) 8
+      - 🇺🇲 美国(绿头外网集团)(Public) 9
+      - 🇺🇲 美国(绿头外网集团)(Public) 10
+      - 🇺🇲 美国(绿头外网集团)(Public) 11
+      - 🇺🇲 美国(绿头外网集团)(Public) 12
+      - 🇺🇲 美国(绿头外网集团)(Public) 13
+      - 🇺🇲 美国(绿头外网集团)(Public) 14
+      - 🇺🇲 美国(绿头外网集团)(Public) 15
+      - 🇺🇲 美国(绿头外网集团)(Public) 16
+      - 🇺🇲 美国(绿头外网集团)(Public) 17
+      - 🇺🇲 美国(绿头外网集团)(Public) 18
+      - 🇺🇲 美国(绿头外网集团)(Public) 19
+      - 🇺🇲 美国(绿头外网集团)(Public) 20
+      - 🇺🇲 美国(绿头外网集团)(Public) 21
+      - 🇺🇲 美国(绿头外网集团)(Public) 22
+      - 🇺🇲 美国(绿头外网集团)(Public) 23
+      - 🇺🇲 美国(绿头外网集团)(Public) 24
+      - 🇺🇲 美国(绿头外网集团)(Public) 25
+      - 🇺🇲 美国(绿头外网集团)(Public) 26
+      - 🇺🇲 美国(绿头外网集团)(Public) 27
+      - 🇺🇲 美国(绿头外网集团)(Public) 28
+      - 🇺🇲 美国(绿头外网集团)(Public) 29
+      - 🇺🇲 美国(绿头外网集团)(Public) 30
+      - 🇺🇲 美国(绿头外网集团)(Public) 31
+      - 🇺🇲 美国(绿头外网集团)(Public) 32
+      - 🇺🇲 美国(绿头外网集团)(Public) 33
+      - 🇺🇲 美国(绿头外网集团)(Public) 34
+      - 🇺🇲 美国(绿头外网集团)(Public) 35
+      - 🇺🇲 美国(绿头外网集团)(Public) 36
+      - 🇺🇲 美国(绿头外网集团)(Public) 37
+      - 🇺🇲 美国(绿头外网集团)(Public) 38
+      - 🇺🇲 美国(绿头外网集团)(Public) 39
+      - 🇺🇲 美国(绿头外网集团)(Public) 40
+      - 🇺🇲 美国(绿头外网集团)(Public) 41
+      - 🇺🇲 美国(绿头外网集团)(Public) 42
+      - 🇺🇲 美国(绿头外网集团)(Public) 43
+      - 🇺🇲 美国(绿头外网集团)(Public) 44
+      - 🇺🇲 美国(绿头外网集团)(Public) 45
+      - 🇺🇲 美国(绿头外网集团)(Public) 46
+      - 🇺🇲 美国(绿头外网集团)(Public) 47
+      - 🇺🇲 美国(绿头外网集团)(Public) 48
+      - 🇺🇲 美国(绿头外网集团)(Public) 49
+      - 🇺🇲 美国(绿头外网集团)(Public) 50
+      - 🇺🇲 美国(绿头外网集团)(Public) 51
+      - 🇺🇲 美国(绿头外网集团)(Public) 52
+      - 🇺🇲 美国(绿头外网集团)(Public) 53
+      - 🇺🇲 美国(绿头外网集团)(Public) 54
+      - 🇺🇲 美国(绿头外网集团)(Public) 55
+      - 🇺🇲 美国(绿头外网集团)(Public) 56
+      - 🇺🇲 美国(绿头外网集团)(Public) 57
       - 🇻🇳 越南(绿头外网集团)(Public)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
@@ -2342,23 +2095,6 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -4009,41 +3745,6 @@ rules:
  - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
- - DOMAIN,alt1-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt2-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt3-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt4-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt5-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt6-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt7-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,alt8-mtalk.google.com,📢 谷歌FCM
- - DOMAIN,mtalk.google.com,📢 谷歌FCM
- - IP-CIDR,64.233.177.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.186.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.187.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.188.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,64.233.189.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.23.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.24.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.28.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.127.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.137.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.203.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.204.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,74.125.206.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,108.177.125.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.4.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.10.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.31.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,142.250.96.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.194.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.217.219.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.63.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,172.253.122.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.175.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,173.194.218.188/32,📢 谷歌FCM,no-resolve
- - IP-CIDR,209.85.233.188/32,📢 谷歌FCM,no-resolve
  - DOMAIN-SUFFIX,265.com,🎯 全球直连
  - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
  - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连
@@ -4114,7 +3815,6 @@ rules:
  - DOMAIN-SUFFIX,msftauthimages.net,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msftidentity.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msidentity.com,Ⓜ️ 微软服务
- - DOMAIN-SUFFIX,msn.cn,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocdn.com,Ⓜ️ 微软服务
  - DOMAIN-SUFFIX,msocsp.com,Ⓜ️ 微软服务
@@ -4185,18 +3885,6 @@ rules:
  - IP-CIDR,192.35.50.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
- - DOMAIN-SUFFIX,t.me,📲 电报信息
- - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
- - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
- - DOMAIN-SUFFIX,telegram.me,📲 电报信息
- - DOMAIN-SUFFIX,telegram.org,📲 电报信息
- - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
- - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
- - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
- - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
- - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
- - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,go.com,🌍 国外媒体
  - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
@@ -4496,6 +4184,21 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
+ - PROCESS-NAME,com.google.android.apps.youtube.music,🌍 国外媒体
+ - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🌍 国外媒体
+ - PROCESS-NAME,com.vanced.android.apps.youtube.music,🌍 国外媒体
+ - DOMAIN-SUFFIX,t.me,📲 电报信息
+ - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
+ - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.me,📲 电报信息
+ - DOMAIN-SUFFIX,telegram.org,📲 电报信息
+ - DOMAIN-SUFFIX,telesco.pe,📲 电报信息
+ - IP-CIDR,91.108.0.0/16,📲 电报信息,no-resolve
+ - IP-CIDR,109.239.140.0/24,📲 电报信息,no-resolve
+ - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -4508,8 +4211,6 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
- - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
- - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -4902,8 +4603,6 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
- - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
- - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
@@ -5368,8 +5067,6 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
@@ -5439,7 +5136,6 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
- - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
