@@ -24,8 +24,6 @@
 
 ♾️[机场测速] `http://junel.qicp.vip`
 
-♾️[机场测速] `https://cs.payday2.eu.org`(发薪日专用不定期开启)
-
 ♻️[订阅转换] `https://sub.payday2.eu.org`
 
 🧰[免费美区Apple账号] `https://free.shadowrocket.online`
