@@ -3,7 +3,7 @@
 ## [v2rayNG](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayng) | [AnXray](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#anxray) | [Clash for Android](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#clash-for-android)
 ## [Shadowrocket(小火箭)](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#shadowrocket%E5%B0%8F%E7%81%AB%E7%AE%AD)
 
-## [常见问题](./Tutorials/KXSWKHDSY.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-1)
+## [常见问题](./KXSWKHDSY.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-1)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
