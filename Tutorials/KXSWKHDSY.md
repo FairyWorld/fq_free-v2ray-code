@@ -22,7 +22,7 @@
 
 ## 2.点击`订阅`再点击`订阅设置`
 
-![KXSWKHDSY0](/Image/KXSWKHDSY1.png)
+![KXSWKHDSY0](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/KXSWKHDSY1.png)
 
 ## 3.点击左下角`添加(A)`新建一个订阅栏位
 
@@ -202,13 +202,13 @@
 
 # *常见问题*
 
-### * [为什么更新不了订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#1%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E8%AE%A2%E9%98%85)
-### * [v2rayN怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#2v2rayn%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [CFW怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#3cfw%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [v2rayNG怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#4v2rayng%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [AnXray怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#5anxray%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [CFA怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#6cfa%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
-### * [Shadowrocket怎么更新订阅](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#7shadowrocket%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [为什么更新不了订阅](./KXSWKHDSY.md#1%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9B%B4%E6%96%B0%E4%B8%8D%E4%BA%86%E8%AE%A2%E9%98%85)
+### * [v2rayN怎么更新订阅](./KXSWKHDSY.md#2v2rayn%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [CFW怎么更新订阅](./KXSWKHDSY.md#3cfw%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [v2rayNG怎么更新订阅](./KXSWKHDSY.md#4v2rayng%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [AnXray怎么更新订阅](./KXSWKHDSY.md#5anxray%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [CFA怎么更新订阅](./KXSWKHDSY.md#6cfa%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
+### * [Shadowrocket怎么更新订阅](./KXSWKHDSY.md#7shadowrocket%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E8%AE%A2%E9%98%85)
 
 -----------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------
