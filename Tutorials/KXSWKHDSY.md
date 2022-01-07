@@ -22,7 +22,7 @@
 
 ## 2.点击`订阅`再点击`订阅设置`
 
-![KXSWKHDSY0](./Image/KXSWKHDSY0.png)
+![KXSWKHDSY0](/Image/KXSWKHDSY1.png)
 
 ## 3.点击左下角`添加(A)`新建一个订阅栏位
 
