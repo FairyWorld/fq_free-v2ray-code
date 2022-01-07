@@ -1,7 +1,7 @@
 # 快捷跳转:
-## [v2rayN](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayn) | [Clash for Windows](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#clash-for-windows) 
-## [v2rayNG](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#v2rayng) | [AnXray](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#anxray) | [Clash for Android](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#clash-for-android)
-## [Shadowrocket(小火箭)](https://github.com/ThekingMX1998/free-v2ray-code/blob/master/Tutorials/KXSWKHDSY.md#shadowrocket%E5%B0%8F%E7%81%AB%E7%AE%AD)
+## [v2rayN](./KXSWKHDSY.md#v2rayn) | [Clash for Windows](./KXSWKHDSY.md#clash-for-windows) 
+## [v2rayNG](./KXSWKHDSY.md#v2rayng) | [AnXray](./KXSWKHDSY.md#anxray) | [Clash for Android](./KXSWKHDSY.md#clash-for-android)
+## [Shadowrocket(小火箭)](./KXSWKHDSY.md#shadowrocket%E5%B0%8F%E7%81%AB%E7%AE%AD)
 
 ## [常见问题](./KXSWKHDSY.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-1)
 
@@ -22,7 +22,7 @@
 
 ## 2.点击`订阅`再点击`订阅设置`
 
-![KXSWKHDSY0](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/KXSWKHDSY0.png)
+![KXSWKHDSY0](./Image/KXSWKHDSY0.png)
 
 ## 3.点击左下角`添加(A)`新建一个订阅栏位
 
