@@ -35,6 +35,36 @@
 全国电信支付通道: `wappay.189.cn,paygo.189.cn:9779`
 
 
+## 电信混淆
+
+天翼视讯: `h5.nty.tv189.com`
+
+天翼视讯: `vod3.nty.tv189.cn`
+
+爱玩端口任意: `open.4g.play.cn`
+
+爱看端口任意: `ltetp.tv189.com`
+
+湖北电信: `hb.10000shequ.com:8081`
+
+电信天翼: `dy3.nty.tv189.cn`
+
+电信天翼: `ltewap.tv189.com`
+
+电信天翼: `tp.nty.tv189.com`
+
+电信爱听: `dl.music.189.cn`
+
+
+## 移动混淆
+
+官网: `www.10086.cn`
+
+抖音卡头条卡定向 有定向包可用: `dm.toutiao.com`
+
+抖音卡头条卡定向 有定向包可用: `v9-dy.ixigua.com`
+
+
 ## 联通混淆
 
 山东联通: `m.t.17186.cn`
@@ -88,141 +118,237 @@
 
 营业厅游戏: `pic.yx007.com`
 
-沃学习: `edu.10155.com`     过40   WAP
+沃学习: `edu.10155.com` (过40 & WAP)
 
-沃音乐: `listen.10155.com`   过40   WAP
+沃音乐: `listen.10155.com` (过40 & WAP)
 
-沃阅读: `m.iread.wo.com.cn`     过40   WAP
+沃阅读: `m.iread.wo.com.cn` (过40 & WAP)
 
-沃视界: `ysj.iread.wo.com.cn`   过40   WAP
+沃视界: `ysj.iread.wo.com.cn` (过40 & WAP)
 
-沃视频: `imageout.wotv.17wo.cn`  过40  WAP
+沃视频: `imageout.wotv.17wo.cn` (过40 & WAP)
 
 
-互联网套餐定向混淆
-自行查看套餐中是否包含有该定向流量包
-OPPO软件商店:dict-search.nearme.com.cn
-OPPO软件商店:dragate.dc.oppomobile.com
-爱奇艺视频:m.iqiyi.com
-百度地图:newclient.map.baidu.com
-嘀嗒拼车:capis-2.didapinche.com
-滴滴出行:as.xiaojukeji.com
-抖音短视频:api5-normal-c-lq.amemv.com
-抖音短视频:log3-misc-lq.amemv.com
-抖音短视频:p11.douyinpic.com
-抖音短视频:p26.douyinpic.com
-抖音短视频:p29.douyinpic.com
-抖音短视频:p3.douyinpic.com
-抖音短视频:p5-ipv6.douyinpic.com
-抖音短视频:p6.douyinpic.com
-抖音短视频:v26.douyinvod.com
-抖音短视频:v26.douyinvod.com
-抖音短视频:v29.douyinvod.com
-抖音短视频:v3-z.douyinvod.com
-抖音短视频:v5-h.douyinvod.com
-抖音短视频:v9-y.douyinvod.com
-高德导航:mapdownload.autonavi.com
-高德导航:dualstack-mpsapi.amap.com
-高德导航:optimus-ads.amap.com
-高德导航:webapi.amap.com
-高德地图:mps.amap.com
-广东电信:gd.189.cn
-哈罗单车:api.hellobike.cn
-哈罗单车:apmgw.hellobike.com
-哈罗单车:h5offline-cdn.hellobike.com
-哈罗单车:m.hellobike.com
-哈罗单车:taxiapi.hellobike.cn
-哈罗单车:taxiapi.hellobike.com
-华为云:function-skill.obs.cn-east-2.myhuaweicloud.com
-联通沃阅读:res.woread.com.cn
-拼多多:dl-1.pddpic.com
-拼多多:img-1.pddpic.com
-拼多多:img-2.pddpic.com
-拼多多:img-3.pddpic.com
-拼多多商城:meta.pinduoduo.com
-手机淘宝:bizcommon.alicdn.com
-手机淘宝:g.alicdn.com
-手机淘宝:img.alicdn.com
-手机淘宝:img-dt.alicdn.com
-手机淘宝:market.m.taobao.com
-手机淘宝:zres.alicdn.com
-腾讯网:dldir1.qq.com
-腾讯网:dldir1.qq.com
-腾讯网:grouptalk.c2c.qq.com
-腾讯网:mmbiz.qlogo.cn
-腾讯网:mp.weixin.qq.com
-腾讯网:pingjs.qq.com
-腾讯网:qzs.qq.com
-腾讯网:wxsnsdythumb.wxs.qq.com
-头条网:api-access.pangolin-sdk-toutiao.com
-头条网:api-access.pangolin-sdk-toutiao-b.com
-头条网:lf5-geckocdn-tos.pstatp.com
-头条网:lf9-geckocdn-tos.pstatp.com
-头条网:sf1-ttcdn-tos.pstatp.com
-头条网:sf3-ttcdn-tos.pstatp.com
-微信视频通话:wxsnsdy.wxs.qq.com
-微信图片:mmbiz.qpic.cn
-微信微众银行:ida.webank.com
-微信小程序:miniapp.gtimg.cn
-西瓜视频:v5-dy-e.ixigua.com
-西瓜视频:v5-dy-gdhy.ixigua.com
-优酷:m.youku.com
-优酷:api.mobile.youku.com
-中国联通手机营业厅:img.client.10010.com
-中国联通手机营业厅:m.client.10010.com
-中国联通手机营业厅:m1.ad.10010.com
-中国联通手机营业厅:m1.img.10010.com
-中国移动手机营业厅:image.gd.10086.cn
-中国移动手机营业厅:wap.gd.10086.cn
-理论全国三网通用绿通混淆
-微信支付通道：wx.tenpay.com
-支付宝支付通道：mclient.alipay.com
-QQ音乐混淆参数:dl.stream.qqmusic.com
-梦想e卡混淆参数1:imhdfs.icbc.com.cn
-梦想e卡混淆参数2(福建已免):v.icbc.com.cn
-爱奇艺混淆参数:data.video.qiyi.com
-优酷混淆参数:vali-dns.cp31.ott.cibntv.net
-高德地图混淆参数:mps.amap.com
-央视影音混淆参数:asp.cntv.myalicdn.com
-百度贴吧混淆参数:static.tieba.baidu.com
-微信混淆参数(遵义广州已免):short.weixin.qq.com
-虾米音乐混淆参数:pic.xiami.net
-天翼视讯混淆参数:vod3.nty.tv189.cn
-钉钉混淆参数：tms.dingtalk.com
-微博混淆参数：tobe.vip.weibo.com
-微博混淆参数：new.vip.weibo.cn
-微博混淆参数：simg.s.weibo.com
-优酷混淆参数：push.m.youku.com
-优酷混淆参数：api.mobile.youku.com
-书旗混淆参数：spend1.shuqireader.com
-书旗混淆参数：c1.shuqireader.com
-优酷混淆参数：www.youku.com
-QQ音乐混淆参数:dl.stream.qqmusic.com
-腾讯大王卡：tx.flv.huya.com
-腾讯大王卡：short.weixin.qq.com
-腾讯大王卡：szextshort.weixin.qq.com
-short.weixin.qq.com
-百度圣卡：data.video.qiyi.com
-阿里宝卡：vali-dns.cp31.ott.cibntv.net
-阿里宝卡微博卡：gw.alicdn.com
-优酷：api.mobile.youku.com
-米粉 api：api.ad.xiaomi.com
-小米应用商店：data.mistat.xiaomi.com
-小米直播：zbupic.zb.mi.com
-小米充值：f100.g.mi.com
-小米商城：mi.com
+## 互联网套餐定向混淆
 
-电信混淆
-天翼视讯：h5.nty.tv189.com
-天翼视讯：vod3.nty.tv189.cn
-爱玩端口任意：open.4g.play.cn
-爱看端口任意：ltetp.tv189.com
-湖北电信：hb.10000shequ.com:8081,
-电信天翼：dy3.nty.tv189.cn
-电信天翼：ltewap.tv189.com
-电信天翼：tp.nty.tv189.com
-电信爱听：dl.music.189.cn
-移动混淆
-官网: www.10086.cn
-抖音卡头条卡定向 有定向包可用：dm.toutiao.com
-抖音卡头条卡定向 有定向包可用：v9-dy.ixigua.com
+#### 自行查看套餐中是否包含有该定向流量包
+
+OPPO软件商店: `dict-search.nearme.com.cn`
+
+OPPO软件商店: `dragate.dc.oppomobile.com`
+
+爱奇艺视频: `m.iqiyi.com`
+
+百度地图: `newclient.map.baidu.com`
+
+嘀嗒拼车: `capis-2.didapinche.com`
+
+滴滴出行: `as.xiaojukeji.com`
+
+抖音短视频: `api5-normal-c-lq.amemv.com`
+
+抖音短视频: `log3-misc-lq.amemv.com`
+
+抖音短视频: `p11.douyinpic.com`
+
+抖音短视频: `p26.douyinpic.com`
+
+抖音短视频: `p29.douyinpic.com`
+
+抖音短视频: `p3.douyinpic.com`
+
+抖音短视频: `p5-ipv6.douyinpic.com`
+
+抖音短视频: `p6.douyinpic.com`
+
+抖音短视频: `v26.douyinvod.com`
+
+抖音短视频: `v26.douyinvod.com`
+
+抖音短视频: `v29.douyinvod.com`
+
+抖音短视频: `v3-z.douyinvod.com`
+
+抖音短视频: `v5-h.douyinvod.com`
+
+抖音短视频: `v9-y.douyinvod.com`
+
+高德导航: `mapdownload.autonavi.com`
+
+高德导航: `dualstack-mpsapi.amap.com`
+
+高德导航: `optimus-ads.amap.com`
+
+高德导航: `webapi.amap.com`
+
+高德地图: `mps.amap.com`
+
+广东电信: `gd.189.cn`
+
+哈罗单车: `api.hellobike.cn`
+
+哈罗单车: `apmgw.hellobike.com`
+
+哈罗单车: `h5offline-cdn.hellobike.com`
+
+哈罗单车: `m.hellobike.com`
+
+哈罗单车: `taxiapi.hellobike.cn`
+
+哈罗单车: `taxiapi.hellobike.com`
+
+华为云: `function-skill.obs.cn-east-2.myhuaweicloud.com`
+
+联通沃阅读: `res.woread.com.cn`
+
+拼多多: `dl-1.pddpic.com`
+
+拼多多: `img-1.pddpic.com`
+
+拼多多: `img-2.pddpic.com`
+
+拼多多: `img-3.pddpic.com`
+
+拼多多商城: `meta.pinduoduo.com`
+
+手机淘宝: `bizcommon.alicdn.com`
+
+手机淘宝: `g.alicdn.com`
+
+手机淘宝: `img.alicdn.com`
+
+手机淘宝: `img-dt.alicdn.com`
+
+手机淘宝: `market.m.taobao.com`
+
+手机淘宝: `zres.alicdn.com`
+
+腾讯网: `dldir1.qq.com`
+
+腾讯网: `dldir1.qq.com`
+
+腾讯网: `grouptalk.c2c.qq.com`
+
+腾讯网: `mmbiz.qlogo.cn`
+
+腾讯网: `mp.weixin.qq.com`
+
+腾讯网: `pingjs.qq.com`
+
+腾讯网: `qzs.qq.com`
+
+腾讯网: `wxsnsdythumb.wxs.qq.com`
+
+头条网: `api-access.pangolin-sdk-toutiao.com`
+
+头条网: `api-access.pangolin-sdk-toutiao-b.com`
+
+头条网: `lf5-geckocdn-tos.pstatp.com`
+
+头条网: `lf9-geckocdn-tos.pstatp.com`
+
+头条网: `sf1-ttcdn-tos.pstatp.com`
+
+头条网: `sf3-ttcdn-tos.pstatp.com`
+
+微信视频通话: `wxsnsdy.wxs.qq.com`
+
+微信图片: `mmbiz.qpic.cn`
+
+微信微众银行: `ida.webank.com`
+
+微信小程序: `miniapp.gtimg.cn`
+
+西瓜视频: `v5-dy-e.ixigua.com`
+
+西瓜视频: `v5-dy-gdhy.ixigua.com`
+
+优酷: `m.youku.com`
+
+优酷: `api.mobile.youku.com`
+
+中国联通手机营业厅: `img.client.10010.com`
+
+中国联通手机营业厅: `m.client.10010.com`
+
+中国联通手机营业厅: `m1.ad.10010.com`
+
+中国联通手机营业厅: `m1.img.10010.com`
+
+中国移动手机营业厅: `image.gd.10086.cn`
+
+中国移动手机营业厅: `wap.gd.10086.cn`
+
+
+## 理论全国三网通用绿通混淆
+
+微信支付通道: `wx.tenpay.com`
+
+支付宝支付通道: `mclient.alipay.com`
+
+QQ音乐混淆参数: `dl.stream.qqmusic.com`
+
+梦想e卡混淆参数1: `imhdfs.icbc.com.cn`
+
+梦想e卡混淆参数2: `v.icbc.com.cn` (福建已免)
+
+爱奇艺混淆参数: `data.video.qiyi.com`
+
+优酷混淆参数: `vali-dns.cp31.ott.cibntv.net`
+
+高德地图混淆参数: `mps.amap.com`
+
+央视影音混淆参数: `asp.cntv.myalicdn.com`
+
+百度贴吧混淆参数: `static.tieba.baidu.com`
+
+微信混淆参数: `short.weixin.qq.com` (遵义广州已免)
+
+虾米音乐混淆参数: `pic.xiami.net`
+
+天翼视讯混淆参数: `vod3.nty.tv189.cn`
+
+钉钉混淆参数: `tms.dingtalk.com`
+
+微博混淆参数: `tobe.vip.weibo.com`
+
+微博混淆参数: `new.vip.weibo.cn`
+
+微博混淆参数: `simg.s.weibo.com`
+
+优酷混淆参数: `push.m.youku.com`
+
+优酷混淆参数: `api.mobile.youku.com`
+
+书旗混淆参数: `spend1.shuqireader.com`
+
+书旗混淆参数: `c1.shuqireader.com`
+
+优酷混淆参数: `www.youku.com`
+
+QQ音乐混淆参数: `dl.stream.qqmusic.com`
+
+腾讯大王卡: `tx.flv.huya.com`
+
+腾讯大王卡: `short.weixin.qq.com`
+
+腾讯大王卡: `szextshort.weixin.qq.com` , `short.weixin.qq.com`
+
+百度圣卡: `data.video.qiyi.com`
+
+阿里宝卡: `vali-dns.cp31.ott.cibntv.net`
+
+阿里宝卡微博卡: `gw.alicdn.com`
+
+优酷: `api.mobile.youku.com`
+
+米粉api: `api.ad.xiaomi.com`
+
+小米应用商店: `data.mistat.xiaomi.com`
+
+小米直播: `zbupic.zb.mi.com`
+
+小米充值: `f100.g.mi.com`
+
+小米商城: `mi.com`
+
