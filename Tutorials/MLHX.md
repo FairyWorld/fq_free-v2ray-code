@@ -14,49 +14,90 @@
 
 全国混淆: `a.189.cn`
 
-全国混淆:www.189.cn
-全国混淆:a.189.cn/JJGsAL.cn
-湖北:wap.hb.189.cn, mgc.hb.189.cn:10001
-湖南:lt.hn.189.cn
-山东:wapsd.189.cn
-江西:wapjx.189.cn
-四川:wap.sc.189.cn
-重庆:webwebfenxi.189.cn:9000
-广东:http://gd.189.cn/TS/recharge/tzUrl.html
-全国电信支付通道:wappay.189.cn,paygo.189.cn:9779
+全国混淆: `www.189.cn`
 
-联通混淆
-山东联通：m.t.17186.cn
-联通 114 圣子全国：114.255.201.163 (重庆、河南、福建、湖南等地)
-哔哩哔哩：i1.hdslb.com
-哔哩哔哩：i0.hdslb.com
-浙江联通 wo+：w.zj165.com
-联通 wotv 全国：wotv.17wo.cn（浙江、安徽、江苏）
-河北：hb.10000shequ.com
-湖北 (优先 wap 接入点不免 net)：box.10155.com
-沃音乐：box.10155.com (四川、湖北、重庆、河北等)
-沃阅读：partner.iread.wo.com.cn (北京、河南等)
-工商 e 卡：v.icbc.com.cn
-工商 e 卡：m.icbc.com.cn
-工商 e 卡：m.mall.icbc.com.cn
-工商 e 卡：elife.icbc.com.cn
-工商 e 卡：act.icbc.com.cn
-工商 e 卡：hit.icbc.com.cn
-工商 e 卡：pv.mall.icbc.com.cn
-工商 e 卡：mybank.icbc.com.cn
+全国混淆: `a.189.cn/JJGsAL.cn`
 
-过40G通用混淆
-全国联通沃商店混淆参数1：game.hxll.wostore.cn
-全国联通沃商店混淆参数2：music.hxll.wostore.cn
-沃阅读混淆参数：partner.iread.wo.com.cn
-全国联通沃音乐：box.10155.com
-联通直播：pull.free.video.10010.com
-营业厅游戏：pic.yx007.com  
-沃学习：edu.10155.com     过40   WAP
-沃音乐：listen.10155.com   过40   WAP
-沃阅读:m.iread.wo.com.cn     过40   WAP
-沃视界:ysj.iread.wo.com.cn   过40   WAP
-沃视频:imageout.wotv.17wo.cn  过40  WAP
+湖北: `wap.hb.189.cn` , `mgc.hb.189.cn:10001`
+
+湖南: `lt.hn.189.cn`
+
+山东: `wapsd.189.cn`
+
+江西: `wapjx.189.cn`
+
+四川: `wap.sc.189.cn`
+
+重庆: `webwebfenxi.189.cn:9000`
+
+广东: `http://gd.189.cn/TS/recharge/tzUrl.html`
+
+全国电信支付通道: `wappay.189.cn,paygo.189.cn:9779`
+
+
+## 联通混淆
+
+山东联通: `m.t.17186.cn`
+
+联通114圣子全国: `114.255.201.163` (重庆、河南、福建、湖南等地)
+
+哔哩哔哩: `i1.hdslb.com`
+
+哔哩哔哩: `i0.hdslb.com`
+
+浙江联通wo+: `w.zj165.com`
+
+联通wotv全国: `wotv.17wo.cn` (浙江、安徽、江苏)
+
+河北: `hb.10000shequ.com`
+
+湖北(优先 wap 接入点不免 net): `box.10155.com`
+
+沃音乐: `box.10155.com` (四川、湖北、重庆、河北等)
+
+沃阅读: `partner.iread.wo.com.cn` (北京、河南等)
+
+工商e卡: `v.icbc.com.cn`
+
+工商e卡: `m.icbc.com.cn`
+
+工商e卡: `m.mall.icbc.com.cn`
+
+工商e卡: `elife.icbc.com.cn`
+
+工商e卡: `act.icbc.com.cn`
+
+工商e卡: `hit.icbc.com.cn`
+
+工商e卡: `pv.mall.icbc.com.cn`
+
+工商e卡: `mybank.icbc.com.cn`
+
+
+## 过40G通用混淆
+
+全国联通沃商店混淆参数1: `game.hxll.wostore.cn`
+
+全国联通沃商店混淆参数2: `music.hxll.wostore.cn`
+
+沃阅读混淆参数: `partner.iread.wo.com.cn`
+
+全国联通沃音乐: `box.10155.com`
+
+联通直播: `pull.free.video.10010.com`
+
+营业厅游戏: `pic.yx007.com`
+
+沃学习: `edu.10155.com`     过40   WAP
+
+沃音乐: `listen.10155.com`   过40   WAP
+
+沃阅读: `m.iread.wo.com.cn`     过40   WAP
+
+沃视界: `ysj.iread.wo.com.cn`   过40   WAP
+
+沃视频: `imageout.wotv.17wo.cn`  过40  WAP
+
 
 互联网套餐定向混淆
 自行查看套餐中是否包含有该定向流量包
