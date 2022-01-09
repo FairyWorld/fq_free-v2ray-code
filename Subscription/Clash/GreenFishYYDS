@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇨🇳节点更新时间2022/01/09_1', server: payday2.eu.org, port: 10086?allowInsecure=1, type: trojan, password: WDNMDC}
-  - {name: '🇨🇳TG电报群https://t.me/payday4478_2', server: payday2.eu.org, port: 10086?allowInsecure=1, type: trojan, password: WDNMDN}
-  - {name: '🇨🇳TG电报频道https://t.me/payday501_3', server: payday2.eu.org, port: 10086?allowInsecure=1, type: trojan, password: WDNMDM}
+  - {name: '🇨🇳节点更新时间2022/01/09_1', server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDC}
+  - {name: '🇨🇳TG电报群https://t.me/payday4478_2', server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN}
+  - {name: '🇨🇳TG电报频道https://t.me/payday501_3', server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM}
   - {name: '🇦🇺澳大利亚绿头外网集团Public_4', server: 116.206.230.130, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: zaNeDgu9mZKpEMTHQJy8}
-  - {name: '🇨🇦加拿大绿头外网集团Public_5', server: t1.ssrsub.com, port: 8443?allowInsecure=1, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57}
-  - {name: '🇨🇦加拿大绿头外网集团Public_6', server: t4.ssrsub.com, port: 156?allowInsecure=1, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
+  - {name: '🇨🇦加拿大绿头外网集团Public_5', server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57}
+  - {name: '🇨🇦加拿大绿头外网集团Public_6', server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
   - {name: '🇨🇦加拿大绿头外网集团Public_7', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: '🇨🇦加拿大绿头外网集团Public_8', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '🇨🇦加拿大绿头外网集团Public_9', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '🇨🇦加拿大绿头外网集团Public_10', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦加拿大绿头外网集团Public_11', server: t1.ssrsub.com, port: 8443?allowInsecure=1, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
+  - {name: '🇨🇦加拿大绿头外网集团Public_11', server: t1.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
   - {name: '🇨🇦加拿大绿头外网集团Public_12', server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com}
   - {name: '🇨🇦加拿大绿头外网集团Public_13', server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com}
   - {name: '🇨🇦加拿大绿头外网集团Public_14', server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com}
@@ -37,14 +37,14 @@ proxies:
   - {name: '🇬🇧英国绿头外网集团Public_30', server: 120.241.73.84, port: 39027, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇬🇧英国绿头外网集团Public_31', server: 120.197.130.73, port: 39027, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇬🇧英国绿头外网集团Public_32', server: 120.197.130.73, port: 39028, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
-  - {name: '🇬🇧英国绿头外网集团Public_33', server: 109.74.194.189, port: 1443?allowInsecure=1, type: trojan, password: 7x42LetRa0}
+  - {name: '🇬🇧英国绿头外网集团Public_33', server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0}
   - {name: '🇭🇰香港绿头外网集团Public_34', server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: 5f495bcf-148f-3949-a083-199bc89ef937, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: { path: "/vvv", host: l1-aws-jp-08.pucdn.me }}
   - {name: '🇭🇰香港绿头外网集团Public_35', server: cm-jm.okvpn.xyz, port: 20000, type: vmess, uuid: 878a62fe-93ac-4f48-bb9a-9f765a40a75f, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: cm-jm.okvpn.xyz }}
   - {name: '🇭🇰香港绿头外网集团Public_36', server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: 878a62fe-93ac-4f48-bb9a-9f765a40a75f, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: cm-jm.okvpn.xyz }}
   - {name: '🇭🇰香港绿头外网集团Public_37', server: cm-jm.okvpn.xyz, port: 20002, type: vmess, uuid: 878a62fe-93ac-4f48-bb9a-9f765a40a75f, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: { path: "/", host: cm-jm.okvpn.xyz }}
-  - {name: '🇭🇰香港绿头外网集团Public_38', server: 62.216.92.180, port: 443?allowInsecure=1, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
-  - {name: '🇭🇰香港绿头外网集团Public_39', server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189?allowInsecure=1, type: trojan, password: SfobRIcergHchqBFzzua}
-  - {name: '🇭🇰香港绿头外网集团Public_40', server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089?allowInsecure=1, type: trojan, password: SfobRIcergHchqBFzzua}
+  - {name: '🇭🇰香港绿头外网集团Public_38', server: 62.216.92.180, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
+  - {name: '🇭🇰香港绿头外网集团Public_39', server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: SfobRIcergHchqBFzzua}
+  - {name: '🇭🇰香港绿头外网集团Public_40', server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: SfobRIcergHchqBFzzua}
   - {name: '🇭🇰香港绿头外网集团Public_41', server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 60189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: cdn.savoy.click}
   - {name: '🇭🇰香港绿头外网集团Public_42', server: 120.197.130.73, port: 39075, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇭🇰香港绿头外网集团Public_43', server: 120.241.73.84, port: 39075, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
@@ -54,8 +54,8 @@ proxies:
   - {name: '🇭🇰香港绿头外网集团Public_47', server: 120.197.130.73, port: 39074, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇭🇰香港绿头外网集团Public_48', server: 120.241.73.84, port: 39074, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇭🇰香港绿头外网集团Public_49', server: 116.163.14.29, port: 39074, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
-  - {name: '🇭🇰香港绿头外网集团Public_50', server: 62.216.92.180, port: 443?allowInsecure=1, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
-  - {name: '🇭🇰香港绿头外网集团Public_51', server: 62.216.92.180, port: 443?allowInsecure=1, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: '🇭🇰香港绿头外网集团Public_50', server: 62.216.92.180, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
+  - {name: '🇭🇰香港绿头外网集团Public_51', server: 62.216.92.180, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
   - {name: '🇭🇰香港绿头外网集团Public_52', server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: aicoo6du.com }}
   - {name: '🇮🇩印度尼西亚绿头外网集团Public_53', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
   - {name: '🇮🇱以色列绿头外网集团Public_54', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
@@ -123,7 +123,7 @@ proxies:
   - {name: '🇸🇬新加坡绿头外网集团Public_116', server: 120.241.73.84, port: 39014, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇸🇬新加坡绿头外网集团Public_117', server: 120.197.130.73, port: 39013, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇸🇬新加坡绿头外网集团Public_118', server: 120.197.130.73, port: 39042, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
-  - {name: '🇸🇬新加坡绿头外网集团Public_119', server: fuck.biubiubiu.cloud, port: 443?allowInsecure=1, type: trojan, password: B4iK9pXaRnHfr9Rp}
+  - {name: '🇸🇬新加坡绿头外网集团Public_119', server: fuck.biubiubiu.cloud, port: 443, type: trojan, password: B4iK9pXaRnHfr9Rp}
   - {name: '🇸🇬新加坡绿头外网集团Public_120', server: 217.197.161.136, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬新加坡绿头外网集团Public_121', server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬新加坡绿头外网集团Public_122', server: 217.197.161.138, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -205,8 +205,8 @@ proxies:
   - {name: '🇺🇸美国绿头外网集团Public_198', server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
   - {name: '🇺🇸美国绿头外网集团Public_199', server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
   - {name: '🇺🇸美国绿头外网集团Public_200', server: fa1.uuv2.co.uk, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-washington.lvuft.com }}
-  - {name: '🇺🇸美国绿头外网集团Public_201', server: 173.82.192.61, port: 443?allowInsecure=1, type: trojan, password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG}
-  - {name: '🇺🇸美国绿头外网集团Public_202', server: s3.upyun.online, port: 12340?allowInsecure=1, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
+  - {name: '🇺🇸美国绿头外网集团Public_201', server: 173.82.192.61, port: 443, type: trojan, password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG}
+  - {name: '🇺🇸美国绿头外网集团Public_202', server: s3.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219}
   - {name: '🇺🇸美国绿头外网集团Public_203', server: 169.197.142.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: '🇺🇸美国绿头外网集团Public_204', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '🇺🇸美国绿头外网集团Public_205', server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -225,8 +225,8 @@ proxies:
   - {name: '🇺🇸美国绿头外网集团Public_218', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/ws", host: usa-miami.lvuft.com }}
   - {name: '🇺🇸美国绿头外网集团Public_219', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/v2ray", host: c23s3.jamjams.net }}
   - {name: '🇺🇸美国绿头外网集团Public_220', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/shuier", host: c23s3.jamjams.net }}
-  - {name: '🇺🇸美国绿头外网集团Public_221', server: 72.167.45.6, port: 443?allowInsecure=1, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
-  - {name: '🇺🇸美国绿头外网集团Public_222', server: 72.167.45.6, port: 443?allowInsecure=1, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
+  - {name: '🇺🇸美国绿头外网集团Public_221', server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
+  - {name: '🇺🇸美国绿头外网集团Public_222', server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938}
   - {name: '🇺🇸美国绿头外网集团Public_223', server: 169.197.142.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: '🇺🇸美国绿头外网集团Public_224', server: 169.197.142.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: '🇺🇸美国绿头外网集团Public_225', server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
@@ -243,7 +243,7 @@ proxies:
   - {name: '🇺🇸美国绿头外网集团Public_236', server: 120.241.73.84, port: 39020, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇺🇸美国绿头外网集团Public_237', server: 120.241.73.84, port: 39030, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
   - {name: '🇺🇸美国绿头外网集团Public_238', server: 120.197.130.73, port: 39071, type: vmess, uuid: bb16b3af-518c-3b80-b589-6fa807cefb8a, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "t.me/vpnpool", host: t.me/vpnhat }}
-  - {name: '🇺🇸美国绿头外网集团Public_239', server: 72.167.45.6, port: 443?allowInsecure=1, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: '🇺🇸美国绿头外网集团Public_239', server: 72.167.45.6, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
   - {name: '🇺🇸美国绿头外网集团Public_240', server: 149.28.92.168, port: 62319, type: vmess, uuid: 82c412e6-7016-11ec-a0cd-560003c7f514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/p9O2NbAH/" }}
   - {name: '🇺🇸美国绿头外网集团Public_241', server: 149.28.92.168, port: 62319, type: vmess, uuid: 82c412e6-7016-11ec-a0cd-560003c7f514, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/p9O2NbAH/", host: 149.28.92.168 }}
   - {name: '🇺🇸美国绿头外网集团Public_242', server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: usa-sanfrancisco.lvuft.com }}
