@@ -70,7 +70,15 @@
 
 ✅[GitHub]`https://hub.gitfast.tk`
 
+✅[GitHub]`https://hub.gitslow.tk`
+
+✅[GitHub]`https://hub.verge.tk`
+
 ✅[Raw]`https://raw.gitfast.tk`
+
+✅[Raw]`https://raw.gitslow.tk`
+
+✅[Raw]`https://raw.verge.tk`
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
