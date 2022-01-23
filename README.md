@@ -26,6 +26,8 @@
 
 ♻️[订阅转换] `https://sub.payday2.eu.org`
 
+➖[流量消失器] `https://bye.payday2.eu.org`
+
 🧰[免费美区Apple账号] `https://free.shadowrocket.online`
 
 📛声明[点击查看](https://github.com/ThekingMX1998/free-v2ray-code/blob/none/README.md)
