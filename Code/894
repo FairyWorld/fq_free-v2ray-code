@@ -1,0 +1,3 @@
+proxies:
+  - {"name":"xui_1","server":"haskoi.xyz","port":443,"type":"vless","uuid":"7e89c50f-e8ce-4555-8f5a-4d2aed158b58","cipher":"auto","skip-cert-verify":true,"tls":true,"flow":"xtls-rprx-direct","network":"tcp"}
+  - {"name":"xray_1","server":"mqadazzz.xyz","port":443,"type":"vless","uuid":"a0bd3f9a-9b9b-4077-e10e-9672be94570e","cipher":"auto","skip-cert-verify":true,"tls":true,"flow":"xtls-rprx-direct","network":"tcp"}
