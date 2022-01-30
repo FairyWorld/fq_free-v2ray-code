@@ -39,7 +39,7 @@ class SspanelQd(object):
 
             login_url = self.base_url + '/auth/login'
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
                 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
             }
 
@@ -48,7 +48,7 @@ class SspanelQd(object):
             session.post(login_url, post_data, headers=headers, verify=False)
 
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0',
                 'Referer': self.base_url + '/user'
             }
 
