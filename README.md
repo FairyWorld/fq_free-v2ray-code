@@ -22,7 +22,7 @@
 
 📞[TG电报频道] `https://t.me/payday501`
 
-♾️[机场测速] `http://junel.qicp.vip`
+♾️[机场测速] `http://cs.payday2.eu.org:52300`
 
 ♻️[订阅转换] `https://sub.payday2.eu.org`
 
