@@ -257,6 +257,20 @@ proxies:
   - {name: 新加坡1|BGP|Netflix|1.5x, server: azhk.relay.qchwnd.moe, port: 44605, type: trojan, password: b4771958-2759-4577-b2f2-c9fb315d5cef, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 俄罗斯|BGP, server: azhk.relay.qchwnd.moe, port: 44606, type: trojan, password: b4771958-2759-4577-b2f2-c9fb315d5cef, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 美国1|日杭链路|Netflix|1.5x, server: zjcm.relay.qchwnd.moe, port: 44610, type: trojan, password: b4771958-2759-4577-b2f2-c9fb315d5cef, sni: zjcm.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "️‍🌈[Surplus云赞助]https://surplus.buzz", server: payday2.eu.org, port: 10086, type: trojan, password: 96ed0da7-a73c-4727-94b4-f9515431ae4d, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 美国-B Direct, server: us2-aws.surplus.buzz, port: 10001, type: trojan, password: 96ed0da7-a73c-4727-94b4-f9515431ae4d, sni: us2-aws.surplus.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本-A Direct, server: jp1-aws.surplus.buzz, port: 10001, type: trojan, password: 96ed0da7-a73c-4727-94b4-f9515431ae4d, sni: jp1-aws.surplus.buzz, skip-cert-verify: true, udp: true}
+  - {name: 日本-A BGP中转 By岛主, server: azure-f4s-hk-1.forwardserver.xyz, port: 48812, type: trojan, password: 96ed0da7-a73c-4727-94b4-f9515431ae4d, sni: azure-f4s-hk-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国-A Direct, server: kr1-aws.surplus.buzz, port: 443, type: vmess, uuid: 96ed0da7-a73c-4727-94b4-f9515431ae4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr1-aws.surplus.buzz}, udp: true}
+  - {name: 新加坡-A Direct, server: sg1-aws.surplus.buzz, port: 10001, type: trojan, password: 96ed0da7-a73c-4727-94b4-f9515431ae4d, sni: sg1-aws.surplus.buzz, skip-cert-verify: true, udp: true}
+  - {name: 美国-A Direct, server: us1-aws.surplus.buzz, port: 10001, type: trojan, password: 96ed0da7-a73c-4727-94b4-f9515431ae4d, sni: us1-aws.surplus.buzz, skip-cert-verify: true, udp: true}
+  - {name: "️‍🌈[绝绝子赞助]https://jjzgyjc.live", server: payday2.eu.org, port: 10086, type: trojan, password: 5bb52863-f809-3cb1-a00f-effbec283825, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
+  - {name: 新加坡直连|G1, server: sg1.jjzgy.live, port: 443, type: vmess, uuid: 5bb52863-f809-3cb1-a00f-effbec283825, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg1.jjzgy.live}, udp: true}
+  - {name: 日本东京直连|J1, server: jp1.jjzgy.live, port: 443, type: vmess, uuid: 5bb52863-f809-3cb1-a00f-effbec283825, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: jp1.jjzgy.live}, udp: true}
+  - {name: 美国直连|U1, server: us1.jjzgy.live, port: 8080, type: vmess, uuid: 5bb52863-f809-3cb1-a00f-effbec283825, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: us1.jjzgy.live}, udp: true}
+  - {name: 韩国首尔直连|R1, server: kr1.jjzgy.live, port: 443, type: vmess, uuid: 5bb52863-f809-3cb1-a00f-effbec283825, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: kr1.jjzgy.live}, udp: true}
+  - {name: 香港直连|H1, server: hk1.jjzgy.live, port: 37768, type: vmess, uuid: 5bb52863-f809-3cb1-a00f-effbec283825, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: hk1.jjzgy.live}, udp: true}
+  - {name: 香港直连|H2（周韵专用）, server: hk2.jjzgy.live, port: 19902, type: vmess, uuid: 5bb52863-f809-3cb1-a00f-effbec283825, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: hk2.jjzgy.live}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -515,6 +529,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -772,6 +800,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -1030,6 +1072,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1300,6 +1356,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1352,6 +1422,8 @@ proxy-groups:
       - 【新鸟免费】香港HK-AWS 04 1.0x
       - 【新鸟免费】香港HK-AWS 05 1.0x
       - 印度|广港链路
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -1610,6 +1682,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1867,6 +1953,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2125,6 +2225,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2392,6 +2506,20 @@ proxy-groups:
       - 新加坡1|BGP|Netflix|1.5x
       - 俄罗斯|BGP
       - 美国1|日杭链路|Netflix|1.5x
+      - ️‍🌈[Surplus云赞助]https://surplus.buzz
+      - 美国-B Direct
+      - 日本-A Direct
+      - 日本-A BGP中转 By岛主
+      - 韩国-A Direct
+      - 新加坡-A Direct
+      - 美国-A Direct
+      - ️‍🌈[绝绝子赞助]https://jjzgyjc.live
+      - 新加坡直连|G1
+      - 日本东京直连|J1
+      - 美国直连|U1
+      - 韩国首尔直连|R1
+      - 香港直连|H1
+      - 香港直连|H2（周韵专用）
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
