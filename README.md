@@ -64,7 +64,7 @@
 | 简中 | 聪聪 | [setlanguage/zhcncc](https://t.me/setlanguage/zhcncc) |
 | 简中 | 江湖 | [setlanguage/jianghu](https://t.me/setlanguage/jianghu) |
 | 简中 | moecn | [setlanguage/moecn](https://t.me/setlanguage/moecn) |
-| 简中 | 官方 | [setlanguage/zh-hant-beta](https://t.me/setlanguage/zh-hant-beta) |
+| 繁中 | 官方 | [setlanguage/zh-hant-beta](https://t.me/setlanguage/zh-hant-beta) |
 | 繁中 | Unknown | [setlanguage/hongkong](https://t.me/setlanguage/hongkong) |
 | 繁中 | Unknown | [setlanguage/taiwan](https://t.me/setlanguage/taiwan) |
 
