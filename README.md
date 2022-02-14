@@ -24,6 +24,8 @@
 
 ♾️[机场测速] `http://cs.payday2.eu.org`
 
+♾️[机场测速] `http://cs.brink.ga (Backup)`
+
 ♻️[订阅转换] `https://sub.payday2.eu.org`
 
 🧰[免费美区Apple账号] `https://free.shadowrocket.online`
