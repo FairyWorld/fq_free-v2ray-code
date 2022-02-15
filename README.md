@@ -24,7 +24,7 @@
 
 ♾️[机场测速] `http://cs.payday2.eu.org`
 
-♾️[机场测速] `http://cs.brink.ga (Backup)`
+♾️[机场测速] `http://sst.payday2.eu.org`
 
 ♻️[订阅转换] `https://sub.payday2.eu.org`
 
