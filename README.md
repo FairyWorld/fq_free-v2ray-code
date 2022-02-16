@@ -1,10 +1,7 @@
 ![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/QWZKMYZY.png)
 
-# 每周五至周日更新节点 * 若节点无法使用请使用
+# 每日更新节点
 
-# 🤜[Temporary](https://dllx.tk/GreenFishTemp)🤛 右键复制链接地址
-
-#### PS: [Temporary](https://dllx.tk/GreenFishTemp)属于临时节点，请勿滥用，仅用于更新订阅，谢谢配合
 
 ## 喜欢本项目 请点击右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
 
@@ -38,19 +35,13 @@
 
 ### v2ray
 
-流媒体: `https://dllx.tk/GreenFishStream`
-
 综合: `https://dllx.tk/GreenFishYYDS`
 
-临时: `https://dllx.tk/GreenFishTemp`
 
 ### Clash
 
-流媒体: `https://dllx.tk/GreenFishStream-Clash`
-
 综合: `https://dllx.tk/GreenFishYYDS-Clash`
 
-临时: `https://dllx.tk/GreenFishTemp-Clash`
 
 #### PS: 链接中的`dllx`可替换为`dllc` `dlli` `dllo` `dllv`
 
