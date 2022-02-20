@@ -120,7 +120,7 @@
 | 名称| 类型| 内核| URL|
 | :--- | :--- | :--- | :--- |
 | Shadowrocket | * | * | [app/id932747118](https://apps.apple.com/us/app/shadowrocket/id932747118) |
-| Quantumult | * | * | [app/quantumult/id1252015438](https://apps.apple.com/us/app/quantumult/id1252015438) |
+| Quantumult | * | * | [app/id1252015438](https://apps.apple.com/us/app/quantumult/id1252015438) |
 | Quantumult X | * | * | [app/id1443988620](https://apps.apple.com/us/app/quantumult-x/id1443988620) |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
