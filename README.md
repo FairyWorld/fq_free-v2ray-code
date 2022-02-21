@@ -7,7 +7,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### | [推荐信息](/#%E6%8E%A8%E8%8D%90%E4%BF%A1%E6%81%AF) | [订阅链接](https://github.com/ThekingMX1998/free-v2ray-code#%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5) | [翻墙教程](https://dllx.tk/fqjc) | [TG语言包](https://github.com/ThekingMX1998/free-v2ray-code#telegram%E8%AF%AD%E8%A8%80%E5%8C%85) | [GitHub镜像站](https://github.com/ThekingMX1998/free-v2ray-code#github%E9%95%9C%E5%83%8F%E7%AB%99) |
+#### | [推荐信息](./#%E6%8E%A8%E8%8D%90%E4%BF%A1%E6%81%AF) | [订阅链接](https://github.com/ThekingMX1998/free-v2ray-code#%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5) | [翻墙教程](https://dllx.tk/fqjc) | [TG语言包](https://github.com/ThekingMX1998/free-v2ray-code#telegram%E8%AF%AD%E8%A8%80%E5%8C%85) | [GitHub镜像站](https://github.com/ThekingMX1998/free-v2ray-code#github%E9%95%9C%E5%83%8F%E7%AB%99) |
 
 #### | [科学上网客户端](https://github.com/ThekingMX1998/free-v2ray-code#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF) | [精选vpn推荐](https://github.com/ThekingMX1998/free-v2ray-code#%E7%B2%BE%E9%80%89vpn%E6%8E%A8%E8%8D%90) | [机场推荐](https://github.com/ThekingMX1998/free-v2ray-code#%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90) | [游戏加速器](https://github.com/ThekingMX1998/free-v2ray-code#%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8) | [捐赠地址](https://github.com/ThekingMX1998/free-v2ray-code#%E6%8D%90%E8%B5%A0%E5%9C%B0%E5%9D%80) | [友情推荐](https://github.com/ThekingMX1998/free-v2ray-code#%E5%8F%8B%E6%83%85%E6%8E%A8%E8%8D%90) |
 
