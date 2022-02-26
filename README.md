@@ -141,16 +141,13 @@
 ⭐超过4年的老牌机场
 >✈[GLaDOS] `https://glados.rocks`
 >>🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(3天使用时间)
->>>🎫[优惠码]`PORTALGUN`(满100减50)
->>>🎫[优惠码]`Of-Course-I-Still-Love-You`(满100减50)
+
+⭐只要充值1元就送奈飞 P站 X站高级会员账号
+>✈[速蛙云FAST FROG] `https://i.sw19.icu/EqUb`
 
 ⭐低价大流量Azure/AGA稳定直连
 >✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
 >>🧑‍🤝‍🧑[邀请码]`mlnSFnXP`
-
-⭐适合新手或大流量用户
->✈[比特云Bitcloud] `https://bityun.org/#/register?code=s1BrCGF5`
->>🧑‍🤝‍🧑[邀请码]`s1BrCGF5`
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
