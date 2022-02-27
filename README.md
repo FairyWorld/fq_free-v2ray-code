@@ -7,7 +7,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### | [推薦信息](#推薦信息) | [訂閱鏈接](#訂閱鏈接) | [翻牆教程](https://dllx.tk/fqjc) | [免流混淆](https://dllx.tk/mlhx) | [TG語言包](https://github.com/ThekingMX1998/free-v2ray-code#telegram%E8%AF%AD%E8%A8%80%E5%8C%85) | [GitHub鏡像站](https://github.com/ThekingMX1998/free-v2ray-code#github%E9%95%9C%E5%83%8F%E7%AB%99) |
+#### | [推薦信息](#推薦信息) | [訂閱鏈接](#訂閱鏈接) | [翻牆教程](https://dllx.tk/fqjc) | [免流混淆](https://dllx.tk/mlhx) | [TG語言包](#telegram語言包) | [GitHub鏡像站](https://github.com/ThekingMX1998/free-v2ray-code#github%E9%95%9C%E5%83%8F%E7%AB%99) |
 
 #### | [科學上網客戶端](https://github.com/ThekingMX1998/free-v2ray-code#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF) | [精選VPN推薦](https://github.com/ThekingMX1998/free-v2ray-code#%E7%B2%BE%E9%80%89vpn%E6%8E%A8%E8%8D%90) | [機場推薦](https://github.com/ThekingMX1998/free-v2ray-code#%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90) | [遊戲加速器](https://github.com/ThekingMX1998/free-v2ray-code#%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8) | [捐贈地址](https://github.com/ThekingMX1998/free-v2ray-code#%E6%8D%90%E8%B5%A0%E5%9C%B0%E5%9D%80) | [友情推薦](https://github.com/ThekingMX1998/free-v2ray-code#%E5%8F%8B%E6%83%85%E6%8E%A8%E8%8D%90) |
 
