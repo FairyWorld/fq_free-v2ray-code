@@ -19,9 +19,9 @@
 
 📞[TG電報頻道] `https://t.me/payday501`
 
-♾️[機場測速] `http://cs.payday2.eu.org`
+♾️[機場測速] `http://cs.brink.ga`
 
-♾️[機場測速] `http://sst.payday2.eu.org`
+♾️[機場測速] `http://sst.brink.ga`
 
 ♻️[訂閱轉換] `https://sub.payday2.eu.org`
 
