@@ -1,4 +1,4 @@
-![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/GYJXWLWX.png)
+![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/PAYDAY4478.png)
 
 # 每日更新节点
 
