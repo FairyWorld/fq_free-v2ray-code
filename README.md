@@ -1,37 +1,37 @@
 ![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/PAYDAY4478.png)
 
-# 每日更新节点
+# 每日更新節點
 
 
-## 喜欢本项目 请点击右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-#### | [推荐信息](https://github.com/ThekingMX1998/free-v2ray-code#%E6%8E%A8%E8%8D%90%E4%BF%A1%E6%81%AF) | [订阅链接](https://github.com/ThekingMX1998/free-v2ray-code#%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5) | [翻墙教程](https://dllx.tk/fqjc) | [免流混淆](https://dllx.tk/mlhx) | [TG语言包](https://github.com/ThekingMX1998/free-v2ray-code#telegram%E8%AF%AD%E8%A8%80%E5%8C%85) | [GitHub镜像站](https://github.com/ThekingMX1998/free-v2ray-code#github%E9%95%9C%E5%83%8F%E7%AB%99) |
-
-#### | [科学上网客户端](https://github.com/ThekingMX1998/free-v2ray-code#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF) | [精选vpn推荐](https://github.com/ThekingMX1998/free-v2ray-code#%E7%B2%BE%E9%80%89vpn%E6%8E%A8%E8%8D%90) | [机场推荐](https://github.com/ThekingMX1998/free-v2ray-code#%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90) | [游戏加速器](https://github.com/ThekingMX1998/free-v2ray-code#%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8) | [捐赠地址](https://github.com/ThekingMX1998/free-v2ray-code#%E6%8D%90%E8%B5%A0%E5%9C%B0%E5%9D%80) | [友情推荐](https://github.com/ThekingMX1998/free-v2ray-code#%E5%8F%8B%E6%83%85%E6%8E%A8%E8%8D%90) |
+## 喜歡本項目 請點擊右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢推荐信息📢
+#### | [推荐信息](https://github.com/ThekingMX1998/free-v2ray-code#%E6%8E%A8%E8%8D%90%E4%BF%A1%E6%81%AF) | [訂閱鏈接](https://github.com/ThekingMX1998/free-v2ray-code#%E8%AE%A2%E9%98%85%E9%93%BE%E6%8E%A5) | [翻牆教程](https://dllx.tk/fqjc) | [免流混淆](https://dllx.tk/mlhx) | [TG語言包](https://github.com/ThekingMX1998/free-v2ray-code#telegram%E8%AF%AD%E8%A8%80%E5%8C%85) | [GitHub鏡像站](https://github.com/ThekingMX1998/free-v2ray-code#github%E9%95%9C%E5%83%8F%E7%AB%99) |
 
-📞[TG电报群] `https://t.me/payday4478`
-
-📞[TG电报频道] `https://t.me/payday501`
-
-♾️[机场测速] `http://cs.payday2.eu.org`
-
-♾️[机场测速] `http://sst.payday2.eu.org`
-
-♻️[订阅转换] `https://sub.payday2.eu.org`
-
-🧰[免费美区Apple账号] `https://free.shadowrocket.online`
-
-📛声明[点击查看](https://github.com/ThekingMX1998/free-v2ray-code/blob/none/README.md)
+#### | [科學上網客戶端](https://github.com/ThekingMX1998/free-v2ray-code#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%AE%A2%E6%88%B7%E7%AB%AF) | [精選VPN推薦](https://github.com/ThekingMX1998/free-v2ray-code#%E7%B2%BE%E9%80%89vpn%E6%8E%A8%E8%8D%90) | [機場推薦](https://github.com/ThekingMX1998/free-v2ray-code#%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90) | [遊戲加速器](https://github.com/ThekingMX1998/free-v2ray-code#%E6%B8%B8%E6%88%8F%E5%8A%A0%E9%80%9F%E5%99%A8) | [捐贈地址](https://github.com/ThekingMX1998/free-v2ray-code#%E6%8D%90%E8%B5%A0%E5%9C%B0%E5%9D%80) | [友情推薦](https://github.com/ThekingMX1998/free-v2ray-code#%E5%8F%8B%E6%83%85%E6%8E%A8%E8%8D%90) |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢订阅链接📢
+## 📢推薦信息📢
+
+📞[TG電報群] `https://t.me/payday4478`
+
+📞[TG電報頻道] `https://t.me/payday501`
+
+♾️[機場測速] `http://cs.payday2.eu.org`
+
+♾️[機場測速] `http://sst.payday2.eu.org`
+
+♻️[訂閱轉換] `https://sub.payday2.eu.org`
+
+🧰[免費美區Apple賬號] `https://free.shadowrocket.online`
+
+📛聲明[點擊查看](https://github.com/ThekingMX1998/free-v2ray-code/blob/none/README.md)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📢訂閱鏈接📢
 
 ### v2ray
 
@@ -47,21 +47,21 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢Telegram语言包📢
+## 📢Telegram語言包📢
 
 | 语言| 作者| URL|
 | :--- | :--- | :--- |
-| 简中 | 官方 | [setlanguage/zh-hans-beta](https://t.me/setlanguage/zh-hans-beta) |
-| 简中 | 聪聪 | [setlanguage/zhcncc](https://t.me/setlanguage/zhcncc) |
-| 简中 | 江湖 | [setlanguage/jianghu](https://t.me/setlanguage/jianghu) |
-| 简中 | moecn | [setlanguage/moecn](https://t.me/setlanguage/moecn) |
+| 簡中 | 官方 | [setlanguage/zh-hans-beta](https://t.me/setlanguage/zh-hans-beta) |
+| 簡中 | 聪聪 | [setlanguage/zhcncc](https://t.me/setlanguage/zhcncc) |
+| 簡中 | 江湖 | [setlanguage/jianghu](https://t.me/setlanguage/jianghu) |
+| 簡中 | moecn | [setlanguage/moecn](https://t.me/setlanguage/moecn) |
 | 繁中 | 官方 | [setlanguage/zh-hant-beta](https://t.me/setlanguage/zh-hant-beta) |
 | 繁中 | * | [setlanguage/hongkong](https://t.me/setlanguage/hongkong) |
 | 繁中 | * | [setlanguage/taiwan](https://t.me/setlanguage/taiwan) |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢GitHub镜像站📢
+## 📢GitHub鏡像站📢
 
 ✅[GitHub]`https://hub.gitfast.tk`
 
@@ -77,7 +77,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢科学上网客户端📢 
+## 📢科學上網客戶端📢 
 
 ### Windows:
 
@@ -125,7 +125,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢精选VPN推荐📢 
+## 📢精選VPN推薦📢 
 
 🔒[快连LetsVPN] `https://letsvpn.world`
 >🧑‍🤝‍🧑[邀请码]`166828926`(额外3天体验时间)
@@ -137,29 +137,29 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢机场推荐📢 
-⭐超过4年的老牌机场
+## 📢機場推薦📢 
+⭐超過4年的老牌機場
 >✈[GLaDOS] `https://glados.rocks`
->>🧑‍🤝‍🧑[邀请码]`FRXB8-MR9N6-6K5SS-3GVHB`(3天使用时间)
+>>🧑‍🤝‍🧑[邀請碼]`FRXB8-MR9N6-6K5SS-3GVHB`(3天使用時間)
 
-⭐只要充值1元就送奈飞 P站 X站高级会员账号
->✈[速蛙云FAST FROG] `https://i.sw19.icu/EqUb`
+⭐只要充值1元就送奈飛 P站 X站高級會員賬號
+>✈[速蛙雲FAST FROG] `https://i.sw19.icu/EqUb`
 
-⭐低价大流量Azure/AGA稳定直连
->✈[大机场Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
->>🧑‍🤝‍🧑[邀请码]`mlnSFnXP`
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 📢游戏加速器📢 
-
-⭕[蓝泡] `https://www.lpjsq.cn`
+⭐低價大流量Azure/AGA穩定直連
+>✈[大機場Big Airport] `https://xn--mesr8b36x.com/#/register?code=mlnSFnXP`
+>>🧑‍🤝‍🧑[邀請碼]`mlnSFnXP`
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢捐赠地址📢 
+## 📢遊戲加速器📢 
 
-⚡[爱发电] `https://afdian.net/@thekingmengxian`
+⭕[藍泡] `https://www.lpjsq.cn`
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📢捐贈地址📢 
+
+⚡[愛發電] `https://afdian.net/@thekingmengxian`
 
 💳[Paypal] `https://www.paypal.com/paypalme/thekingmengxian`
 
@@ -169,7 +169,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 📢友情推荐📢 
+## 📢友情推薦📢 
 
 [![ghxi](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/ghboke-logo.png)](https://ghxi.com)
 [![52bd](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/52bd-logo.png)](https://www.52bd.net)
