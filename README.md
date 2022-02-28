@@ -1,4 +1,4 @@
-![QWZKMYZY](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/PAYDAY4478.png)
+![GYJXWLWX](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/PAYDAY4478.png)
 
 # 每日更新節點
 
