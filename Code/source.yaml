@@ -10,6 +10,30 @@
 
 - type: subscribe
   options:
+    url: https://node.hudaye.space/lastest/v2ray
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Aftermath863/vmess/master/text.txt
+    
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+
+- type: subscribe
+  options:
+    url: 
+
+- type: subscribe
+  options:
+    url: 
+
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
+
+- type: subscribe
+  options:
     url: https://raw.githubusercontent.com/wrfree/free/main/v2
 
 - type: subscribe
@@ -47,11 +71,33 @@
 - type: subscribe
   options:
     url: https://mkkhack.pw/ssr.php
+    
+    
 # 网页模糊抓取
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
 
+- type: webfuzz
+  options:
+    url: https://view.freev2ray.org
+    
+- type: webfuzz
+  options:
+    url: https://raw.githubusercontent.com/gelangtai/freessr/main/README.md
+    
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7    
+    
+- type: webfuzz
+  options:
+    url: https://fx.tmioe.com/free
+    
 # tg频道抓取
 - type: tgchannel
   options:
@@ -77,7 +123,45 @@
   options:
     channel: ShareCentrePro
     num: 200
+
+- type: tgchannel
+  options:
+    channel: SSRSUB
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: freeshadowsock
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: ssrshares
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: mftizi
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: nfeng6
+    num: 200
+
 # 翻墙党论坛抓取
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-48-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-2-1.html
+
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-36-1.html
+    
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum-48-1.html
@@ -86,10 +170,18 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
-
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
+    
 - type: clash
   options:
     url: https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
 
 - type: clash
   options:
