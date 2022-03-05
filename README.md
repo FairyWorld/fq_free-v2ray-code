@@ -23,7 +23,11 @@
 
 ♾️[機場測速] `http://sst.brink.ga`
 
+📶[網絡測速]`https://greenfish.dualstack.speedtestcustom.com`
+
 ♻️[訂閱轉換] `https://sub.payday2.eu.org`
+
+🌐[節點池]`https://proxies.payday2.eu.org`
 
 🧰[免費美區Apple賬號] `https://free.shadowrocket.online`
 
