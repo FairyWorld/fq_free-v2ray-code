@@ -27,8 +27,6 @@
 
 ♻️[訂閱轉換] `https://sub.payday2.eu.org`
 
-🌐[節點池]`https://proxies.payday2.eu.org`
-
 🧰[免費美區Apple賬號] `https://free.shadowrocket.online`
 
 📛聲明[點擊查看](https://github.com/ThekingMX1998/free-v2ray-code/blob/none/README.md)
