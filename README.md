@@ -1,6 +1,6 @@
 ![GYJXWLWX](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/PAYDAY4478.png)
 
-# 每日更新節點
+# 暫停服務 
 
 
 ## 喜歡本項目 請點擊右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
