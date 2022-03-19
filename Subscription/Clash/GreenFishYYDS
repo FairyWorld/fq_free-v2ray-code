@@ -120,6 +120,12 @@ proxies:
   - {name: 🇺🇸美国(绿头外网集团)(Public) 23, server: cu-1.ssp-node.com, port: 17522, type: vmess, uuid: cbb28263-934c-428a-8360-2433f6f1a08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public) 24, server: xiao1.xiaobaigou.cc, port: 80, type: vmess, uuid: f34e2f70-bb37-32ef-9b94-65e53b7ad53f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: xiao1.xiaobaigou.cc}, udp: true}
   - {name: 🇻🇳越南(绿头外网集团)(Public), server: br-cn-south-cu1.node-fnf.xyz, port: 25062, type: vmess, uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 18, server: hk5.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: hk5.peakerselling.com}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 19, server: hk4.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: hk4.peakerselling.com}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 2, server: us1.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: us1.peakerselling.com}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 20, server: hk3.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: hk3.peakerselling.com}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 21, server: 0318hk08.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0318hk08.fans8.xyz}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 22, server: hk8.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: hk8.peakerselling.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -241,6 +247,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -361,6 +373,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -482,6 +500,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -615,6 +639,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -649,6 +679,11 @@ proxy-groups:
       - 🇹🇼台湾(绿头外网集团)(Public) 11
       - 🇹🇼台湾(绿头外网集团)(Public) 12
       - 🇹🇼台湾(绿头外网集团)(Public) 13
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -770,6 +805,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: 📲 电报信息
     type: select
     proxies:
@@ -890,6 +931,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1011,6 +1058,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1141,6 +1194,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 23
       - 🇺🇸美国(绿头外网集团)(Public) 24
       - 🇻🇳越南(绿头外网集团)(Public)
+      - 🇭🇰香港(绿头外网集团)(Public) 18
+      - 🇭🇰香港(绿头外网集团)(Public) 19
+      - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇭🇰香港(绿头外网集团)(Public) 20
+      - 🇭🇰香港(绿头外网集团)(Public) 21
+      - 🇭🇰香港(绿头外网集团)(Public) 22
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
