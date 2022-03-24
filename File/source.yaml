@@ -23,11 +23,19 @@
 
 - type: subscribe
   options:
-    url: 
+    url: https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity
 
 - type: subscribe
   options:
-    url: 
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+    
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/Aftermath863/vmess/master/text.txt
+
+- type: subscribe
+  options:
+    url: https://dingyue-3843.onrender.com/yunbaitechnodes
 
 - type: subscribe
   options:
@@ -150,7 +158,17 @@
   options:
     channel: nfeng6
     num: 200
+    
+- type: tgchannel
+  options:
+    channel: p2psharing
+    num: 200    
 
+- type: tgchannel
+  options:
+    channel: airproxies
+    num: 200   
+    
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
@@ -198,6 +216,38 @@
 - type: clash
   options:
     url: https://pool.jinxnet.xyz/clash/proxies
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/changfengoss.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/config.yaml
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ObcbO/auto-subscribe/main/subscribe/clash.yml    
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml 
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/vpnproxy66/Clash/main/Clash.yml
+    
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/Glysit/Clash/main/ClashGlysit.yml
     
     
 # 某个网站抓取
