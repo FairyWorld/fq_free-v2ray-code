@@ -1,0 +1,60 @@
+name: Mirror repos
+
+on:
+  schedule:
+    - cron: "0 18 * * 0-4" # 设置定时任务，周一到周五的凌晨2点进行备份
+  workflow_dispatch: # 手动触发构建
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: GitHub CLI version
+        run: gh --version
+
+      - name: List repos
+        env:
+          GH_TOKEN_A: ${{ secrets.GH_TOKEN_A }}
+        run: |
+          echo ${GH_TOKEN_A} > gh_token_a
+          gh auth login --with-token < gh_token_a
+          gh repo list user-a -L 1000 > a_repos
+          cat a_repos
+          cat a_repos | wc -l
+
+      - name: Mirror repos
+        env:
+          GH_TOKEN_A: ${{ secrets.GH_TOKEN_A }}
+          GH_TOKEN_B: ${{ secrets.GH_TOKEN_B }}
+          IGNORE_REPOS: "/repo_a/repo_b/"
+          ONLY_BRANCH_REPOS: "/repo_c/repo_d/"
+        run: |
+          echo ${GH_TOKEN_B} > gh_token_b
+          gh auth login --with-token < gh_token_b
+
+          mkdir repos
+          cd repos
+          set -x
+          cat ${GITHUB_WORKSPACE}/a_repos | while read repo; do
+            repo_name=$(echo ${repo} | awk '{print $1}' | awk -F/ '{print $2}')
+            [[ ${IGNORE_REPOS} =~ "/${repo_name}/" ]] && continue || true
+
+            gh repo create user-b/${repo_name} --private --description "${repo}" -y || true
+            rm -rf ${repo_name}
+
+            git clone --bare https://${GH_TOKEN_A}@github.com/user-a/${repo_name}.git ${repo_name}
+
+            cd ${repo_name}
+            mirror_repo="https://${GH_TOKEN_B}@github.com/user-b/${repo_name}.git"
+            git push --all -f ${mirror_repo} || true
+            [[ ${ONLY_BRANCH_REPOS} =~ "/${repo_name}/" ]] && continue || true
+            git push --mirror -f ${mirror_repo} || true
+            cd -
+          done
+
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
