@@ -11,18 +11,18 @@
 
 ### 索引
 
-- [推薦信息](README.md#推薦信息)
-- [訂閱鏈接](README.md#訂閱鏈接)
+- [推薦信息](#推薦信息)
+- [訂閱鏈接](#訂閱鏈接)
 - [翻牆教程](https://dllx.tk/fqjc)
 - [免流混淆](https://dllx.tk/mlhx)
-- [TG語言包](README.md#telegram語言包)
-- [GitHub鏡像站](README.md#gitHub鏡像站)
-- [科學上網客戶端](README.md#科學上網客戶端)
-- [精選VPN推薦](README.md#精選VPN推薦)
-- [機場推薦](README.md#機場推薦)
-- [遊戲加速器](README.md#遊戲加速器)
-- [捐贈地址](README.md#捐贈地址)
-- [友情推薦](README.md#友情推薦)
+- [TG語言包](#telegram語言包)
+- [GitHub鏡像站](#gitHub鏡像站)
+- [科學上網客戶端](#科學上網客戶端)
+- [精選VPN推薦](#精選VPN推薦)
+- [機場推薦](#機場推薦)
+- [遊戲加速器](#遊戲加速器)
+- [捐贈地址](#捐贈地址)
+- [友情推薦](#友情推薦)
 
 * * *
 
