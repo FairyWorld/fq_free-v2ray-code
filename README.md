@@ -35,16 +35,14 @@
 
 ### v2ray
 
-综合: 
-```
+综合: ```
 https://dllx.tk/GreenFishYYDS
 ```
 
 
 ### Clash
 
-综合: 
-```
+综合: ```
 https://dllx.tk/GreenFishYYDS-Clash
 ```
 
