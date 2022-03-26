@@ -165,7 +165,9 @@ https://dllx.tk/GreenFishYYDS-Clash
 >✈[GLaDOS] `https://glados.rocks`
 >>🧑‍🤝‍🧑[邀請碼] `FRXB8-MR9N6-6K5SS-3GVHB`(3天體驗時間)
 >>>🎫[優惠碼] `Of-Course-I-Still-Love-You`(滿100減50)
+>>>
 >>>🎫[優惠碼] `PORTALGUN`(滿100減50)
+>>>
 >>>🎫[優惠碼] `hunterx`(滿100減30)
 
 ⭐薯條(CNIX)是一家老牌翻牆機場,提供IPLC內網專線節點,翻牆協議為SS,薯條節點數量超多,並且有IPv6接入
