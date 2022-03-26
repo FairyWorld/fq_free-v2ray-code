@@ -173,6 +173,9 @@ https://dllx.tk/GreenFishYYDS-Clash
 ⭐薯條(CNIX)是一家老牌翻牆機場,提供IPLC內網專線節點,翻牆協議為SS,薯條節點數量超多,並且有IPv6接入
 >✈[薯條CNIX] `https://xn--gmq396grzd.com`
 
+⭐别看了,买不起的
+>✈[佩奇Nexitally] `https://nexitally.net`
+
 ⭐TAG採用SS翻牆協議,支持UDP,服務穩定可靠,提供的IEPL內網專線翻牆線路
 >✈[TAG] `https://taggood-5.xyz`
 
