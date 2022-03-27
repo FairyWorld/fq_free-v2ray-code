@@ -1,4 +1,4 @@
-![GYJXWLWX](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/PAYDAY4478.png)
+![GYJXWLWX](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/Logo/PAYDAY4478.png)
 
 # 每日更新
 
@@ -201,9 +201,9 @@ https://dllx.tk/GreenFishYYDS-Clash
 
 ## 📢友情推薦📢 
 
-[![ghxi](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/ghboke-logo.png)](https://ghxi.com)
-[![52bd](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/52bd-logo.png)](https://www.52bd.net)
-[![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/kinh-logo.png)](https://kinh.cc)
-[![wuyong](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/wuyong-logo.png)](https://wuyong.fun)
+[![ghxi](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/Logo/ghboke-logo.png)](https://ghxi.com)
+[![52bd](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/Logo/52bd-logo.png)](https://www.52bd.net)
+[![kinh](https://github.com/ThekingMX1998/free-v2ray-code/raw/master/Image/Logo/kinh-logo.png)](https://kinh.cc)
+[![wuyong](https://cdn.jsdelivr.net/gh/ThekingMX1998/free-v2ray-code@master/Image/Logo/wuyong-logo.png)](https://wuyong.fun)
 
 
