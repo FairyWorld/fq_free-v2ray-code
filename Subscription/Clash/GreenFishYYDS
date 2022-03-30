@@ -5,6 +5,9 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {name: 🏳️‍🌈节点更新时间 2022/03/30, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDC, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
+  - {name: "🏳️‍🌈[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
   - {name: 🇦🇪阿联酋(绿头外网集团)(Public), server: hhzx2.doubledou.win, port: 4590, type: trojan, password: ff99e49a-3657-3e4d-bfcc-0df8a4ed8b17, sni: hhzx2.doubledou.win, skip-cert-verify: true, udp: true}
   - {name: 🇦🇪阿联酋(绿头外网集团)(Public) 2, server: azzz.doubledou.win, port: 50034, type: trojan, password: d9c94f17-e38f-35f6-aa11-d42b68b0dcc0, sni: azzz.doubledou.win, skip-cert-verify: true, udp: true}
   - {name: 🇦🇺澳大利亚(绿头外网集团)(Public), server: 183.232.56.161, port: 1212, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
@@ -77,6 +80,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -148,6 +154,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -220,6 +229,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -304,6 +316,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -407,6 +422,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -478,6 +496,9 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -550,6 +571,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
@@ -631,6 +655,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🏳️‍🌈节点更新时间 2022/03/30
+      - 🏳️‍🌈[TG电报群]https://t.me/payday4478
+      - 🏳️‍🌈[TG电报频道]https://t.me/payday501
       - 🇦🇪阿联酋(绿头外网集团)(Public)
       - 🇦🇪阿联酋(绿头外网集团)(Public) 2
       - 🇦🇺澳大利亚(绿头外网集团)(Public)
