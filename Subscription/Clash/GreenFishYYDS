@@ -3,55 +3,45 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 0.0.0.0:9090
+external-controller: :9090
 proxies:
   - {name: 🏳️‍🌈节点更新时间 2022/04/03, server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDC, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
   - {name: "🏳️‍🌈[TG电报群]https://t.me/payday4478", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDN, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
   - {name: "🏳️‍🌈[TG电报频道]https://t.me/payday501", server: payday2.eu.org, port: 10086, type: trojan, password: WDNMDM, sni: payday2.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦加拿大(绿头外网集团)(Public), server: ca02.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, sni: ca02.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪德国(绿头外网集团)(Public), server: de1-relay.144050.tk, port: 443, type: vmess, uuid: b8a322b2-73c6-4562-b314-079ff2088ea2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: yorknodesvws, ws-headers: {Host: de1-relay.144050.tk}, udp: true}
-  - {name: 🇩🇪德国(绿头外网集团)(Public) 2, server: top-cs.gov-ddns.cn, port: 10823, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: v2ray, ws-headers: {Host: 45.63.127.159}, udp: true}
-  - {name: 🇩🇪德国(绿头外网集团)(Public) 3, server: 95.179.242.166, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 95.179.242.166}, udp: true}
-  - {name: 🇫🇷法国(绿头外网集团)(Public), server: 107.191.47.91, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 107.191.47.91}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public), server: hk20.holiganfan.com, port: 10088, type: trojan, password: 61729199-896f-4c15-bae3-e8780b22c70c, sni: hk20.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 2, server: 7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com, port: 10002, type: ss, cipher: aes-256-gcm, password: 091d4bf7-87de-4724-971c-b6dffa679966, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 3, server: mg01.nfeng6.pp.ua, port: 63078, type: vmess, uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /t.me/nfeng6, ws-headers: {Host: mg01.nfeng6.pp.ua}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 4, server: tj-03.t8737.shop, port: 11223, type: trojan, password: 8a06dd72-43f2-40fa-a2dd-a19d44ccee46, sni: tj-03.t8737.shop, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 5, server: hk3.fdns.unino.tech, port: 443, type: vmess, uuid: 518cec6c-a82c-4f5a-a5ed-084d57677d0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.unino.tech}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 6, server: hk4.fdns.unino.tech, port: 443, type: vmess, uuid: 518cec6c-a82c-4f5a-a5ed-084d57677d0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 7, server: hk5.fdns.unino.tech, port: 443, type: vmess, uuid: 518cec6c-a82c-4f5a-a5ed-084d57677d0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.unino.tech}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 8, server: hk3.fdns.unino.tech, port: 80, type: vmess, uuid: 518cec6c-a82c-4f5a-a5ed-084d57677d0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk3.fdns.unino.tech}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 9, server: hk4.fdns.unino.tech, port: 80, type: vmess, uuid: 518cec6c-a82c-4f5a-a5ed-084d57677d0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk4.fdns.unino.tech}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 10, server: hk5.fdns.unino.tech, port: 80, type: vmess, uuid: 518cec6c-a82c-4f5a-a5ed-084d57677d0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5.fdns.unino.tech}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 11, server: hk01.internetsmartrouting.top, port: 20569, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 12, server: hk02.internetsmartrouting.top, port: 20606, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 13, server: hk03.internetsmartrouting.top, port: 31690, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 14, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 15, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 16, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 17, server: h3.shopbuy.club, port: 443, type: vmess, uuid: 92261659-55a6-4b43-85d2-d3d3f30ca8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /KoUJaiN8, ws-headers: {Host: h3.shopbuy.club}, udp: true}
-  - {name: 🇯🇵日本(绿头外网集团)(Public), server: 183.232.56.161, port: 1202, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: "%7B%22Host%22:%22183.232.56.161%22%7D"}, udp: true}
-  - {name: 🇯🇵日本(绿头外网集团)(Public) 2, server: 52.140.213.240, port: 1234, type: vmess, uuid: 828c1dbc-16ca-41dd-d078-53d23dbb4835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵日本(绿头外网集团)(Public) 3, server: jp01.internetsmartrouting.top, port: 20090, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇯🇵日本(绿头外网集团)(Public) 4, server: jp02.internetsmartrouting.top, port: 23621, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇯🇵日本(绿头外网集团)(Public) 5, server: 139.180.198.206, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 139.180.198.206}, udp: true}
-  - {name: 🇯🇵日本(绿头外网集团)(Public) 6, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
+  - {name: 🇩🇪德国(绿头外网集团)(Public), server: 95.179.242.166, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 🇩🇪德国(绿头外网集团)(Public) 2, server: top-cs.gov-ddns.cn, port: 10823, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: v2ray, headers: {Host: 45.63.127.159}}, udp: true}
+  - {name: 🇫🇷法国(绿头外网集团)(Public), server: 107.191.47.91, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 🇬🇧英国(绿头外网集团)(Public), server: top-cs.gov-ddns.cn, port: 19960, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: v2ray, headers: {Host: 45.63.127.159}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public), server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 2, server: hk02.internetsmartrouting.top, port: 20606, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 3, server: h3.shopbuy.club, port: 443, type: vmess, uuid: 92261659-55a6-4b43-85d2-d3d3f30ca8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /KoUJaiN8, headers: {Host: h3.shopbuy.club}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 4, server: tj-16.t8737.shop, port: 11223, type: trojan, password: 8325c755-90f1-4ad7-a447-2a70d5b35457, sni: TJ-16.t8737.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 5, server: hk01.internetsmartrouting.top, port: 20569, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 6, server: tj-02.t8737.shop, port: 11223, type: trojan, password: 8325c755-90f1-4ad7-a447-2a70d5b35457, sni: TJ-02.t8737.shop, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 7, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: "%7B%22Host%22:%22apple.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 8, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 9, server: hk03.internetsmartrouting.top, port: 31690, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 10, server: cu3.sgdns.club, port: 31267, type: vmess, uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sgy, headers: {Host: cu3.sgdns.club}}, udp: true}
+  - {name: 🇯🇵日本(绿头外网集团)(Public), server: 139.180.198.206, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 🇯🇵日本(绿头外网集团)(Public) 2, server: jp02.internetsmartrouting.top, port: 23621, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇯🇵日本(绿头外网集团)(Public) 3, server: jp01.internetsmartrouting.top, port: 20090, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
   - {name: 🇰🇷韩国(绿头外网集团)(Public), server: 152.69.228.27, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷韩国(绿头外网集团)(Public) 2, server: 20.200.209.104, port: 1234, type: vmess, uuid: 4cbdfcc4-60ea-4479-a290-8e7389af8789, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷韩国(绿头外网集团)(Public) 3, server: korea01.internetsmartrouting.top, port: 20562, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇲🇲缅甸(绿头外网集团)(Public), server: az.xiaoyizi.in, port: 30015, type: vmess, uuid: 9f959528-fc25-3332-8cce-e4873bfc3f51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: az.xiaoyizi.in}, udp: true}
-  - {name: 🇲🇾马来西亚(绿头外网集团)(Public), server: 183.232.56.161, port: 5019, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇸🇬新加坡(绿头外网集团)(Public), server: sgp01.internetsmartrouting.top, port: 26889, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 2, server: sgp-bgp.internetsmartrouting.top, port: 20021, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 3, server: 207.148.77.25, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 207.148.77.25}, udp: true}
-  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 4, server: top-cs.gov-ddns.cn, port: 19959, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: v2ray, ws-headers: {Host: 45.63.127.159}, udp: true}
-  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 5, server: 103.136.127.163, port: 56031, type: vmess, uuid: 783df988-4d45-467e-a1b5-83173c842660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.136.127.163}, udp: true}
-  - {name: 🇺🇸美国(绿头外网集团)(Public), server: us03.internetsmartrouting.top, port: 30478, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇺🇸美国(绿头外网集团)(Public) 2, server: us1-relay.144050.ml, port: 443, type: vmess, uuid: 92490944-d9d5-4ac9-baaa-dcadb57e450d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yorknodesvws, ws-headers: {Host: us1-relay.144050.ml}, udp: true}
-  - {name: 🇺🇸美国(绿头外网集团)(Public) 3, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷韩国(绿头外网集团)(Public) 2, server: korea01.internetsmartrouting.top, port: 20562, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇰🇷韩国(绿头外网集团)(Public) 3, server: top-cs.gov-ddns.cn, port: 19958, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: v2ray, headers: {Host: 45.63.127.159}}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public), server: sgp2.quoctai.xyz, port: 80, type: vmess, uuid: caf12d12-e017-44fe-b741-f8727e2fecd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /quoctai, headers: {Host: sgp2.quoctai.xyz}}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 2, server: 207.148.77.25, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 3, server: top-cs.gov-ddns.cn, port: 19959, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: v2ray, headers: {Host: 45.63.127.159}}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 4, server: sgp-bgp.internetsmartrouting.top, port: 20021, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 5, server: sgp01.internetsmartrouting.top, port: 26889, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 6, server: 103.136.127.163, port: 56031, type: vmess, uuid: 783df988-4d45-467e-a1b5-83173c842660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public), server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 734d6ca1-88fa-44ff-86a6-8466498be934, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public) 2, server: 212.103.62.37, port: 443, type: vmess, uuid: 17beadf3-1878-4beb-9417-b47295aefc12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cNlbnKh, headers: {Host: 212.103.62.37}}, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public) 3, server: hk1.lolvps.xyz, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /D1LYYDHH, headers: {Host: hk1.lolvps.xyz}}, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public) 4, server: azjp.caolifei.tk, port: 29999, type: vmess, uuid: 3d25a7e7-8060-48a2-983f-24a4bbab0772, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸美国(绿头外网集团)(Public) 5, server: us02.internetsmartrouting.top, port: 20666, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: 🇺🇸美国(绿头外网集团)(Public) 6, server: hk1.lolvps.xyz, port: 50021, type: vmess, uuid: f3666ca6-b94a-4a27-9aa9-00c8eaede12c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /D1LYYDHH, ws-headers: {Host: hk1.lolvps.xyz}, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public) 5, server: usa.dadiangan.xyz, port: 23290, type: ss, cipher: chacha20-ietf-poly1305, password: 0da92f0b-6fd7-4e63-a93a-3503b8abc67f, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public) 6, server: top-cs.gov-ddns.cn, port: 19962, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: v2ray, headers: {Host: 45.63.127.159}}, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public) 7, server: us02.internetsmartrouting.top, port: 20666, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, headers: {Host: apple.com}}, udp: true}
+  - {name: 🇺🇸美国(绿头外网集团)(Public) 8, server: 45.76.67.182, port: 26665, type: vmess, uuid: 787d79ce-b2df-11ec-93d1-560003ee6bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /P9nijrbA/}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -61,11 +51,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -76,35 +65,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -113,11 +93,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -128,35 +107,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -166,11 +136,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -181,35 +150,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -231,11 +191,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -246,35 +205,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -289,13 +239,6 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -305,11 +248,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -320,35 +262,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -357,11 +290,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -372,35 +304,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -410,11 +333,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -425,35 +347,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -472,11 +385,10 @@ proxy-groups:
       - 🏳️‍🌈节点更新时间 2022/04/03
       - 🏳️‍🌈[TG电报群]https://t.me/payday4478
       - 🏳️‍🌈[TG电报频道]https://t.me/payday501
-      - 🇨🇦加拿大(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public)
       - 🇩🇪德国(绿头外网集团)(Public) 2
-      - 🇩🇪德国(绿头外网集团)(Public) 3
       - 🇫🇷法国(绿头外网集团)(Public)
+      - 🇬🇧英国(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public)
       - 🇭🇰香港(绿头外网集团)(Public) 2
       - 🇭🇰香港(绿头外网集团)(Public) 3
@@ -487,35 +399,26 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 8
       - 🇭🇰香港(绿头外网集团)(Public) 9
       - 🇭🇰香港(绿头外网集团)(Public) 10
-      - 🇭🇰香港(绿头外网集团)(Public) 11
-      - 🇭🇰香港(绿头外网集团)(Public) 12
-      - 🇭🇰香港(绿头外网集团)(Public) 13
-      - 🇭🇰香港(绿头外网集团)(Public) 14
-      - 🇭🇰香港(绿头外网集团)(Public) 15
-      - 🇭🇰香港(绿头外网集团)(Public) 16
-      - 🇭🇰香港(绿头外网集团)(Public) 17
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
-      - 🇯🇵日本(绿头外网集团)(Public) 4
-      - 🇯🇵日本(绿头外网集团)(Public) 5
-      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
-      - 🇲🇲缅甸(绿头外网集团)(Public)
-      - 🇲🇾马来西亚(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public)
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
       - 🇸🇬新加坡(绿头外网集团)(Public) 5
+      - 🇸🇬新加坡(绿头外网集团)(Public) 6
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇺🇸美国(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public) 6
+      - 🇺🇸美国(绿头外网集团)(Public) 7
+      - 🇺🇸美国(绿头外网集团)(Public) 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -9472,6 +9375,8 @@ rules:
  - DOMAIN-SUFFIX,hypeapp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hypersnap.net,🛑 全球拦截
  - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,idmchina.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,imazingchina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,imindmap.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,keyshot.cc,🛑 全球拦截
@@ -9541,6 +9446,8 @@ rules:
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
+ - DOMAIN,radio.itunes.apple.com,🌍 国外媒体
+ - DOMAIN,tv.applemusic.com,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
@@ -9585,6 +9492,7 @@ rules:
  - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
  - DOMAIN,linear.tv.apple.com,🌍 国外媒体
  - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
+ - DOMAIN,uts-api.itunes.apple.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
  - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
  - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
@@ -9671,6 +9579,7 @@ rules:
  - IP-CIDR,203.74.95.153/32,🌍 国外媒体,no-resolve
  - IP-CIDR,203.211.4.169/32,🌍 国外媒体,no-resolve
  - IP-CIDR,203.211.4.193/32,🌍 国外媒体,no-resolve
+ - IP-CIDR,210.71.227.200/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.71.227.202/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.201.32.8/32,🌍 国外媒体,no-resolve
  - IP-CIDR,210.201.32.11/32,🌍 国外媒体,no-resolve
@@ -9771,15 +9680,14 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
  - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
- - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
  - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
- - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
- - DOMAIN-SUFFIX,smtcdns.net,🌏 国内媒体
+ - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 国内媒体
+ - DOMAIN,apiintl.biliapi.net,🌏 国内媒体
  - DOMAIN,intel-cache.m.iqiyi.com,🌏 国内媒体
  - DOMAIN,intel-cache.video.iqiyi.com,🌏 国内媒体
  - DOMAIN,intl-rcd.iqiyi.com,🌏 国内媒体
@@ -9797,6 +9705,7 @@ rules:
  - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
  - DOMAIN-SUFFIX,v.smtcdns.com,🌏 国内媒体
  - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
  - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
@@ -9810,11 +9719,14 @@ rules:
  - IP-CIDR,91.108.16.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.20.0/22,📲 电报信息,no-resolve
  - IP-CIDR,91.108.56.0/22,📲 电报信息,no-resolve
- - IP-CIDR,95.161.64.0/20,📲 电报信息,no-resolve
+ - IP-CIDR,91.105.192.0/23,📲 电报信息,no-resolve
  - IP-CIDR,149.154.160.0/20,📲 电报信息,no-resolve
+ - IP-CIDR,185.76.151.0/24,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2001:b28:f23c::/48,📲 电报信息,no-resolve
+ - IP-CIDR6,2a0a:f280::/32,📲 电报信息,no-resolve
  - DOMAIN-SUFFIX,amazon.co.jp,🔰 节点选择
  - DOMAIN,d3c33hcgiwev3.cloudfront.net,🔰 节点选择
  - DOMAIN,payments-jp.amazon.com,🔰 节点选择
@@ -9823,16 +9735,36 @@ rules:
  - DOMAIN,a248.e.akamai.net,🔰 节点选择
  - DOMAIN,a771.dscq.akamai.net,🔰 节点选择
  - DOMAIN,testflight.apple.com,🔰 节点选择
+ - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
+ - DOMAIN,clubhouse.pubnubapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,aex.com,🔰 节点选择
  - DOMAIN-SUFFIX,bibox.com,🔰 节点选择
  - DOMAIN-SUFFIX,binance.cc,🔰 节点选择
  - DOMAIN-SUFFIX,binance.com,🔰 节点选择
+ - DOMAIN-SUFFIX,binance.us,🔰 节点选择
  - DOMAIN-SUFFIX,bitcointalk.org,🔰 节点选择
  - DOMAIN-SUFFIX,bitfinex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bithumb.com,🔰 节点选择
  - DOMAIN-SUFFIX,bitmex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bitstamp.net,🔰 节点选择
+ - DOMAIN-SUFFIX,bittrex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,bybit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coinbase.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coincheck.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coingecko.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coinmarketcap.com,🔰 节点选择
+ - DOMAIN-SUFFIX,coinone.co.kr,🔰 节点选择
+ - DOMAIN-SUFFIX,ftx.com,🔰 节点选择
  - DOMAIN-SUFFIX,gate.io,🔰 节点选择
+ - DOMAIN-SUFFIX,gemini.com,🔰 节点选择
  - DOMAIN-SUFFIX,huobi.com,🔰 节点选择
+ - DOMAIN-SUFFIX,korbit.co.kr,🔰 节点选择
+ - DOMAIN-SUFFIX,kraken.com,🔰 节点选择
+ - DOMAIN-SUFFIX,kucoin.com,🔰 节点选择
+ - DOMAIN-SUFFIX,liquid.com,🔰 节点选择
  - DOMAIN-SUFFIX,okex.com,🔰 节点选择
+ - DOMAIN-SUFFIX,poloniex.com,🔰 节点选择
  - DOMAIN-SUFFIX,uniswap.org,🔰 节点选择
  - DOMAIN-SUFFIX,zb.com,🔰 节点选择
  - DOMAIN-SUFFIX,discord.com,🔰 节点选择
@@ -9865,6 +9797,7 @@ rules:
  - DOMAIN-SUFFIX,blogger.com,🔰 节点选择
  - DOMAIN-SUFFIX,getoutline.org,🔰 节点选择
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
+ - DOMAIN-SUFFIX,gvt1.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
@@ -9915,11 +9848,14 @@ rules:
  - IP-CIDR,91.108.16.0/22,🔰 节点选择,no-resolve
  - IP-CIDR,91.108.20.0/22,🔰 节点选择,no-resolve
  - IP-CIDR,91.108.56.0/22,🔰 节点选择,no-resolve
- - IP-CIDR,95.161.64.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR,91.105.192.0/23,🔰 节点选择,no-resolve
  - IP-CIDR,149.154.160.0/20,🔰 节点选择,no-resolve
+ - IP-CIDR,185.76.151.0/24,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🔰 节点选择,no-resolve
  - IP-CIDR6,2001:67c:4e8::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2001:b28:f23c::/48,🔰 节点选择,no-resolve
+ - IP-CIDR6,2a0a:f280::/32,🔰 节点选择,no-resolve
  - DOMAIN-SUFFIX,pscp.tv,🔰 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🔰 节点选择
  - DOMAIN-SUFFIX,t.co,🔰 节点选择
@@ -9988,7 +9924,6 @@ rules:
  - DOMAIN-SUFFIX,ck101.com,🔰 节点选择
  - DOMAIN-SUFFIX,clarionproject.org,🔰 节点选择
  - DOMAIN-SUFFIX,cloudcone.com,🔰 节点选择
- - DOMAIN-SUFFIX,clubhouseapi.com,🔰 节点选择
  - DOMAIN-SUFFIX,clyp.it,🔰 节点选择
  - DOMAIN-SUFFIX,cna.com.tw,🔰 节点选择
  - DOMAIN-SUFFIX,comparitech.com,🔰 节点选择
@@ -10082,7 +10017,6 @@ rules:
  - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
  - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
  - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
- - DOMAIN-SUFFIX,joinclubhouse.com,🔰 节点选择
  - DOMAIN-SUFFIX,joinmastodon.org,🔰 节点选择
  - DOMAIN-SUFFIX,justmysocks.net,🔰 节点选择
  - DOMAIN-SUFFIX,justpaste.it,🔰 节点选择
@@ -10108,6 +10042,7 @@ rules:
  - DOMAIN-SUFFIX,marc.info,🔰 节点选择
  - DOMAIN-SUFFIX,matters.news,🔰 节点选择
  - DOMAIN-SUFFIX,maying.co,🔰 节点选择
+ - DOMAIN-SUFFIX,medibang.com,🔰 节点选择
  - DOMAIN-SUFFIX,medium.com,🔰 节点选择
  - DOMAIN-SUFFIX,mega.nz,🔰 节点选择
  - DOMAIN-SUFFIX,mergersandinquisitions.com,🔰 节点选择
@@ -10197,6 +10132,7 @@ rules:
  - DOMAIN-SUFFIX,streamable.com,🔰 节点选择
  - DOMAIN-SUFFIX,streema.com,🔰 节点选择
  - DOMAIN-SUFFIX,substack.com,🔰 节点选择
+ - DOMAIN-SUFFIX,substack.com,🔰 节点选择
  - DOMAIN-SUFFIX,t66y.com,🔰 节点选择
  - DOMAIN-SUFFIX,tapatalk.com,🔰 节点选择
  - DOMAIN-SUFFIX,teco-hk.org,🔰 节点选择
@@ -10212,6 +10148,7 @@ rules:
  - DOMAIN-SUFFIX,tiny.cc,🔰 节点选择
  - DOMAIN-SUFFIX,tinyurl.com,🔰 节点选择
  - DOMAIN-SUFFIX,torproject.org,🔰 节点选择
+ - DOMAIN-SUFFIX,tradingview.com,🔰 节点选择
  - DOMAIN-SUFFIX,tumblr.com,🔰 节点选择
  - DOMAIN-SUFFIX,turbobit.net,🔰 节点选择
  - DOMAIN-SUFFIX,tutanota.com,🔰 节点选择
@@ -10328,20 +10265,33 @@ rules:
  - DOMAIN-SUFFIX,twitter.jp,🔰 节点选择
  - DOMAIN-SUFFIX,appsto.re,🔰 节点选择
  - DOMAIN,books.itunes.apple.com,🔰 节点选择
- - DOMAIN,api-glb-sea.smoot.apple.com,🔰 节点选择
- - DOMAIN,beta.music.apple.com,🔰 节点选择
- - DOMAIN,tv.apple.com,🔰 节点选择
- - DOMAIN,apps.apple.com,🔰 节点选择
- - DOMAIN,itunes.apple.com,🔰 节点选择
  - DOMAIN-SUFFIX,smoot.apple.com,🔰 节点选择
+ - DOMAIN,beta.music.apple.com,🔰 节点选择
  - DOMAIN,lookup-api.apple.com,🔰 节点选择
+ - DOMAIN,apps.apple.com,🔰 节点选择
+ - DOMAIN,books.apple.com,🔰 节点选择
+ - DOMAIN,itunes.apple.com,🔰 节点选择
+ - DOMAIN,tv.apple.com,🔰 节点选择
+ - DOMAIN,amp-api.podcasts.apple.com,🔰 节点选择
+ - DOMAIN,bookkeeper.itunes.apple.com,🔰 节点选择
+ - DOMAIN,gateway.icloud.com,🔰 节点选择
+ - DOMAIN-SUFFIX,apple.news,🔰 节点选择
+ - DOMAIN,news-assets.apple.com,🔰 节点选择
+ - DOMAIN,news-client.apple.com,🔰 节点选择
+ - DOMAIN,news-client-search.apple.com,🔰 节点选择
+ - DOMAIN,news-edge.apple.com,🔰 节点选择
+ - DOMAIN,news-events.apple.com,🔰 节点选择
+ - DOMAIN,apple.comscoreresearch.com,🔰 节点选择
  - DOMAIN-SUFFIX,go.dev,🔰 节点选择
  - DOMAIN-SUFFIX,golang.org,🔰 节点选择
+ - DOMAIN-SUFFIX,aicoin.com,🔰 节点选择
+ - DOMAIN-SUFFIX,aimoon.com,🔰 节点选择
  - DOMAIN-SUFFIX,bing.com,🔰 节点选择
  - DOMAIN-SUFFIX,cccat.io,🔰 节点选择
  - DOMAIN-SUFFIX,dubox.com,🔰 节点选择
  - DOMAIN-SUFFIX,duboxcdn.com,🔰 节点选择
  - DOMAIN-SUFFIX,ifixit.com,🔰 节点选择
+ - DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
  - DOMAIN-SUFFIX,mangakakalot.com,🔰 节点选择
  - DOMAIN-SUFFIX,shopeemobile.com,🔰 节点选择
  - DOMAIN-SUFFIX,sushi.com,🔰 节点选择
@@ -10349,12 +10299,10 @@ rules:
  - DOMAIN,developer.apple.com,🔰 节点选择
  - DOMAIN,www.icloud.com,🔰 节点选择
  - DOMAIN,ocsp.apple.com,🔰 节点选择
- - DOMAIN,xp.apple.com,🔰 节点选择
  - DOMAIN,cacerts.digicert.com,🔰 节点选择
  - DOMAIN,crl3.digicert.com,🔰 节点选择
  - DOMAIN,crl4.digicert.com,🔰 节点选择
  - DOMAIN,ocsp.digicert.com,🔰 节点选择
- - DOMAIN-SUFFIX,cloudcone.com.cn,🔰 节点选择
  - DOMAIN-SUFFIX,inkbunny.net,🔰 节点选择
  - DOMAIN-SUFFIX,metapix.net,🔰 节点选择
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
@@ -10510,19 +10458,11 @@ rules:
  - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tencent-cloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
  - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
  - DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
- - IP-CIDR,101.32.104.4/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.104.41/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.104.56/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.118.25/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.16/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.53/32,🎯 全球直连,no-resolve
- - IP-CIDR,101.32.133.209/32,🎯 全球直连,no-resolve
- - IP-CIDR,129.226.3.47/32,🎯 全球直连,no-resolve
- - IP-CIDR,129.226.107.244/32,🎯 全球直连,no-resolve
  - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
  - IP-CIDR,203.205.254.0/23,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
@@ -10602,6 +10542,7 @@ rules:
  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
+ - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
  - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
  - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,coolapk.com,🎯 全球直连
@@ -10646,8 +10587,6 @@ rules:
  - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
- - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
  - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
@@ -10670,6 +10609,7 @@ rules:
  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
  - DOMAIN-SUFFIX,scomper.me,🎯 全球直连
+ - DOMAIN-SUFFIX,shouqianba.com,🎯 全球直连
  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
