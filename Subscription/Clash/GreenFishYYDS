@@ -35,6 +35,7 @@ proxies:
   - {name: 🇯🇵日本(绿头外网集团)(Public) 3, server: jp01.internetsmartrouting.top, port: 20090, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
   - {name: 🇯🇵日本(绿头外网集团)(Public) 4, server: jp02.internetsmartrouting.top, port: 23621, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
   - {name: 🇯🇵日本(绿头外网集团)(Public) 5, server: 139.180.198.206, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 139.180.198.206}, udp: true}
+  - {name: 🇯🇵日本(绿头外网集团)(Public) 6, server: mc.xiaohouzi.club, port: 28324, type: vmess, uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
   - {name: 🇰🇷韩国(绿头外网集团)(Public), server: 152.69.228.27, port: 29363, type: vmess, uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷韩国(绿头外网集团)(Public) 2, server: 20.200.209.104, port: 1234, type: vmess, uuid: 4cbdfcc4-60ea-4479-a290-8e7389af8789, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇰🇷韩国(绿头外网集团)(Public) 3, server: korea01.internetsmartrouting.top, port: 20562, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
@@ -44,6 +45,7 @@ proxies:
   - {name: 🇸🇬新加坡(绿头外网集团)(Public) 2, server: sgp-bgp.internetsmartrouting.top, port: 20021, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
   - {name: 🇸🇬新加坡(绿头外网集团)(Public) 3, server: 207.148.77.25, port: 10110, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 207.148.77.25}, udp: true}
   - {name: 🇸🇬新加坡(绿头外网集团)(Public) 4, server: top-cs.gov-ddns.cn, port: 19959, type: vmess, uuid: 29430b3d-f83f-3c74-94a2-e8c1a459219f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: v2ray, ws-headers: {Host: 45.63.127.159}, udp: true}
+  - {name: 🇸🇬新加坡(绿头外网集团)(Public) 5, server: 103.136.127.163, port: 56031, type: vmess, uuid: 783df988-4d45-467e-a1b5-83173c842660, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 103.136.127.163}, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public), server: us03.internetsmartrouting.top, port: 30478, type: vmess, uuid: ab0cfee9-81df-456f-9acf-3d06588faa65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public) 2, server: us1-relay.144050.ml, port: 443, type: vmess, uuid: 92490944-d9d5-4ac9-baaa-dcadb57e450d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yorknodesvws, ws-headers: {Host: us1-relay.144050.ml}, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public) 3, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
@@ -86,6 +88,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -95,6 +98,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -136,6 +140,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -145,6 +150,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -187,6 +193,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -196,6 +203,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -250,6 +258,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -259,6 +268,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -322,6 +332,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -331,6 +342,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -372,6 +384,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -381,6 +394,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -423,6 +437,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -432,6 +447,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
@@ -483,6 +499,7 @@ proxy-groups:
       - 🇯🇵日本(绿头外网集团)(Public) 3
       - 🇯🇵日本(绿头外网集团)(Public) 4
       - 🇯🇵日本(绿头外网集团)(Public) 5
+      - 🇯🇵日本(绿头外网集团)(Public) 6
       - 🇰🇷韩国(绿头外网集团)(Public)
       - 🇰🇷韩国(绿头外网集团)(Public) 2
       - 🇰🇷韩国(绿头外网集团)(Public) 3
@@ -492,6 +509,7 @@ proxy-groups:
       - 🇸🇬新加坡(绿头外网集团)(Public) 2
       - 🇸🇬新加坡(绿头外网集团)(Public) 3
       - 🇸🇬新加坡(绿头外网集团)(Public) 4
+      - 🇸🇬新加坡(绿头外网集团)(Public) 5
       - 🇺🇸美国(绿头外网集团)(Public)
       - 🇺🇸美国(绿头外网集团)(Public) 2
       - 🇺🇸美国(绿头外网集团)(Public) 3
