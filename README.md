@@ -3,7 +3,7 @@
 # 每日更新
 
 
-## 喜歡本項目 請點擊右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?style=flat-square&label=Star&color=00ADD8&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
+## 喜歡本項目 請點擊右上角[![GitHub Star](https://img.shields.io/github/stars/ThekingMX1998/free-v2ray-code.svg?label=Star&logo=github)](https://github.com/ThekingMX1998/free-v2ray-code/)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
